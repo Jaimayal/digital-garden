@@ -20,7 +20,7 @@ Debido a que el Software se encuentra presente en todos los aspectos de nuestra 
 Software engineering is the application of a systematic, disciplined, and quantifiable approach to the development, testing, deployment, operation, and maintenance of software systems.
 
 ## 📔 Resumen + Notas
-### 1. From Programming to Software Engineering
+### From Programming to Software Engineering
 Este capitulo en particular busca definir de forma clara los conceptos de programador, desarrollador de software e ingeniero de software. Nos dara sus diferencias y semejanzas para poder distinguir y transicionar de una posicion a otra.
 
 ##### 1.1 Beginning with Programming
@@ -87,7 +87,7 @@ Se podria decir entonces que la Ingenieria del Software es una disciplina replic
 
 
 
-### Resumen - 1. From Programming to Software Engineering
+### Resumen - From Programming to Software Engineering
 Programar es muy diferente a desarrollar software, de hecho, la programacion es solo una actividad del desarrollo, un ciclo completo del desarrollo de Software se veria asi:
 - Disciplina de Requisitos
 - Disciplina de Analisis y Diseño
@@ -115,25 +115,25 @@ El despliegue usualmente no es llevado acabo por desarrolladores, sin embargo, p
 
 
 
-### 2. Software Engineering Methods and Practices
+### Software Engineering Methods and Practices
 Este capitulo busca introducir a la estandarizacion de las practicas y metodos utilizados en el desarrollo de software. Principalmente se abordaran tres temas:
 - Sociales
 - Metodologias de Desarrollo
 - Motivaciones
 
-#### 2.1 Software Engineering Challenges
+#### Software Engineering Challenges
 Existen retos en la industria, principalmente los podemos ver en noticias de sucesos que ocurren respecto a fallos en el Software que se encuentra detras de cosas tan importantes como sistemas de seguridad o sistemas financieros.
 
 Errores como estos pueden tratar ser prevenidos pero nunca nunca sera completamente cierto que dejaran de ocurrir o que podran ser evitados del todo.
 
-#### 2.2 The Rise of Software Engineering Methods and Practices
+#### The Rise of Software Engineering Methods and Practices
 Esta claro que la "Crisis del Software" no solo ocurrio por mala programacion, principalmente porque como ya vimos, un desarrollo de software no solo ocurre con programar y ya, tiene sus requisitos, comunicacion, equipos, pruebas, etc.
 
 A traves de la historia han surgido metodos de desarrollo que han servido para cumplir distintas necesidades. A las partes comunes entre un metodo y otro se le ha estandarizado como **practicas**, estas definen la esencia de las metodologias de desarrollo.
 
 Estas practicas pueden ser de distintos tipos para el equipo (ambiente agradable, de facil codificacion, de facil colaboracion), para el cliente (buena toma de requisitos, conocimiento del dominio, conocimiento de la jerga) entre otras.
 
-##### 2.2.1 There Are Lifecycles
+##### There Are Lifecycles
 *Al estar leyendo sobre la introduccion a la metodologia de cascada note una similitud con lo que estamos viendo en Informatica V. En la clase vimos el proceso de Planificar, Hacer, Verificar y Actuar, en la metodologia de cascada tenemos Requisitar, Diseñar, Implementar y Verificar.*
 
 Hubieron dos grandes cambios en las metodologias de la industria del Software.
@@ -143,3 +143,27 @@ La primera fue la introduccion de la metodologia de cascada, esta concebia al de
 La segunda fue la introduccion de iteraciones, esta dictaba que solo se tomaban pocos requisitos, se analizaba, se programaba y se probaba, de modo que, en lapsos de tiempo mucho mas cortos se pueda recibir feedback del usuario final para saber como mejorar el producto, y asi avanzar de forma iterativa
 
 Esta ultima fue tomada por metodologias agiles y la metodologia de gestion mas popular hoy en dia es SCRUM, combinada con Agile (iteraciones) forma una potente forma de desarrollar software
+
+##### There Are Technical Practices
+Desde los inicios del software, los problemas con la toma de requisitos, el analisis, las pruebas, comunicacion, manejo de proyectos y liderazgo han sido recurrentes. Sin embargo, antes estos problemas eran atacados desde la perspectiva del codigo y no se le prestaba mucha atencion a lo demas. Hoy en dia, nos enfrentamos a todos los retos de forma conjunta y constante, es por eso, que surgieron nuevas metodologias para tener un marco de trabajo sobre el cual estructurar los proyectos.
+
+###### The Structured Methods Era
+El desarrollo se basaba en metodologias estructuradas, esto quiere decir que se percibian las funciones por un lado y los datos por otro. Surgieron marcos de trabajo y grandes proyectos bajo esta metodologia, sin embargo, al mantenimiento y la escalabilidad del software era casi nula, eso fue lo que acabo con esta era.
+
+###### The Component Methods Era
+El desarrollo se basaba en metodologias por *componentes* (modulos, clases, objetos, espacios, unidades, etc) principalmente influenciado por el paradigma orientado a objetos que concebia a los datos e informacion por igual. Surgieron muchos enfoques, hasta que en 1990 se unifico el modelado creando el UML (Unified Modeling Language) y se impulso la metodologia RUP (Rational Unified Process), todas las demas murieron. 
+
+Esta era culmino con la creacion de practicas mas avanzadas como las arquitecturas EA - Enterprise Architecture, SOA Service-Oriented Architecture, PLA - Product-Line Architecture. Hoy en dia las podemos ver con Web Development, Cloud Services, Mobile Development, etc.
+
+###### The Agile Methods Era
+El desarrollo conservo los conceptos traidos desde la era anterior, se estandarizo practicas tecnicas y humanas para crear un marco de trabajo que funcionara sobre la metodologia iterativa, integro la idea de la mejora continua (Esto lo vemos con la creacion de backlogs, refactoring, TDD, etc) para continuar mejorando el desarrollo agil.
+##### There Are People Practices
+Anterior a las metodologias agiles no se le tomaba importancia al capital humano, se consideraba que eso era parte de R.H. Sin embargo, tras la llegada de Agile al mundo de desarrollo se pasaron a crear nuevas practicas (Como el pair programming, las daily standups) que se enfocaban mas en darle las herramientas a los desarrolladores para que pudieran trabajar de forma continua. Es por eso que es el paradigma mas popular hoy en dia.
+
+##### Consequences
+Ya vimos todos los cambios que ocurrieron entre paradigmas, ciclos de vida. los proyectos, por que scrum es popular pero hay que pensar en las consecuencias que ha traido (y probablemente traera) hacer cambios por cambiar:
+- Necesidad de nueva capacitacion. Principalmente debido al cambio de vocabulario, de ideologia, de forma de desarrollar, de metodologias, de cambios en el codigo, etc, etc.
+- Creacion de 10000 metodologias bajo la misma idea, monolitos. Cada autor busca que te cases con su "forma definitiva de desarrollar software basada en agiles" sin tomar en cuenta las malas ideas que tienen ni nada
+- Innovaciones incitan cambios. Que bajo cada innovacion que se haga en la industria se necesitaran cambios y dependiendo la metodologia sera de mayor o menor perdida para todos.
+
+¿Todo esto en que concluye? En perdidas de tiempo, dinero, capital de todos los tipos, tiranias de gobierno en metodologias, etc. En una industria tan grande como el desarrollo de software esto es imperdonable. Para solucionar estos problemas esque se ha la organizacion del SEMAT (Software Engineering Method And Theory)
