@@ -4,24 +4,23 @@ authors: "Ivar Jacobson, Harold W. Lawson, Pan-Wei Ng, Paul E. McMahon, Michael 
 year: 2019
 URL: 
 tags: softwaredev
-draft: true
+draft: false
 ---
-# The essentials of modern software engineering: Free the practices from the method prisons!
-### 🌱 Idea Principal
+## 🌱 Idea Principal
 Debido a que el Software se encuentra presente en todos los aspectos de nuestra vida, este libro dara la fundacion principal, tambien llamada *escencia* para que puedas tener unos fundamentos que te permitan trabajar en equipos desarrollando, desplegando y manteniendo codigo de calidad.
 
-### 🌠 Consideraciones
+## 🌠 Consideraciones
 - Asume conocimientos de Programacion Estructurada y Programacion Orientada a Objetos
 - Los ejemplos se encuentran escritos en Java y JavaScript.
 
 
-### 🌌 Impacto
+## 🌌 Impacto
 
-### ✍ Mejores Frases
+## ✍ Mejores Frases
 Software engineering is the application of a systematic, disciplined, and quantifiable approach to the development, testing, deployment, operation, and maintenance of software systems.
 
-### 📔 Resumen + Notas
-#### 1. From Programming to Software Engineering
+## 📔 Resumen + Notas
+### 1. From Programming to Software Engineering
 Este capitulo en particular busca definir de forma clara los conceptos de programador, desarrollador de software e ingeniero de software. Nos dara sus diferencias y semejanzas para poder distinguir y transicionar de una posicion a otra.
 
 ##### 1.1 Beginning with Programming
@@ -88,7 +87,7 @@ Se podria decir entonces que la Ingenieria del Software es una disciplina replic
 
 
 
-#### Resumen - 1. From Programming to Software Engineering
+### Resumen - 1. From Programming to Software Engineering
 Programar es muy diferente a desarrollar software, de hecho, la programacion es solo una actividad del desarrollo, un ciclo completo del desarrollo de Software se veria asi:
 - Disciplina de Requisitos
 - Disciplina de Analisis y Diseño
@@ -116,25 +115,25 @@ El despliegue usualmente no es llevado acabo por desarrolladores, sin embargo, p
 
 
 
-#### 2. Software Engineering Methods and Practices
+### 2. Software Engineering Methods and Practices
 Este capitulo busca introducir a la estandarizacion de las practicas y metodos utilizados en el desarrollo de software. Principalmente se abordaran tres temas:
 - Sociales
 - Metodologias de Desarrollo
 - Motivaciones
 
-##### 2.1 Software Engineering Challenges
+#### 2.1 Software Engineering Challenges
 Existen retos en la industria, principalmente los podemos ver en noticias de sucesos que ocurren respecto a fallos en el Software que se encuentra detras de cosas tan importantes como sistemas de seguridad o sistemas financieros.
 
 Errores como estos pueden tratar ser prevenidos pero nunca nunca sera completamente cierto que dejaran de ocurrir o que podran ser evitados del todo.
 
-##### 2.2 The Rise of Software Engineering Methods and Practices
+#### 2.2 The Rise of Software Engineering Methods and Practices
 Esta claro que la "Crisis del Software" no solo ocurrio por mala programacion, principalmente porque como ya vimos, un desarrollo de software no solo ocurre con programar y ya, tiene sus requisitos, comunicacion, equipos, pruebas, etc.
 
 A traves de la historia han surgido metodos de desarrollo que han servido para cumplir distintas necesidades. A las partes comunes entre un metodo y otro se le ha estandarizado como **practicas**, estas definen la esencia de las metodologias de desarrollo.
 
 Estas practicas pueden ser de distintos tipos para el equipo (ambiente agradable, de facil codificacion, de facil colaboracion), para el cliente (buena toma de requisitos, conocimiento del dominio, conocimiento de la jerga) entre otras.
 
-###### 2.2.1 There Are Lifecycles
+##### 2.2.1 There Are Lifecycles
 *Al estar leyendo sobre la introduccion a la metodologia de cascada note una similitud con lo que estamos viendo en Informatica V. En la clase vimos el proceso de Planificar, Hacer, Verificar y Actuar, en la metodologia de cascada tenemos Requisitar, Diseñar, Implementar y Verificar.*
 
 Hubieron dos grandes cambios en las metodologias de la industria del Software.

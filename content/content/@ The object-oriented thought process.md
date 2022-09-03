@@ -6,14 +6,13 @@ URL: "www.amazon.com/Object-Oriented-Thought-Process-Developers-Library-dp-01351
 tags: programming oop
 draft: true
 ---
-# The object-oriented thought process
-### 🌱 Idea Principal
+## 🌱 Idea Principal
 
-### 🌌 Impacto
+## 🌌 Impacto
 
-### ✍ Mejores Frases
+## ✍ Mejores Frases
 
-### 📔 Resumen + Notas
+## 📔 Resumen + Notas
 
 ___
 
