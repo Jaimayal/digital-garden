@@ -25,3 +25,12 @@ Convertirte en tecnologia te aleja de la naturaleza ?
 - Implantes cocleares, recuperar el oido
 - sonidos mediante conexiones, nuevos sonidos
 - nuevas percepciones, experiencias
+- Adaptarse a los nuevos cambios y exigencias
+- Implantes en el cerebro
+- Mejoras, nuevos sentidos
+- Como afectara a los sentidos ya existentes
+- Social como afecta juzgados, poca aceptacion
+- Etica de la fusion del hombre con las maquinas
+- transhumanismo, derecho
+- politica izquierda derecha
+- Avances, Social, Politica, 
