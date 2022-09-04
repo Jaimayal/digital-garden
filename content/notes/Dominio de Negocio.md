@@ -6,6 +6,6 @@ draft: false
 ---
 Comprende todos esas actividades que realiza una empresa, organizacion, etc como objetivo para satisfacer necesidades (y usualmente, generar capital).
 
-Cada empresa tiene un diferente dominio de negocio, y entenderlo es de vital importancia para poder aplicar bien la [[notes/Ingenieria del Software]].
+Cada empresa tiene un diferente dominio de negocio, y entenderlo es de vital importancia para poder aplicar bien la [Ingenieria del Software](Ingenieria%20del%20Software.md).
 
-El dominio no solo comprende las necesidades, si no tambien, la jerga con la cual se habla en el negocio en cuestion, por tanto, entenderla es de vital importancia para comunicar un equipo de desarrollo con los [[notes/Stakeholders]], y asi poder obtener los [[notes/Requisitos]] del software.
+El dominio no solo comprende las necesidades, si no tambien, la jerga con la cual se habla en el negocio en cuestion, por tanto, entenderla es de vital importancia para comunicar un equipo de desarrollo con los [Stakeholders](Stakeholders.md), y asi poder obtener los [requisitos](requisitos.md) del software.
