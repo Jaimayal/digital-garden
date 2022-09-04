@@ -11,9 +11,9 @@ date: "2022-09-03 08:42"
 Debido a que el Software se encuentra presente en todos los aspectos de nuestra vida, este libro dara la fundacion principal, tambien llamada *escencia* para que puedas tener unos fundamentos que te permitan trabajar en equipos desarrollando, desplegando y manteniendo codigo de calidad.
 
 ## 🌠 Consideraciones
-- Asume conocimientos de Programacion Estructurada y Programacion Orientada a Objetos
+- Asume conocimientos de Programacion Estructurada y Programacion Orientada a Objetos.
 - Los ejemplos se encuentran escritos en Java y JavaScript.
-
+- Se necesita un minimo de nociones sobre UML.
 
 ## 🌌 Impacto
 
@@ -112,15 +112,11 @@ Las pruebas toman un rol extremadamente importante, escribirlas garantiza que au
 
 El despliegue usualmente no es llevado acabo por desarrolladores, sin embargo, puede serlo, este proceso es cuando se coloca el software en un servidor o en produccion para que los usuarios finales puedan hacer uso de el.
 
-
-
-
-
 ### Software Engineering Methods and Practices
 Este capitulo busca introducir a la estandarizacion de las practicas y metodos utilizados en el desarrollo de software. Principalmente se abordaran tres temas:
-- Sociales
-- Metodologias de Desarrollo
-- Motivaciones
+- Problemas que enfrenta nuestra industria
+- Metodologias de Desarrollo en los ultimos 40 años
+- Motivaciones para la esencia
 
 #### Software Engineering Challenges
 Existen retos en la industria, principalmente los podemos ver en noticias de sucesos que ocurren respecto a fallos en el Software que se encuentra detras de cosas tan importantes como sistemas de seguridad o sistemas financieros.
@@ -182,3 +178,40 @@ Una vez fueron establecidas como acuerdo todas estas practicas, se busco que fue
 
 La OMG acepto la iniciativa de SEMAT y a todo su conjunto de practicas, consejos y terminos le denomino "Essencia".
 
+### Resumen - Software Engineering Methods and Practices
+Se busca introducir un poco de historia sobre los metodos y practicas que se han llevado acabo en los ultimos años de la Ingenieria del Software. Esto con el fin de justificar la creacion del conjunto de practicas, conceptos e ideas propuestos por el SEMAT en 2009 (Estandarizado por la OMG como "escencia" en el 2014) de la cual hablará el resto del libro.
+
+**Metodo**. conjunto de tareas que se deben realizar para lograr conseguir el desarrollo de un software.
+
+**Practicas**. conjunto de recomendaciones enfocadas a un aspecto de cualquier metodo de desarrollo.
+
+#### Ciclo de Vida
+Entre las practicas del ciclo de vida tenemos los metodos de: Cascada e Iterativas.
+
+El ciclo de vida en cascada sirvio para dar guia y salir de la crisis del software, concebio las primeras ideas de como se tenia que hacer un ciclo de desarrollo, sin embargo no tomo en cuenta el contexto de nuestra industria, en el cual todo cambia y te piden que implementes nuevas funcionalidades, que mantengas, que cambies. 
+
+Fallo al hacerse un estandar debido a que no supo adaptarse a la industria, sin embargo logro su objetivo de introducir un poco de orden en el caos que habia en el mundo de desarrollo
+
+El ciclo de vida iterativo concibe que no se tiene que realizar una gran casacada si no que se tiene que ir haciendo por ciclos, se requisita un poco, se diseña un poco, se programa un poco, se prueba un poco y se despliega para recibir feedback y volver a empezar.
+
+Hoy en dia un ciclo de vida como este es el que se sigue empleando debido a que se adapta a nuestra industria, sin embargo, el problema que enfrentamos esque no hay un conjunto de estandares para referirse a los terminos comunes entre distintos metodos.
+
+#### Tecnicas
+Entre las practicas tecnicas tenemos dos formas: Estructuradas, Componentes
+
+Los metodos estructurados se basan en la programacion estructural, en la cual se separan los datos de las funciones y se perciben como conjuntos separados en el cual cualquier dato puede interactuar con cualquier funcion y viceversa. Uno de los metodos mas populares fue el SADT (Tecnica de Analisis y Diseño Estructurado)
+
+Se desecho debido a que surgieron grandes proyectos de ella pero muchisimos fallaban y tenian problemas, principalmente de matenibilidad (Creaba codigo que era dificil de leer, dificil de escalar, dificil de cambiar y no se podia probar).
+
+Los metodos en componentes se basan en la programacion orientada a objetos, en la cual se perciben a datos y funciones como un modulo y estos modulos interactuan entre si mediante interfaces publicas. Aqui en vez de permitir que existieran muchos metodos de desarrollo se busco una estandarizacion y se creo UML y RUP.
+
+No se ha desechado todavia, solo se dejo en el pasado UML y RUP por lo fuerte que era respecto a como se tenian que hacer las cosas, siempre como ellos decian.
+
+#### Agiles
+El conjunto de practicas mas utilizado hoy en dia son las agiles, se basa en las ideas de desarrollo iterativas, usualmente una escritura basada en componentes e incorpora practicas mas alla de solo el desarrollo. Practicas humanas para permitir un buen flujo de trabajo mediante reuniones, backlog, pair programming, etc. Practicas tecnicas permitiendo elegir lenguajes comodos para todo el equipo, con buen hardware. Practicas de codigo como el TDD, BDD, DDD, etc. Ademas de esto simplifica todo lo que se ha aprendido a lo largo de la historia y lo conjunta con un desarrollo por prototipos.
+
+#### Escencia y SEMAT
+Debido a la poca estandarizacion, el exceso de reinvencion de practicas con 1000 metodologias agiles, la perdida de tiempo, la perdida de dinero y otros capitales, con el SEMAT se busca crear un conjunto de practicas base (kernel le llaman ellos) que sirvan para que todos puedan crear sus propias variaciones de un metodo que sirva como marco de trabajo para que cada equipo pueda desarrollar software a su manera.
+
+Fue aceptado por la OMG en 2014 y fue estandarizado como "Escencia". Es de lo que se hablará el resto del libro.
+### Essence in a Nutshell
