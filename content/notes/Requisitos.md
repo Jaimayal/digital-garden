@@ -10,4 +10,4 @@ Su objetivo principal es convertir las necesidades de los clientes en requisitos
 
 Para realizarlo se utiliza distintas practicas, incluso traidas de la ingenieria (muchas de ellas traidas de *requirements engineering*),
 
-Debido a su constante cambio es NECESARIO hacer un buen [[Analisis y Diseño]] del codigo con el que va a trabajar el equipo de desarrolladores.
+Debido a su constante cambio es NECESARIO hacer un buen [[notes/Analisis y Disenio]] del codigo con el que va a trabajar el equipo de desarrolladores.
