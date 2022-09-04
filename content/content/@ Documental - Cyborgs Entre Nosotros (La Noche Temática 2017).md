@@ -2,7 +2,7 @@
 title: "Documental - Cyborgs Entre Nosotros (La Noche Temática 2017)"
 authors: ""
 year: 2017
-URL: "https://www.youtube.com/watch?v=yshs-1OU5bI"
+URL: "www.youtube.com/watch?v=yshs-1OU5bI"
 tags: 
 draft: true
 ---

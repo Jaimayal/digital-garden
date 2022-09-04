@@ -5,6 +5,7 @@ year: 2019
 URL: 
 tags: softwaredev
 draft: false
+date: "2022-09-03 08:42"
 ---
 ## 🌱 Idea Principal
 Debido a que el Software se encuentra presente en todos los aspectos de nuestra vida, este libro dara la fundacion principal, tambien llamada *escencia* para que puedas tener unos fundamentos que te permitan trabajar en equipos desarrollando, desplegando y manteniendo codigo de calidad.
@@ -167,3 +168,17 @@ Ya vimos todos los cambios que ocurrieron entre paradigmas, ciclos de vida. los 
 - Innovaciones incitan cambios. Que bajo cada innovacion que se haga en la industria se necesitaran cambios y dependiendo la metodologia sera de mayor o menor perdida para todos.
 
 ¿Todo esto en que concluye? En perdidas de tiempo, dinero, capital de todos los tipos, tiranias de gobierno en metodologias, etc. En una industria tan grande como el desarrollo de software esto es imperdonable. Para solucionar estos problemas esque se ha la organizacion del SEMAT (Software Engineering Method And Theory)
+
+#### The SEMAT Initiative
+Fue una inciativa iniciada por Ivar Jacobson en 2009 para lograr abstraer una serie de practicas bases (llamadas kernel) sobre las cuales se pudieran desarrollar metodos orientados al desarrollo de software basados en la disciplina de la ingenieria.
+
+Los principales problemas que busca atacar son:
+- Adaptarse a los problemas de nuestra industria (cambio de requerimientos, de gente, de tecnologias)
+- Formar un conjunto de practicas base llamado kernel que sea altamente extensible.
+- Apoyado por gente con relevancia en la industria, empresas, universidades, etc.
+
+#### Essence: The OMG Standard
+Una vez fueron establecidas como acuerdo todas estas practicas, se busco que fueran altamente adoptadas por todos los desarrolladores del mundo. Para conseguir esto se busco una estandarizacion y en este caso se opto por la OMG.
+
+La OMG acepto la iniciativa de SEMAT y a todo su conjunto de practicas, consejos y terminos le denomino "Essencia".
+
