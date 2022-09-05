@@ -13,6 +13,37 @@ draft: true
 ## ✍ Mejores Frases
 
 ## 📔 Resumen + Notas
+## Introduction to Object-Oriented Concepts
+## How to Think in Terms of Objects
+## More Object-Oriented Concepts
+Los dos capitulos anteriores sentaron las bases con los conocimientos basicos relacionados a la programacion orientada a objetos. Sin embargo, si lo que se busca es analizar, diseñar y desarrollar un sistema orientado a objetos aun se necesitan ver unos conceptos mas como constructores, herencia multiple, scope, error handling, scope, etc.
+
+### Constructors
+Son metodos especiales que son llamados en el momento en el que se busca instanciar un nuevo objeto, sirven para inicializar los valores de los atributos de un objeto.
+
+La sintaxis varia entre lenguajes, algunos utilizan *new*, otros *init*, etc. 
+
+Para el contexto de Java un constructor es como un metodo que debe de llevar el mismo nombre de la clase actual y no debe tener valor de retorno.
+#### When is a Constructor Called ?
+El constructor es llamado de forma automatica tras instanciar (alocar memoria suficiente para) un objeto de una clase especifica, en Java se utiliza el keyword *new* seguido del nombre del metodo constructor.
+
+#### What's Inside a Constructor ?
+El constructor debe contener el codigo suficiente para que los atributos que va a guardar el nuevo objeto tenga un estado limpio, sencillo y estable.
+
+#### The Default Constructor
+Hay un estandar respecto a la creacion de constructores, principalmente debido a que una clase necesita uno obligatoriamente para funcionar, los lenguajes de programacion proveen uno estendar en caso de que ninguno este disponible. Es importante no recaer mucho en este mecanismo y SIEMPRE implementar al menos uno.
+
+En Java por ejemplo, debido a que todos los objetos heredan de la clase Object, podemos saber con exactitud que el constructor default llama al constructor de Object.
+
+Es buena practica implementar AL MENOS un constructor por nosotros mismos para saber que la clase se va a comportar de forma esperada bajo cualquier cambio. 
+
+#### Using Multiple Constructors
+Es un proceso que debe ser ejecutado cuando lo que se busca esque distintos objetos de la misma clase sean inicializados o tengan valores diferentes al momento de creacion. 
+
+Para realizar este mecanismo se aprovecha del **method overloading**, que funciona para sobrecargar metodos cambiando la signatura de ellos (tipo, nombre de parametros, cantidad, etc.)
+
+#### Overloading Methods
+
 
 ___
 
