@@ -14,3 +14,5 @@ El desarrollo de Software es toda una serie de procesos que se realizan con el f
 entre otros.
 
 Este proceso hoy en dia es mejorado fuertemente agregando disciplinas de la ingenieria de modo que sea mas facil de llevar, repetible y mejorable. A este proceso se le llama [Ingenieria del Software](Ingenieria%20del%20Software.md).
+
+Inspirado de: [The essentials of modern software engineering Free the practices from the method prisons!](content/The%20essentials%20of%20modern%20software%20engineering%20Free%20the%20practices%20from%20the%20method%20prisons!.md)

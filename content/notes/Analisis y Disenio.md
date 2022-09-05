@@ -13,3 +13,4 @@ Para hacerlo aprovecha e impulsa la abstraccion, encapsulacion, modularidad y je
 El diseño de un software se puede estudiar de dos formas:
 - Utilizando herramientas de diagramas para ver los modulos y sus interacciones mediante relaciones.
 - Viendo el mismo codigo y la interaccion de unos modulos con otros.
+
