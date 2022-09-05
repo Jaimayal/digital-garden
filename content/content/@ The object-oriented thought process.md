@@ -28,7 +28,7 @@ Para el contexto de Java un constructor es como un metodo que debe de llevar el 
 El constructor es llamado de forma automatica tras instanciar (alocar memoria suficiente para) un objeto de una clase especifica, en Java se utiliza el keyword *new* seguido del nombre del metodo constructor.
 
 #### What's Inside a Constructor ?
-El constructor debe contener el codigo suficiente para que los atributos que va a guardar el nuevo objeto tenga un estado limpio, sencillo y estable.
+El constructor debe contener el codigo suficiente para que los atributos que va a guardar el nuevo objeto tenga un estado limpio y estable.
 
 #### The Default Constructor
 Hay un estandar respecto a la creacion de constructores, principalmente debido a que una clase necesita uno obligatoriamente para funcionar, los lenguajes de programacion proveen uno estendar en caso de que ninguno este disponible. Es importante no recaer mucho en este mecanismo y SIEMPRE implementar al menos uno.
@@ -43,7 +43,12 @@ Es un proceso que debe ser ejecutado cuando lo que se busca esque distintos obje
 Para realizar este mecanismo se aprovecha del **method overloading**, que funciona para sobrecargar metodos cambiando la signatura de ellos (tipo, nombre de parametros, cantidad, etc.)
 
 #### Overloading Methods
+Es un concepto de programacion en la cual se permite tener metodos multiples metodos de caracteristicas similares siempre y cuando se cambie su signatura.
 
+La signatura de un metodo varia de lenguaje en lenguaje, para Java y C# la signatura consiste del nombre del metodo + sus parametros.
 
+Otros lenguajes consideran al tipo de valor de retorno tambien como parte de la signatura.
+
+Esto es muy utilizado en los constructores, se puede tener sobrecarga de constructores y por tanto, construir un objeto de una misma clase de distintas formas diferentes.
 ___
 
