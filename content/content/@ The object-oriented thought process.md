@@ -59,5 +59,38 @@ Si estamos utilizando herencia entre nuestras clases, hay que aclarar que el con
 
 #### The Design of Constructors
 Recordemos que los constructores deben de ser diseñados de tal forma que brinden objetos con un estado ==CONSISTENTE== y ==ESTABLE==, por tanto, queremos inicializar absolutamente todos los atributos a valores que tengan aunque sea un poco de sentido.
+
+### Error Handling
+El Error Handling es una practica muy comun, ocurre debido a que nadie puede diseñar un software perfecto completamente, por tanto, se toman medidas para lidiar con los posibles errores que puedan surgir durante la ejecucion de un programa.
+
+Hay cuatro formas de lidiar con los errores que son muy comunmente utilizadas.
+1. Ignorar. Dejar sin arreglar el problema, ignorarlo y dejar el resultado al azar.
+2. Interrumpir la ejecucion. Se utiliza cuando se encuentra un problema y se interrumpe la ejecucion.
+3. Tratar de arreglar. Usualmente se utiliza encontrando el problema y tratando de dar una solucion (redireccionamiento, alerta, etc).
+4. Tirar una excepcion. Se utiliza dando una excepcion personalizada con todo el resultado de lo que fue mal en la ejecucion.
+
+#### Ignoring the Problem
+Probablemente el peor acercamiento para resolver un problema, ignorarlo te dara resultados indefinidos o incorrectos, te dara versiones inestables y muchos problemas de ejecucion ademas de crasheos y otros errores. Si un error es conocido ==JAMAS== deberia de pasar sin arreglarse.
+
+#### Checking for Problems and Aborting the Application
+Aqui lo que se hace es tirar una pantalla de error y terminar la ejecucion, aunque no es extremadamente descriptiva cumple su funcion, otorgando una version mas estable, cerrando recursos y conexiones en caso de un problema.
+
+#### Checking for Problems and Attempting to Recover
+Otra forma de solucionar un error es utiliza precisamente una forma de recuperacion una vez un error fue encontrado. Se utiliza en forma de validacion.
+
+Muchas veces puede ser la solucion al costo de entregar a veces resultados inesperados o poco exactos, requiere de que predigas en donde ocurriran los problemas.
+
+Muchas veces se pueden usar combinaciones de tecnicas basada en lo que se busque obtener de tu producto.
+
+#### Throwing an Exception
+Es el ultimo acercamiento y el mas apropiado en la mayoria de lenguajes.
+
+En lenguajes con POO como Java, C#, Swift y otros tenemos las clausulas *try* y *catch* que sirven para manejar excepciones y dar puntos de entrada y salida para ellas.
+
+En los bloques try colocamos el codigo que puede tirar una excepcion
+
+Dentro de las clausulas del catch colocamos las excepciones que atrapara y dentro de su bloque de codigo el comportamiento que ejecutara en caso de encontrar una
+
+Una combinacion de todos los metodos anteriores puede ser utilizada para satisfacer los requerimientos y hacerte inmune a tu interaccion con el usuario.
 ___
 
