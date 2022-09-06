@@ -163,5 +163,23 @@ Aparte de los accesores y constructores, existen otros metodos que son declarado
 Adicionalmente existen otros metodos que son declarados con el modificador de vista privada, y como se podra intuir, son utilizados dentro de la misma clase para hacer operaciones reducidas en pequeños metodos.
 
 Un ejemplo seria la encripcion de datos, regularmente no queremos que esta sea vista desde otras clases, por tanto, al momento de recibir una contraseña, esta es encriptada por un metodo privado de la clase y nadie sabra siquiera que paso esa operacion.
-___
+
+## Class Design Guidelines
+Este capitulo provee una lista base (la cual puede ser extendida mediante tus ideas o las ideas de otros desarrolladores) que sirven como guia para desarrollar clases coherentes, cohesivas y poco acopladas.
+
+### Modeling Real-World Systems
+La programacion orientada a objetos por naturaleza apunta a modelar sistemas del mundo real, en donde objetos interaccionan con otros objetos fisicos.
+
+Hoy en dia se pone especial enfasis en las operaciones y datos de las clases y se han creado cosas como los DTOs las vistas y otras clases que ofrecen crear modulos con una sola responsabilidad cuyas caracteristicas por naturaleza las hacen mucho mas mantenibles.
+
+### Indetifying the Public Interfaces
+El punto mas importante de la programacion orientada a objetos es la interfaz publica, cuyo fin debe ser muy claro, proveer solo lo minimo y con la funcionalidad para la cual fue creada. Si no cumple con lo anterior no debio ser creada en primer lugar.
+
+#### The Minimum Public Interface
+La interfaz publica debe ser mantenida al minimo, lo suficiente para que sus usuarios puedan realizar sus tareas y lo maximo para que los usuarios no vean detalles que no les interesan y que podrian generar bugs a futuro.
+
+Para lograrlo se debe tener una fuerte interaccion entre los usuarios que van a utilizar esta clase y la interfaz publica que se esta diseñando.
+
+
+
 
