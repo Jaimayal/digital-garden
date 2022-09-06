@@ -50,5 +50,14 @@ La signatura de un metodo varia de lenguaje en lenguaje, para Java y C# la signa
 Otros lenguajes consideran al tipo de valor de retorno tambien como parte de la signatura.
 
 Esto es muy utilizado en los constructores, se puede tener sobrecarga de constructores y por tanto, construir un objeto de una misma clase de distintas formas diferentes.
+
+#### Using UML to Model Classes
+UML es un lenguaje de modelado extremadamente fuerte, nos permite modelar en una clase los constructores unicamente removiendo el retorno que estos tienen.
+
+#### How the Superclass is Constructoed
+Si estamos utilizando herencia entre nuestras clases, hay que aclarar que el constructor de cualquier subclase esta obligado a llamar al constructor de superclase, en caso de que no lo especifiquemos el compilador lo hara automaticamente llamando al constructor default, pero como siempre, no es bueno recaer en estos comportamientos porque lleva a conducta aleatoria.
+
+#### The Design of Constructors
+Recordemos que los constructores deben de ser diseñados de tal forma que brinden objetos con un estado ==CONSISTENTE== y ==ESTABLE==, por tanto, queremos inicializar absolutamente todos los atributos a valores que tengan aunque sea un poco de sentido.
 ___
 
