@@ -16,4 +16,9 @@ date: "2022-09-06 08:15"
 ## 📔 Resumen + Notas
 ## Vista Privada. Objetos
 
-
+Cinco pasos para el desarrollo
+1. Nombre de la Clase
+2. Interfaz Publica
+3. Atributos
+4. Implementaicon de metodos
+5. Siguiente clase que mas miedo me da
