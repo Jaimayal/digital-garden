@@ -128,6 +128,40 @@ Hay dos tipos de copia posibles Deep Copy en la cual se hacen copias del element
 
 De esta forma, hacer comparaciones debe ser implementado con tu propio mecanismo y no recaer con el que te da el mismo lenguaje, de esta forma, aseguras que tu comparacion se comporte como esperas.
 
+## The Anatomy of a Class
+Como sabemos una clase no debe estar creada sola, esta debe formar parte de una jerarquia o de interacciones mediante mensajes con otras clases.
 
+A continuacion veremos descompuesta la estructura de una clase y sus partes. Muchos metodos se encuentran con implementacion volviendo a hacer enfasis en que la interfaz publica es lo que nos interesa extraer de los primeros diseños de las clases.
+
+### The Name of The Class
+El nombre de la clase debe ser descriptivo y claro para saber como sus objetos van a interactuar con todo el sistema, debido a que es la forma principal de referirse a ella debemos asegurarnos de usar nombres descriptivos.
+
+### Comments
+Como sabemos hay dos (tres a veces) tipos de comentarios. Estos comentarios en muchas ocasiones nos sirven para dar guia sobre lo que hace la clase o crear documentacion implantada en el lenguaje.
+
+### Attributes
+A continuacion encontramos los atributos que guardan los datos de nuestros objetos. Estos por lo regular se encuentran protegidos con el modificador de vista privada. Esto con el fin de cumplir con el principio de brindar la minima interfaz publica posible.
+
+Recordemos que podemos tenerlos en dos scopes globales (por clase, static) y por instancia (por objeto).
+
+### Constructors
+Como sabemos podemos encontrar multiples constructores gracias al methodoverloading. Estos constructores tienen el mismo nombre de la clase y si uno es especificado el constructor default no sera creado.
+
+Debemos evitar recaer en utilizar el constructor default.
+
+Lo que se busca con los constructores es obtener una forma de inicializar todos los atributos de los objetos (Aunque sea a null), esto nos dara una forma estable a todos los objetos que sean creados a partir de el.
+
+### Accessors
+Son metodos especiales que sirven para obtener informacion de un objeto utilizando metodos. 
+
+Estos metodos especiales no solo se utilizan para acceder a la informacion, sino que le brinda un control a cada objeto individual sobre las operaciones que pueden hacer con los datos que ofrece, quizas a veces solo deben ser accedidos o quizas solo deben ser escritos si se asignan valores vallidos. Todo este control te lo permiten hacer los metodos accesores.
+
+### Public Interface Methods
+Aparte de los accesores y constructores, existen otros metodos que son declarados como publicos y que nos sirven para hacer las operaciones pesadas de la clase. Regularmente estos son abstraidos con un nombre lo mas descriptivo posible mientras que la implementacion es la parte concreta donde se hace todo el trabajo
+
+### Private Implementation Methods
+Adicionalmente existen otros metodos que son declarados con el modificador de vista privada, y como se podra intuir, son utilizados dentro de la misma clase para hacer operaciones reducidas en pequeños metodos.
+
+Un ejemplo seria la encripcion de datos, regularmente no queremos que esta sea vista desde otras clases, por tanto, al momento de recibir una contraseña, esta es encriptada por un metodo privado de la clase y nadie sabra siquiera que paso esa operacion.
 ___
 
