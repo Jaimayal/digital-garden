@@ -92,5 +92,42 @@ En los bloques try colocamos el codigo que puede tirar una excepcion
 Dentro de las clausulas del catch colocamos las excepciones que atrapara y dentro de su bloque de codigo el comportamiento que ejecutara en caso de encontrar una
 
 Una combinacion de todos los metodos anteriores puede ser utilizada para satisfacer los requerimientos y hacerte inmune a tu interaccion con el usuario.
+
+### The Importance of Scope
+Como sabemos en una clase podemos encontrar datos en forma de atributos o variables. Estos estan disponibles a distintos grados para su acceso:
+- Metodo
+- Objeto
+- Clase
+
+Multiples objetos pueden tener un metodo compartido (como un constructor).
+
+Tambien cada objeto puede tener variables locales dentro de sus metodos, estas variables locales unicamente pueden ser vistas desde ese metodo en particular, por tanto, se dice que su Scope es de Metodo.
+#### Object Attributes
+Adicionalmente tambien es posible establecer atributos globales que son accesibles para todos los metodos, pero que su Scope se encuentra solo dentro del objeto actual. Es decir, si creamos multiples objetos cada uno tendra estos atributos que son accesibles desde todos los metodos.
+
+#### Class Attributes
+Finalmente tenemos una forma de crear datos globales que son accesibles para todos los objetos desde todos los metodos, esto se hace utilizando el keyword *static* al declarar tu atributo.
+
+Es un poco peligroso utilizarlo por temas de sincronizacion, pero hay muchos casos donde es valido y necesario utilizarlos.
+### Operator overloading
+Es una practica bastante especial, no esta incluida en ningun otro lenguaje que no sea C++. Esta caracteristica permite sobreescribir lo que hace un operador (+ - / == !=, etc) para hacer lo que tu quieras que haga. Un ejemplo de esto lo vemos cuando se trabaja con Strings y se utiliza el operador + para concatenar. Eso es resultado del operator overloading.
+
+### Multiple Inheritance
+Es otro mecanismo de programacion bastante especial, unicamente incluido en C++. Esta caracteristica permite que una clase herede de multiples clases a la vez. Incrementa muchisimo la complejidad para el desarrolldor y para los compiladores, es por eso que Java, C# y Swift no la incluyen.
+
+Encontramos dos tipos de herencia con exactitud *behavioral inheritance* y *implementation inheritance*. Los lenguajes como Java permiten *multiple behavioral inheritance* proveniente de la implementacion de multiples *interface*. Las *abstract class* son un ejemplo de *implementation inheritance*.
+
+Behavioral Inheritance se refiere a que una clase especial no tiene implementacion de los metodos, unicamente representa comportamientos que seguramente seran implementados.
+
+Implementation Inheritance representa lo opuesto, en este caso no solo se pueden dar metodos sin implementacion sino que muchos de ellos ya estan implementados.
+
+### Object Operations
+Las operaciones de copiado y comparacion con objetos son operaciones bastante complejas que toman de bastante computacion (dependiendo en cuantos niveles de referencias a objetos existen).
+
+Hay dos tipos de copia posibles Deep Copy en la cual se hacen copias del elemento y de todos los elementos que referencia y Shallow Copy en la cual solo se hace una copia de la referencia principal.
+
+De esta forma, hacer comparaciones debe ser implementado con tu propio mecanismo y no recaer con el que te da el mismo lenguaje, de esta forma, aseguras que tu comparacion se comporte como esperas.
+
+
 ___
 
