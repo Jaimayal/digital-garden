@@ -34,3 +34,13 @@ Convertirte en tecnologia te aleja de la naturaleza ?
 - transhumanismo, derecho
 - politica izquierda derecha
 - Avances, Social, Politica, 
+
+
+- Olimpiadas
+- Implantes Cocleares pero centralizados, no puede cambiarlo
+- Organizacion de Transhumanistas descentralizada
+- Personas y Organizaciones ajenas a las cientificas
+- Cyborg EV
+- Transhumanismo descentralizado
+- Partido Transhumanista
+- Grindhouse Wetware
