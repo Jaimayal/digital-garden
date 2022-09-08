@@ -14,4 +14,4 @@ Las metodologias iterativas fueron un conjunto de metodologias que **integraron 
 
 Las metodologias agiles son un conjunto de metodologias que integran gran parte de las ideas iterativas, sin embargo agregan que ahora **cada iteracion no solo debe ser repetible sino que debe ser incremental** para el producto de software que se esta desarrollando.
 
-Inspirado de: [_index](content/The%20essentials%20of%20modern%20software%20engineering%20Free%20the%20practices%20from%20the%20method%20prisons!/_index.md) (*Se refiere a ellas como Practicas del ciclo de vida*)
+Inspirado de: [libro](content/The%20essentials%20of%20modern%20software%20engineering%20Free%20the%20practices%20from%20the%20method%20prisons!/libro.md) (*Se refiere a ellas como Practicas del ciclo de vida*)

@@ -1,7 +1,9 @@
 ---
-title: "The essentials of modern software engineering: Free the practices from the method prisons - Book Notes"
+title: "The essentials of modern software engineering: Free the practices from the method prisons - Notes"
+date: "2022-09-03 08:31"
 tags: softwaredev
 draft: false
+weight: 2
 headless: true
 ---
 ## From Programming to Software Engineering

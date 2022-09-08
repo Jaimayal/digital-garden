@@ -10,4 +10,4 @@ Cada empresa tiene un diferente dominio de negocio, y entenderlo es de vital imp
 
 El dominio no solo comprende las necesidades, si no tambien, la jerga con la cual se habla en el negocio en cuestion, por tanto, entenderla es de vital importancia para comunicar un equipo de desarrollo con los [Stakeholders](Stakeholders.md), y asi poder obtener los [requisitos](requisitos.md) del software.
 
-Inspirado de: [_index](content/The%20essentials%20of%20modern%20software%20engineering%20Free%20the%20practices%20from%20the%20method%20prisons!/_index.md)
+Inspirado de: [libro](content/The%20essentials%20of%20modern%20software%20engineering%20Free%20the%20practices%20from%20the%20method%20prisons!/libro.md)
