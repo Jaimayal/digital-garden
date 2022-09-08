@@ -2,7 +2,6 @@
 title: "Jordan Peterson’s guide to leadership | Big Think"
 authors: ""
 year: 2018
-URL: "www.youtube.com/watch?v=XWVwFVgA4b4"
 tags: 
 draft: true
 ---

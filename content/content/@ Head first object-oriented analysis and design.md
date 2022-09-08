@@ -2,7 +2,6 @@
 title: "Head first object-oriented analysis and design"
 authors: "Brett McLaughlin, Gary Pollice, David West"
 year: 2007
-URL: "www.amazon.com.mx/Head-First-Object-Oriented-Analysis-Design/dp/0596008678"
 tags: programming oop ooad
 draft: true
 date: "2022-09-04 14:34"
