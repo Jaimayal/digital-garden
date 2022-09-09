@@ -4,7 +4,7 @@ date: "2022-09-03 08:31"
 tags: softwaredev
 draft: false
 weight: 1
-headless: true
+search_hidden: true
 ---
 ## 🌱 Idea Principal
 Debido a que el Software se encuentra presente en todos los aspectos de nuestra vida, este libro da la fundacion principal para construir una metodologia agil, tambien llamada *escencia* para que puedas dirigir equipos desarrollando de forma efectiva..

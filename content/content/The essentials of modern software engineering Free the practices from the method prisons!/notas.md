@@ -4,7 +4,7 @@ date: "2022-09-03 08:31"
 tags: softwaredev
 draft: false
 weight: 2
-headless: true
+search_hidden: true
 ---
 ## From Programming to Software Engineering
 Este capitulo en particular busca definir de forma clara los conceptos de programador, desarrollador de software e ingeniero de software. Nos dara sus diferencias y semejanzas para poder distinguir y transicionar de una posicion a otra.

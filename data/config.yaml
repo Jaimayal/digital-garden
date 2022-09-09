@@ -1,6 +1,6 @@
 name: Jaimayal
 enableToc: true
-openToc: false
+openToc: true
 enableLinkPreview: true
 enableLatex: true
 enableCodeBlockTitle: true
@@ -13,7 +13,7 @@ enableRecentNotes: false
 enableGitHubEdit: true
 GitHubLink: https://github.com/jaimayal/digital-garden/tree/main/content
 enableSemanticSearch: false
-operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+operandApiKey: "REPLACE-WITHs-YOUR-OPERAND-API-KEY"
 description:
   Informatics student learning software development, psychology and other topics. This is my second brain / digital 
   garden!
