@@ -31,4 +31,4 @@ Software engineering is the application of a systematic, disciplined, and quanti
 
 ## 🌟 Valoracion 4 / 10
 
-## 📔 [[content/The essentials of modern software engineering Free the practices from the method prisons!/notas]]]
+Finalmente, checa las 📔 [Notas](content/The%20essentials%20of%20modern%20software%20engineering%20Free%20the%20practices%20from%20the%20method%20prisons!/notas.md) que hice sobre los aspectos relevantes del libro!
