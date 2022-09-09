@@ -11,16 +11,19 @@ summaryLength = 20
 paginate = 10
 enableGitInfo = true
 
-defaultContentLanguage = 'es-es'
+defaultContentLanguage = 'es'
 [languages]
   [languages.en]
-    languagedirection = 'en'
-    title = 'Digital Garden'
-    weight = 2
-  [languages.ar]
-    languagedirection = 'rtl'
-    title = 'مدونتي'
-    weight = 1
+  contentDir = "content/en"
+  languageName = "English"
+  languageCode = "en"
+  weight = 1
+
+  [languages.es]
+  contentDir = "content"
+  languageName = "Español"
+  languageCode = "es"
+  weight = 2
 
 
 [markup]
