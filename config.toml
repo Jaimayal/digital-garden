@@ -1,5 +1,5 @@
 baseURL = "https://quartz.jzhao.xyz/"
-languageCode = "en-us"
+languageCode = "es-mx"
 googleAnalytics = "G-XYFD95KB4J"
 relativeURLs = false
 disablePathToLower = true
@@ -10,6 +10,18 @@ ignoreFiles = [
 summaryLength = 20
 paginate = 10
 enableGitInfo = true
+
+defaultContentLanguage = 'es-es'
+[languages]
+  [languages.en]
+    languagedirection = 'en'
+    title = 'Digital Garden'
+    weight = 2
+  [languages.ar]
+    languagedirection = 'rtl'
+    title = 'مدونتي'
+    weight = 1
+
 
 [markup]
     [markup.tableOfContents]

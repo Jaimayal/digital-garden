@@ -1,5 +1,5 @@
 ---
-title: 🪴 Quartz 3.3
+title: "🌲 Digital Garden | Jaimayal"
 ---
 
 Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
