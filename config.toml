@@ -1,5 +1,5 @@
 baseURL = "https://quartz.jzhao.xyz/"
-languageCode = "es-mx"
+languageCode = "en-us"
 googleAnalytics = "G-XYFD95KB4J"
 relativeURLs = false
 disablePathToLower = true
@@ -10,21 +10,6 @@ ignoreFiles = [
 summaryLength = 20
 paginate = 10
 enableGitInfo = true
-
-defaultContentLanguage = 'es'
-[languages]
-  [languages.en]
-  contentDir = "content/en"
-  languageName = "English"
-  languageCode = "en"
-  weight = 1
-
-  [languages.es]
-  contentDir = "content"
-  languageName = "Español"
-  languageCode = "es"
-  weight = 2
-
 
 [markup]
     [markup.tableOfContents]
