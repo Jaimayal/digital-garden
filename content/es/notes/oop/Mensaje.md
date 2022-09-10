@@ -4,7 +4,6 @@ date: "2022-09-01 19:46"
 tags: 
 draft: true
 ---
-# Mensaje
 Es la forma de comunicacion utilizada en la programacion orientada a objetos. 
 
 Un mensaje ocurre cuando un objeto (llamado objeto activo) le solicita una operacion a otro (llamado objeto pasivo).

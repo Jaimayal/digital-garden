@@ -3,7 +3,6 @@ title: Clase
 date: "2022-08-26 15:12"
 draft: false
 ---
-# Clase
 Las clases son un concepto basico de la programacion orientada a objetos. Una clase es un molde del cual podemos instanciar (crear, generar, construir, inicializar) objetos de ese tipo en particular. Este describe las operaciones y los datos que contendran los objetos que se instancien a partir de ella.
 
 Fundamentalmente una clase se compone de dos cosas:

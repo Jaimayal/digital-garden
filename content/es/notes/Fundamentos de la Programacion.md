@@ -5,7 +5,6 @@ tags:
   - programming
 draft: false
 ---
-# Fundamentos de la Programacion
 Los fundamentos de la programacion (En cualquier paradigma) son cuatro:
 - Abstraccion. Utilizar terminos, conceptos e ideas para representar un concepto de manera fundamental, ignorando lo superfluo.
 - Encapsulacion. Ocultar informacion innecesaria al exterior.

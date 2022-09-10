@@ -3,7 +3,6 @@ title: Mensajes
 date: "2022-08-26 15:11"
 draft: false
 ---
-# Mensajes
 Es la base sobre la cual objetos pueden interactuar con otros utilizando sus vistas publicas, es decir, sus interfaces. En ese caso, un objeto activo (El que envia el mensaje) se comunica con un objeto pasivo (El que lo recibe).
 
 ```Java
