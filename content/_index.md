@@ -1,26 +1,20 @@
 ---
 title: "🌲 Digital Garden | Jaimayal"
 ---
+## 👉 ¡Bienvenido a mi Jardin Digital!
+Aqui se archivan todas las ideas y notas sobre lo que he aprendido a lo largo de mis estudios como universitario y autodidacta.
+## ✔ Secciones Principales
+A continuacion las secciones principales del sitio:
+- [Mapas de Contenido](menu/mapas.md). Puntos de entrada para todos los temas que he aprendido. 
+- [Bancos de Preguntas](menu/bancos.md). Almacenamiento de preguntas divididas por temas. Te permiten crear tus propios examenes o flashcards.
+## 🔍 Cómo navegar
+Las notas son mantenidas de tal forma que permitan libre navegacion entre una y otra (gracias a un vaúl de [Obsidian](https://obsidian.md/)) por tanto cuentan con conexiones para navegar entre una y otra libremente.
+#### Color
+Es posible cambiar el tema actual (oscuro o claro) utilizando los iconos de noche / dia de la barra de navegacion superior.
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+#### Búsqueda
+La barra de busqueda encuentra las ideas / notas que quieras en todo el sitio. Prueba utilizando palabras clave o prefijos.
 
-1. Extremely fast natural-language [[notes/search|search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
-
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
-
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
-
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
-
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
-
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
+#### Backlinks y Grafica
+Al pie de pagina siempre encontrara una lista de notas que referencian a la pagina en la que se encuentra en ese momento. Adicionalmente en la grafica se puede visualizar las conexiones que tiene la pagina actual con otras.
 

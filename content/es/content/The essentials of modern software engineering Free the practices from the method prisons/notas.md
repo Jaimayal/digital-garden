@@ -6,7 +6,7 @@ draft: false
 weight: 2
 search_hidden: true
 ---
-*[Volver a la Nota Principal](main.md)*
+*[Volver a la Nota Principal](es/content/The%20essentials%20of%20modern%20software%20engineering%20Free%20the%20practices%20from%20the%20method%20prisons/main.md)*
 ## 1. From Programming to Software Engineering
 Este capitulo en particular busca definir de forma clara los conceptos de programador, desarrollador de software e ingeniero de software. Nos dara sus diferencias y semejanzas para poder distinguir y transicionar de una posicion a otra.
 
