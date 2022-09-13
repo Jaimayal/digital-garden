@@ -1,6 +1,6 @@
 ---
 title: Objeto
-date: 2022-08-26 15:12
+date: "2022-08-26 15:12"
 draft: false
 ---
 Es una instancia (es decir, una ocurrencia particular) o un ejemplar concreto proveniente de una clase ya definida. 

@@ -1,6 +1,6 @@
 ---
 title: Paradigma Orientado a Objetos
-date: 2022-08-26 14:52
+date: "2022-08-26 14:52"
 draft: false
 ---
 Es un paradigma que surge como sintesis tras la orientacion a datos y la orientacion a procesos. Tiene como objetivo dar la misma importancia tanto a datos como a procesos, utilizando el concepto de Clases y vistas.

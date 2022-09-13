@@ -1,6 +1,6 @@
 ---
 title: Orientacion a Objetos
-date: 2022-08-21 10:02
+date: "2022-08-21 10:02"
 draft: false
 ---
 ### Vista publica de las clases - Interfaces
