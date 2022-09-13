@@ -9,9 +9,9 @@ Estos suelen estar ocultos mediante el uso de la vista privada para evitar error
 
 ```Java
 class Fecha {
+	// Lista de atributos
 	private int dia;
 	private int mes;
 	private int anio;
 }
 ```
-___

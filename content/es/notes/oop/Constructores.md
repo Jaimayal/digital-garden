@@ -12,6 +12,7 @@ Popularmente llamados "constructores" son metodos especiales en el codigo que si
 class SomeClass {
 	private int value
 
+	// Constructor
 	public SomeClass() {
 		this.value = 1;
 	}

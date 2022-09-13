@@ -8,4 +8,3 @@ Es un paradigma que surge como sintesis tras la orientacion a datos y la orienta
 El uso de clases mejora los aspectos basicos de la programacion (Abstraccion, Encapsulamiento, Modularidad y Jerarquia) e introduce unos nuevos para poder construir un software de mejor calidad. En especifico, agrega la Herencia y el Polimorfismo.
 
 El uso de las vistas tambien ayuda a mejorar los fundamentos de la programacion mediante vistas publicas y privadas.
-___

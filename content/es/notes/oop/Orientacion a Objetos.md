@@ -14,4 +14,3 @@ Lo publico es lo que es conocido en cualquier parte del sistema. Lo privado es l
 - Destructores
 
 Las interfaces son sagradas
-___

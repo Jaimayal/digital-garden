@@ -11,8 +11,8 @@ Regularmente el estado lo podemos comprobar mediante la interfaz publica especif
 class Main {
 	public static void main(String[] args) {
 		Fecha fecha = new Fecha(1, 1, 2002);
+		// Consulta de Estado
 		fecha.imprimirFecha();
 	}
 }
 ```
-___

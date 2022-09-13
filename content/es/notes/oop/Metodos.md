@@ -1,24 +1,28 @@
 ---
-title: Metodos
-date: "2022-08-26 15:11"
-draft: false
+title: "Metodo"
+date: "2022-09-01 19:46"
+tags: 
+draft: true
 ---
-Se refiere a las operaciones que constituyen una [[Clase]] en particular. Regularmente encontramos metodos publicos que representan la interfaz que sirve para enviar [[Mensajes]] entre objetos y una vista privada que sirve para realizar abstracciones de operaciones dentro de una misma clase.
+Define las operaciones (funciones, rutinas, operaciones) implantadas dentro de una clase que estaran disponibles para ser ejecutadas por los objetos que se generen de ella.
 
-Veamos dos metodos, uno publico y uno privado.
-```Java
-class Main {
-	// Vista Publica
-	public void imprimirNumero(int numero) {
-		System.out.println(numero);
-		imprimirFinalizado();
+Los metodos conforman la interfaz publica de una clase, para esto, utilizan el modificador de vista publica (==public==). Todos los metodos declarados con este estan disponibles para que objetos de otra [[Clase]] o de su misma, puedan comunicarse usando un [[Mensaje]].
+
+Adicionalmente, tambien pueden servir como intermediario para otras operaciones si se especifican con el modificador de vista privada, de esta forma permite que desde un metodo publico se llamen a otros metodos privados
+
+```Java {title="Date.java"}
+class Date {
+	private int day;
+
+	// Parte de la vista privada
+	private void print(Object value) {
+		System.out.println(value);
 	}
 
-	// Vista Privada
-	private void imprimirFinalizado() {
-		System.out.println("Finalizado :)");
+	// Parte de la vista publica / interfaz publica
+	public void printDay() {
+		// uso de un metodo privado para abstraer todavia mas
+		print(this.day);
 	}
 }
 ```
-
-___
