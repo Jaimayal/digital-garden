@@ -6,7 +6,7 @@ Aqui se archivan todas las ideas y notas sobre lo que he aprendido a lo largo de
 ## ✔ Secciones Principales
 A continuacion las secciones principales del sitio:
 - [Mapas de Contenido](es/menu/mapas.md)]. Puntos de entrada para todos los temas que he aprendido. 
-- [es/menu/bancos](es/menu/bancos.md). Almacenamiento de preguntas divididas por temas. Te permiten crear tus propios examenes o flashcards.
+- [Banc](es/menu/bancos.md). Almacenamiento de preguntas divididas por temas. Te permiten crear tus propios examenes o flashcards.
 ## 🔍 Cómo navegar
 Las notas son mantenidas de tal forma que permitan libre navegacion entre una y otra (gracias a un vaúl de [Obsidian](https://obsidian.md/)) por tanto cuentan con conexiones para navegar entre una y otra libremente.
 #### Color
