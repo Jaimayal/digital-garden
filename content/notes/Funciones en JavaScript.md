@@ -3,7 +3,6 @@ title: "Funciones en JavaScript"
 date: "2022-09-18 15:14"
 tags: 
   - javascript
-  - programming
 draft: true
 ---
 Existen tres tipos de funciones principales en JavaScript:
