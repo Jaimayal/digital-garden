@@ -3,9 +3,9 @@ title: "Interacciones con Objetos en JavaScript"
 date: "2022-09-19 08:11"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
-Existen dos formas basicas de interactuar con [[notes/Objetos en JavaScript]] y cambiar o obtener sus propiedades.
+Existen dos formas basicas de interactuar con [Objetos en JavaScript](notes/Objetos%20en%20JavaScript.md) y cambiar o obtener sus propiedades.
 
 ### Notacion con Punto (Member Access)
 Se especifica el nombre de la propiedad REAL que guarda el objeto y que se quiere obtener.

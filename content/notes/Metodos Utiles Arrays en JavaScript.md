@@ -3,7 +3,7 @@ title: "Metodos Utiles Arrays en JavaScript"
 date: "2022-09-18 15:29"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Algunos de los metodos mas basicos para trabajar con arrays en JavaScript:
 - push. Apende un elemento al final del array

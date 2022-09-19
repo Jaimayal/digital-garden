@@ -3,7 +3,7 @@ title: "Manipulacion del DOM"
 date: "2022-09-19 10:21"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 La manipulacion del DOM ocurre cuando utilizamos un lenguaje de programacion para interactuar de forma dinamica con un documento de HTML mediante el WEB API que ofrecen los navegadores.
 
@@ -49,7 +49,7 @@ document.querySelector('.button').addEventListener('click', () =>
 El primer parametro de este metodo es el **tipo de evento al que esta escuchando** y el segundo la **expresion funcional (funcion anonima) que ejecutara cuando sea detectado**. En este caso utilice una arrow function.
 
 ### querySelectorAll()
-Tiene las mismas funciones y propiedades que querySelector solo que, en vez de seleccionar al primero, **selecciona todos los elementos con el selector especificado** y devuelve un NodeList (que funciona como un [[notes/Arrays en JavaScript]]) con ellos dentro.
+Tiene las mismas funciones y propiedades que querySelector solo que, en vez de seleccionar al primero, **selecciona todos los elementos con el selector especificado** y devuelve un NodeList (que funciona como un [Arrays en JavaScript](notes/Arrays%20en%20JavaScript.md)) con ellos dentro.
 ### Estilos
 #### Inline
 Tambien podemos cambiar los estilos de cualquier elemento de forma dinamica, esto se hace accediendo a la propiedad .style de cualquier objeto del querySelector:

@@ -3,7 +3,7 @@ title: "PostgreSQL"
 date: "2022-09-18 09:10"
 tags: 
   - databases
-draft: true
+draft: false
 ---
 PostgreSQL es un gestor de bases de datos relacionales de codigo abierto que integra una gran parte de la funcionalidad de otros con una mezcla de un dialecto nuevo de SQL. 
 

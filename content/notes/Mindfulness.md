@@ -4,7 +4,7 @@ date: "2022-09-14 08:43"
 tags: 
   - focus
   - selfimprovement
-draft: true
+draft: false
 ---
 Se obtiene como resultado secundario de desarrollar la habilidad del [Focus](es/notes/Focus.md). Consiste en tener la capacidad mental como para decidir a donde va tu [Awareness](es/notes/Awareness.md), de tal modo que tambien te permite reaccionar del modo que tu deseas.
 

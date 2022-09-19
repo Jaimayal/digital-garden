@@ -3,7 +3,7 @@ title: "Programacion Orientada a Objetos"
 date: "2022-09-13 15:26"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 Es un paradigma de programacion basado en *componentes*. En este caso, cada componente es un [[es/notes/Objeto]] (la unidad minima de construccion). 
 

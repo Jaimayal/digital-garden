@@ -3,7 +3,7 @@ title: "Objetos en JavaScript"
 date: "2022-09-19 08:03"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Un objeto consiste un conjunto de pares de llave-valor. Es una estructura de datos **desordenada**, por lo que el orden en el que aparecen sus datos es aleatorio.
 

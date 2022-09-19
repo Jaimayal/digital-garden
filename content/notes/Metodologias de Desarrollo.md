@@ -3,7 +3,7 @@ title: "Practicas - Ciclo de Vida"
 date: "2022-09-05 14:31"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 Las practicas relacionadas con el ciclo de vida de un proyecto de software se refiere a la cantidad de tiempo que tendra cada paso del ciclo de creacion, la duracion que tendra, la relevancia y si es iterable o no.
 

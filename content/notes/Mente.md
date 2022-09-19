@@ -4,7 +4,7 @@ date: "2022-09-14 08:41"
 tags: 
   - focus
   - selfimprovement
-draft: true
+draft: false
 ---
 Es un espacio en el cerebro en el cual se guarda todo en forma de archivero o biblioteca, esta divido por areas y se nos permite acceder a ellas mediante los movimientos del [Awareness](es/notes/Awareness.md).
 

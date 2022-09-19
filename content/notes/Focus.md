@@ -4,7 +4,7 @@ date: "2022-09-14 08:27"
 tags: 
   - focus
   - selfimprovement
-draft: true
+draft: false
 ---
 ### Definicion
 El Focus es una habilidad que consiste en llevar nuestro [Awareness](es/notes/Awareness.md) a las partes de la [Mente](es/notes/Mente.md) que nosotros queremos a voluntad y de forma consciente.
