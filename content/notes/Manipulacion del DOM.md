@@ -16,7 +16,7 @@ En el parametro del metodo querySelector debemos colocar un selector de la misma
 
 
 ```JavaScript
-document.querySelector('.text'); // Seleccion de las tags con el nombre de clase 'text', por ejemplo, <p class='text'>Hola mi nombre es Jaime Ayala</p>
+document.querySelector('.text'); // Seleccion del primer elemento con el nombre de clase 'text', por ejemplo, <p class='text'>Hola mi nombre es Jaime Ayala</p>
 ```
 
 #### Propiedades de un Elemento
@@ -48,7 +48,10 @@ document.querySelector('.button').addEventListener('click', () =>
 
 El primer parametro de este metodo es el **tipo de evento al que esta escuchando** y el segundo la **expresion funcional (funcion anonima) que ejecutara cuando sea detectado**. En este caso utilice una arrow function.
 
+### querySelectorAll()
+Tiene las mismas funciones y propiedades que querySelector solo que, en vez de seleccionar al primero, **selecciona todos los elementos con el selector especificado** y devuelve un NodeList (que funciona como un [[notes/Arrays en JavaScript]]) con ellos dentro.
 ### Estilos
+#### Inline
 Tambien podemos cambiar los estilos de cualquier elemento de forma dinamica, esto se hace accediendo a la propiedad .style de cualquier objeto del querySelector:
 
 ```JavaScript
@@ -61,3 +64,13 @@ Esto devuelve un objeto con todos los estilos del elemento al que seleccionamos,
 document.querySelector('.texto').style.color = '00fffff'; // Cambia la letra a color amarillo
 ```
 
+#### Clases
+Otra forma (y la mas utilizada) de modificiar los estilos de una pagina web es agregar, remover y modificar las clases de un elemento, de esta forma, podemos agregar y remover un grupo de caracteristicas del elemento que busquemos. 
+
+Para esto, cada elemento del documento cuenta con un objeto especial llamado **classList** que sirve para referirse al atributo de clases de la etiqueta HTML.
+
+```JavaScript
+document.querySelector('.button').classList.add('hidden'); // Selecciona el elemento con la clase 'boton', selecciona su lista de clases y agrega la clase 'hidden'
+```
+
+En este caso, si en el archivo CSS existen propiedades para la clase 'hidden' se aplicaran al elemento de forma dinamica.
