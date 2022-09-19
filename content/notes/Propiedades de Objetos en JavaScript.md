@@ -5,7 +5,7 @@ tags:
   - javascript
 draft: true
 ---
-Existen dos formas basicas de interactuar con [[notes/Objetos en JavaScript]].
+Existen dos formas basicas de interactuar con [[notes/Objetos en JavaScript]] y cambiar o obtener sus propiedades.
 
 ### Notacion con Punto (Member Access)
 Se especifica el nombre de la propiedad REAL que guarda el objeto y que se quiere obtener.

@@ -9,7 +9,7 @@ La manipulacion del DOM ocurre cuando utilizamos un lenguaje de programacion par
 
 Utilizando JavaScript existen muchas formas de manipularlo. Aqui algunas de ellas.
 
-#### querySelector()
+### querySelector()
 Primeramente debemos obtener el objeto del documento html, y posteriormente llamar al metodo especial querySelector().
 
 En el parametro del metodo querySelector debemos colocar un selector de la misma forma que lo hacemos en CSS. Un .nombre para clases un \#nombre para los IDs, etc etc.
