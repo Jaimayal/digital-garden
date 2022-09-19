@@ -5,7 +5,7 @@ tags:
   - javascript
 draft: true
 ---
-Un objeto consiste un conjunto de pares de llave-valor.
+Un objeto consiste un conjunto de pares de llave-valor. Es una estructura de datos **desordenada**, por lo que el orden en el que aparecen sus datos es aleatorio.
 
 La llave es el nombre o etiqueta que se puede usar para referirse al valor.
 
