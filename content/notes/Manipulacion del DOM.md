@@ -42,11 +42,31 @@ Veamos un boton que al ser presionado actualiza el valor de nuestra etiqueta tex
 
 ```JavaScript
 document.querySelector('.button').addEventListener('click', () =>
-													  document.querySelector('.text').textContent = 'Presionado!';
-												  )
+	document.querySelector('.text').textContent = 'Presionado!';
+)
 ```
 
 El primer parametro de este metodo es el **tipo de evento al que esta escuchando** y el segundo la **expresion funcional (funcion anonima) que ejecutara cuando sea detectado**. En este caso utilice una arrow function.
+###### Informacion sobre el Evento
+Es posible obtener informacion detallada sobre el evento en forma de un objeto, esto se hace poniendo un parametro dentro de la expresion funcional del eventListener:
+
+```JavaScript
+document.querySelector('.button').addEventListener('click', (event) =>
+	console.log(event);
+)
+```
+###### Eventos en el Teclado
+Una de las funcionalidades mas basicas es interactuar con el usuario mediante el teclado, en una pagina web, se puede hacer mediante un eventListener.
+
+Al tratarse del teclado, se debe declarar como un **event global**. Es decir, que ocurriran sin importar en que parte o momento de la pagina nos encontremos porque se encuentra embebido dentro del documento.
+
+Veamos un ejemplo:
+
+```JavaScript
+document.addEventListener('keydown', (event) => {
+	console.log(event);
+})
+```
 
 ### querySelectorAll()
 Tiene las mismas funciones y propiedades que querySelector solo que, en vez de seleccionar al primero, **selecciona todos los elementos con el selector especificado** y devuelve un NodeList (que funciona como un [Arrays en JavaScript](notes/Arrays%20en%20JavaScript.md)) con ellos dentro.
@@ -74,3 +94,5 @@ document.querySelector('.button').classList.add('hidden'); // Selecciona el elem
 ```
 
 En este caso, si en el archivo CSS existen propiedades para la clase 'hidden' se aplicaran al elemento de forma dinamica.
+
+
