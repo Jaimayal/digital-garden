@@ -47,3 +47,17 @@ document.querySelector('.button').addEventListener('click', () =>
 ```
 
 El primer parametro de este metodo es el **tipo de evento al que esta escuchando** y el segundo la **expresion funcional (funcion anonima) que ejecutara cuando sea detectado**. En este caso utilice una arrow function.
+
+### Estilos
+Tambien podemos cambiar los estilos de cualquier elemento de forma dinamica, esto se hace accediendo a la propiedad .style de cualquier objeto del querySelector:
+
+```JavaScript
+document.querySelector('.texto').style;
+```
+
+Esto devuelve un objeto con todos los estilos del elemento al que seleccionamos, de modo que ahora, solo nos queda especificar una propiedad de CSS por cambiar:
+
+```JavaScript
+document.querySelector('.texto').style.color = '00fffff'; // Cambia la letra a color amarillo
+```
+
