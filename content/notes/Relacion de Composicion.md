@@ -19,3 +19,20 @@ Los sistemas de un humano promedio no pueden ser compartidos de forma concurrent
 Los sistemas del humano promedio son diseñados para si mismo y no pueden ser intercambiados por maquinas u otros porque dejaria de ser un humano promedio.
 
 **Por lo anterior, la composicion es una composicion fuerte**.
+
+### Representacion en UML y Codigo
+#### UML
+![RelacionComposicion.PNG](files/RelacionComposicion.PNG)
+
+#### Codigo
+El todo de alguna manera se encarga de instanciar a su parte.
+
+```Java
+class Todo {
+	private Parte parte;
+
+	public Todo() {
+		this.parte = new Parte(); // El mismo todo instancia su parte con alta fidelidad, alta temporalidad y poca versatilidad.
+	}
+}
+```

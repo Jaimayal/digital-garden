@@ -5,7 +5,7 @@ tags:
   - 
 draft: true
 ---
-Siguiendo las caracteristicas de las [[notes/Relaciones entre Clases por Colaboracion]]. La relacion por agregacion tendria las siguientes:
+Siguiendo las caracteristicas de las [Relaciones entre Clases por Colaboracion](notes/Relaciones%20entre%20Clases%20por%20Colaboracion.md). La relacion por agregacion tendria las siguientes:
 ### Caracteristicas
 #### Temporalidad - Media
 La vida de la agregacion (el todo) no tiene porque coincidir con la vida de ninguno de los agregados (Las partes). 
@@ -25,17 +25,25 @@ Alguien puede ser reemplazado por otra persona en un grupo de estudio pero podri
 
 ### Representacion en UML y Codigo
 #### UML
-![RelacionComposicion.PNG](files/RelacionComposicion.PNG)
+![RelacionAgregacion.PNG](files/RelacionAgregacion.PNG)
 
 #### Codigo
-El todo de alguna manera se encarga de instanciar a su parte.
+La agregacion es una coleccion de agregados en el que todos pueden entrar yt salir.
 
 ```Java
-class Todo {
-	private Parte parte;
+class Agregacion {
+	private List<Agregado> agregados;
 
 	public Todo() {
-		this.parte = new Parte(); // El mismo todo instancia su parte con alta fidelidad, alta temporalidad y poca versatilidad.
+		this.agregados = new ArrayList<Agregado>(); // No se crea ningun agregado, solo la estructura para almacenarlos
+	}
+
+	public void add(Agregado agregado) {
+		this.agregados.add(agregado);
+	}
+
+	public void remove(Agregado agregado) {
+		this.agregados.remove(agregado);	
 	}
 }
 ```
