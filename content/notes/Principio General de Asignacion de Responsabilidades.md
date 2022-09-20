@@ -11,4 +11,4 @@ En pocas palabras, **asigna la responsabilidad que le corresponde a la clase que
 
 Por ejemplo, es ilogico que un subsistma que busca persistir los datos haga calculos de cuanto tiempo tienen que durar en ella.
 
-Tambien buscar evitar clases get, get get get, set set set set, clases de datos vacias sin ningun comportamiento
+Tambien buscar evitar clases get, get get get, set set set set, es decir, clases de datos vacias sin ningun comportamiento
