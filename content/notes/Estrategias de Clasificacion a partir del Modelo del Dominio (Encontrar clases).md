@@ -2,7 +2,7 @@
 title: "Estrategias de Clasificacion a partir del Modelo del Dominio (Encontrar clases)"
 date: "2022-09-20 11:07"
 tags: 
-  - 
+  - softwaredev
 draft: true
 ---
 Existen muchas estrategias para encontrar las clases a partir del [Modelo del Dominio](notes/Modelo%20del%20Dominio.md), veamos las cinco mas relevantes y sus aportaciones:
@@ -29,7 +29,7 @@ Se formalizan las principales fuentes principales de clases y objetos:
 - Tangibles 
 - Intangibles
 
-Y tienen dos fuentes principales estos pueden venir tanto del problema como de la solucion. Por tanto, algunas cosas puede que no sean contempladas. Teniendo en mente todo el tiempo la **cosificacion**.
+Y tienen dos fuentes principales estos pueden venir tanto del problema como de la solucion. Por tanto, estas listas deben ser consultadas para asegurar que no se te quede ninguna palabra clave de los requisitos.
 #### Analisis del Dominio
 Se busca traer todos los objetos, acciones y relaciones **directamente de la boca de un experto del dominio**, que sea el el que diga las cosas que hay en el sistema.
 
