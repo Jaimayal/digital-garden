@@ -5,7 +5,7 @@ tags:
   - javascript
 draft: false
 ---
-La manipulacion del DOM ocurre cuando utilizamos un lenguaje de programacion para interactuar de forma dinamica con un documento de HTML mediante el WEB API que ofrecen los navegadores.
+La manipulacion del [DOM](notes/DOM.md) ocurre cuando utilizamos un lenguaje de programacion para interactuar de forma dinamica con un documento de HTML mediante el WEB API que ofrecen los navegadores.
 
 Utilizando JavaScript existen muchas formas de manipularlo. Aqui algunas de ellas.
 

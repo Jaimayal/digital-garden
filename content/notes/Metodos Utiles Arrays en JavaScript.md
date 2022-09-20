@@ -5,7 +5,7 @@ tags:
   - javascript
 draft: false
 ---
-Algunos de los metodos mas basicos para trabajar con arrays en JavaScript:
+Algunos de los metodos mas basicos para trabajar con [Arrays en JavaScript](notes/Arrays%20en%20JavaScript.md):
 - push. Apende un elemento al final del array
 - unshift. Apende un elemento al **inicio** del array.
 - pop. Remuve un elemento al **final** del array
