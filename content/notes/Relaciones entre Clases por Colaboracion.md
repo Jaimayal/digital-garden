@@ -16,3 +16,7 @@ Todas las relaciones por colaboracion tienen tres grandes caracteristicas.
 #### Tipos
 - [Relacion de Composicion](notes/Relacion%20de%20Composicion.md)
 - [Relacion de Agregacion](notes/Relacion%20de%20Agregacion.md)
+- [Relacion de Asociacion](notes/Relacion%20de%20Asociacion.md)
+- [Relacion de Uso (Dependencia)](notes/Relacion%20de%20Uso%20(Dependencia).md)
+
+![RelacionesDeColaboracion.png](files/RelacionesDeColaboracion.png)
