@@ -5,7 +5,7 @@ tags:
   - ooad
 draft: true
 ---
-Son un tipo de [[notes/Relaciones entre Clases (Gestion de Dependencias)]] que ocurre cuando existe un metodo o atributo que se refiere a otra clase en particular. Ya sea como valor de retorno, parametro, atributo privado, y otro.
+Son un tipo de [[notes/Relaciones entre Clases (Gestion de Dependencias)]] que ocurre cuando existe un paso de mensajes entre clases. Ya sea que una se encuentre como valor de retorno, parametro, atributo privado, u otro.
 
 #### Caracteristicas
 Todas las relaciones por colaboracion tienen tres grandes caracteristicas.
