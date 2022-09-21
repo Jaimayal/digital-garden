@@ -2,7 +2,7 @@
 title: "Relacion de Composicion"
 date: "2022-09-20 12:35"
 tags: 
-  - 
+  - ooad
 draft: true
 ---
 Siguiendo las caracteristicas de las [[notes/Relaciones entre Clases por Colaboracion]]. La relacion por composicion tendria las siguientes:

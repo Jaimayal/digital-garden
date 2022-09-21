@@ -2,7 +2,7 @@
 title: "Relacion de Agregacion"
 date: "2022-09-20 12:35"
 tags: 
-  - 
+  - ooad
 draft: true
 ---
 Siguiendo las caracteristicas de las [Relaciones entre Clases por Colaboracion](notes/Relaciones%20entre%20Clases%20por%20Colaboracion.md). La relacion por agregacion tendria las siguientes:
