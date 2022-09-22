@@ -6,7 +6,7 @@ tags:
 draft: false
 ---
 ## ¿Qué es el Diseño?
-Es un proceso que se realiza en el [Desarrollo de Software](../Desarrollo%20de%20Software.md), su objetivo principal es reducir la complejidad de un software.
+Es un proceso que se realiza en el [Desarrollo de Software](notes/Desarrollo%20de%20Software.md), su objetivo principal es reducir la complejidad de un software.
 
 ## ¿Por qué deberiamos hacer Diseño?
 Debido a que se busca realizar un software de calidad para cumplir con todos los aspectos de un proyecto de software.

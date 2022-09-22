@@ -8,11 +8,11 @@ draft: false
 Es un paradigma de programacion basado en *componentes*. En este caso, cada componente es un [[es/notes/Objeto]] (la unidad minima de construccion). 
 
 Conceptos relevantes:
-- [[es/notes/Paradigma Orientado a Objetos]]
-- [[es/notes/Orientacion a Objetos]]
-- [[es/notes/Clase]]
-- [[es/notes/Objeto]]
-- [[es/notes/Atributos]]
-- [[es/notes/Estado]]
-- [[es/notes/Metodos]]
-- [[es/notes/Mensajes]]
+- [Paradigma Orientado a Objetos](notes/Paradigma%20Orientado%20a%20Objetos.md)
+- [Orientacion a Objetos](notes/Orientacion%20a%20Objetos.md)
+- [Clase](notes/Clase.md)
+- [Objeto](notes/Objeto.md)
+- [Atributos](notes/Atributos.md)
+- [Estado](notes/Estado.md)
+- [Metodos](notes/Metodos.md)
+- [Mensajes](notes/Mensajes.md)

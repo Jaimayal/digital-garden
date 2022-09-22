@@ -11,21 +11,21 @@ La colaboracion ocurre cuando una clase esta constatemente interactuando con otr
 
 En esta relacion, los asociados no hacen mas que ofrecer los servicios, la asociacion no se encarga de administrar nada de ellos mas que usar los servicios cuando les sea necesario.
 
-### Caracteristicas
-#### Temporalidad - Media
+## Caracteristicas
+### Temporalidad - Media
 La asociacion puede nacer solo con una de las partes y despues integrar a otro asociado o cambiarlo cuando sea necesario.
 
-#### Fidelidad - Baja
+### Fidelidad - Baja
 Debido a que la asociacion no crea sus partes sino que en algun momento se le es asignada otro asociado para que ejecuten sus funciones
 
-#### Versatilidad - Media
+### Versatilidad - Media
 Es estricto respecto a con quien esta asociado en particular para realizar su funcion en un momento, respeta a quien se referia y le permite en algun punto cambiar al asociado.
 
-### Representacion en UML y Codigo
-#### UML
+## Representacion en UML y Codigo
+### UML
 ![RelacionAsociacion.png](files/RelacionAsociacion.png)
 
-#### Codigo
+### Codigo
 ```Java
 class Asociacion {
 	private Asociado asociado;

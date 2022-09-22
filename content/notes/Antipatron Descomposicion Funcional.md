@@ -5,7 +5,7 @@ tags:
   - ooad
 draft: true
 ---
-Tambien llamado **Functional Descomposition**, concepto creado por William Brown, se refiere a una mala practica que puede ocurrir en el desarrollo de un programa que consiste en romper completamente el [[notes/Principio General de Asignacion de Responsabilidades]].
+Tambien llamado **Functional Descomposition**, concepto creado por William Brown, se refiere a una mala practica que puede ocurrir en el desarrollo de un programa que consiste en romper completamente el [Principio General de Asignacion de Responsabilidades](notes/Principio%20General%20de%20Asignacion%20de%20Responsabilidades.md).
 
 Algunos sintomas son:
 - Clases con un solo metodo 

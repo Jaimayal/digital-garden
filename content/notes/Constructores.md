@@ -5,7 +5,7 @@ tags:
   - oop
 draft: false
 ---
-Popularmente llamados "constructores" son metodos especiales en el codigo que sirven como **inicializadores de objetos**. Buscan crear instancias especificas de una clase, una instancia en particular tambien es llamada [Objeto](es/notes/Objeto.md). Los constructores ademas son encargados de que todas las instancias sean **estables** inicializando todos los atributos de su clase a un valor especifico.
+Popularmente llamados "constructores" son metodos especiales en el codigo que sirven como **inicializadores de objetos**. Buscan crear instancias especificas de una clase, una instancia en particular tambien es llamada [Objeto](notes/Objeto.md). Los constructores ademas son encargados de que todas las instancias sean **estables** inicializando todos los atributos de su clase a un valor especifico.
 
 ```Java
 class SomeClass {

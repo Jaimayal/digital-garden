@@ -9,4 +9,4 @@ Es una instancia (es decir, una ocurrencia particular) o un ejemplar concreto pr
 
 Estos son creados a partir de los constructores de una clase particular y por lo tanto, cuentan con sus atributos, metodos, vista publica y privada.
 
-Si comprobamos los atributos de un objeto en particular se dice que estamos comprobando su [Estado](es/notes/Estado.md).
+Si comprobamos los atributos de un objeto en particular se dice que estamos comprobando su [Estado](notes/Estado.md).

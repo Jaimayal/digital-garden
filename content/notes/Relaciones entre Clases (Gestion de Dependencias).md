@@ -12,12 +12,12 @@ Existen dos grandes tipos de relaciones.
 1. Relaciones por Colaboracion (Funcionalidad)
 2. Relaciones por Herencia (Reusabilidad)
 
-#### [Relaciones entre Clases por Colaboracion](notes/Relaciones%20entre%20Clases%20por%20Colaboracion.md)
+## [Relaciones entre Clases por Colaboracion](notes/Relaciones%20entre%20Clases%20por%20Colaboracion.md)
 - [Relacion de Composicion](notes/Relacion%20de%20Composicion.md)
 - [Relacion de Agregacion](notes/Relacion%20de%20Agregacion.md)
 
 
-#### Relaciones por Herencia
+## Relaciones por Herencia
 Busca crear jerarquias de clasificacion sin obligar a que exista una colaboracion.
 - Relacion de Herencia por Extension (extends)
 - Relacion de Herencia por Implementacion (implements)
