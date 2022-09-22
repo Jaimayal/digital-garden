@@ -5,7 +5,7 @@ tags:
   - oop
 draft: false
 ---
-Es un paradigma de programacion basado en *componentes*. En este caso, cada componente es un [[es/notes/Objeto]] (la unidad minima de construccion). 
+Es un paradigma de [[notes/Programacion|programacion]] basado en *componentes*. En este caso, cada componente es un [notes/Objeto](es/notes/Objeto.md) (la unidad minima de construccion). 
 
 Conceptos relevantes:
 - [Paradigma Orientado a Objetos](notes/Paradigma%20Orientado%20a%20Objetos.md)

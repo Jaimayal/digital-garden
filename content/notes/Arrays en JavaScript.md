@@ -5,7 +5,7 @@ tags:
   - javascript
 draft: false
 ---
-Los Arrays son una de las estructuras de datos mas basicas de los lenguajes de programacion, y en JavaScript se encuentran implementados de forma dinamica.
+Los Arrays son una de las estructuras de datos mas basicas de los lenguajes de [[notes/Programacion|programacion]], y en JavaScript se encuentran implementados de forma dinamica.
 
 Un Array dinamico puede cambiar de tamaño, agregar elementos, quitar elementos y cambiar el contenido (Similar a un ArrayList en Java).
 

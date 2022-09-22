@@ -6,11 +6,11 @@ tags:
 draft: false
 ---
 El desarrollo de Software es toda una serie de procesos que se realizan con el fin de desarrollar un software de fin a fin. El desarrollo comprende los procesos de
-- [Requisitos](notes/Requisitos.md)]
-- [Analisis y Disenio](notes/Analisis%20y%20Disenio.md)]
-- [Programacion](notes/Programacion.md)]
-- [Pruebas](notes/Pruebas.md)]
-- [Despliegue](notes/Despliegue.md)]
+- [Requisitos](notes/Requisitos.md)
+- [Analisis y Disenio](notes/Analisis%20y%20Disenio.md)
+- [Programacion](notes/Programacion.md)
+- [Pruebas](notes/Pruebas.md)
+- [Despliegue](notes/Despliegue.md)
 
 entre otros.
 
