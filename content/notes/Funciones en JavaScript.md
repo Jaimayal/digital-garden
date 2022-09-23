@@ -45,3 +45,6 @@ Debido a la existencia de funciones anonimas,, se nos permite crear expresiones 
 const nombreFuncion = parametro => console.log(`hola! ${parametro}`);
 ```
 
+Detalles a tener en cuenta:
+- La keyword 'this' no se refiera al [[notes/JavaScript Execution Context]] de la arrow function si no al de su padre inmediato, el cual puede ser incluso el GEC.
+- No estara disponible el objeto de los argumentos de la funcion, solo del padre inmediato.

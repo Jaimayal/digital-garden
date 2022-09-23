@@ -5,7 +5,7 @@ tags:
   - javascript
 draft: true
 ---
-JS Engine. El programa principal de un solo hilo que ejecuta el codigo de JavaScript, cada navegador tiene el suyo propio.
+JS Engine. El programa principal de un solo hilo que convierte el codigo de JavaScript, en un ejecutable de optimizacion constante.
 
 Cada JS Engine esta compuesto por
 - CallStack -> Execution Context

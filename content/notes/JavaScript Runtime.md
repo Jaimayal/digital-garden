@@ -5,7 +5,7 @@ tags:
   - javascript
 draft: true
 ---
-Un Runtime funciona como un contenedor en el cual podemos encontrar todo lo necesario para ejecutar codigo de JavaScript.
+Un Runtime funciona como un contenedor en el cual podemos encontrar herramientas que, de la mano de codigo en javascript, pueden lograr comunicarse y brindar funcionalidad especifica a ese runtime.
 
 ### Runtime del navegador
 - [JavaScript Engine](notes/JavaScript%20Engine.md)

@@ -17,3 +17,5 @@ const object = {
 	lastName: 'Ayala'
 };
 ```
+
+Adicionalmente, los objetos en JavaScript tambien pueden tener funciones como atributos, a estos se les llama [Metodos de Objetos en JavaScript](notes/Metodos%20de%20Objetos%20en%20JavaScript.md)
