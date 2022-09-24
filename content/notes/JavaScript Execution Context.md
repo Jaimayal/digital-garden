@@ -15,7 +15,7 @@ Un Execution Context es como un contenedor en el cual pueden vivir todas las par
 - *this* keyword.
 
 ### Funciones
-Adentrandose mas sobre el conceptos de Execution Context es aplicado tras lograr la compilacion en el proceso de ejecucion dentro de un [[notes/JavaScript Engine]].
+Adentrandose mas sobre el conceptos de Execution Context es aplicado tras lograr la compilacion en el proceso de ejecucion dentro de un [JavaScript Engine](notes/JavaScript%20Engine.md).
 
 1. Tenemos el codigo compilado y listo para ser ejecutado
 2. Se crea el contexto global de ejecucion donde se ejecuta todo el codigo que esta fuera de cualquier funcion.
