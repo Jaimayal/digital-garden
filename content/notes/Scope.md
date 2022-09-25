@@ -2,7 +2,7 @@
 title: "Scope"
 date: "2022-09-25 07:57"
 tags: 
-  - 
+  - programming
 draft: true
 ---
 Alcance que tiene una variable tomando en cuenta desde donde fue declarada. Pueden ser globales, de funcion o de bloque.

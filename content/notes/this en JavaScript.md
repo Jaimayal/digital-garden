@@ -2,7 +2,7 @@
 title: "this keyword"
 date: "2022-09-25 08:58"
 tags: 
-  - 
+  - javascript
 draft: true
 ---
 Es una referencia creada para referirse al objeto actual (En el caso de [[notes/JavaScript]], al [[notes/JavaScript Execution Context]] actual).
