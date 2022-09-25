@@ -6,7 +6,7 @@ tags:
 draft: false
 ---
 Existen tres tipos de funciones principales en JavaScript:
-- Funciones Declaradas
+- Funciones Declaradas ^4c2966
 - Expresiones Funcionales
 - Funciones Flecha
 

@@ -10,8 +10,8 @@ Un Execution Context es como un contenedor en el cual pueden vivir todas las par
 
 **Es un concepto analogo a un Stack Frame**
 ### Componentes
-- Variable Environment. Aqui vive cualquier variable declarada en el contexto (let, var, const, funciones, argumentos actuales).
-- Scope chain.
+- Variable Environment. Principalmente manejada por el mecanismo de [[notes/Hoisting]].
+- [[notes/Scope]].
 - *this* keyword.
 
 ### Funciones
