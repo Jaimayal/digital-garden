@@ -9,8 +9,11 @@ Las practicas relacionadas con el ciclo de vida de un proyecto de software se re
 
 Entre las metodologias de desarrollo mas relevantes tenemos: **Waterfall (Cascada), Iterativa y Agiles**.
 
+## Cascada
 La metodologia de cascada surgio en los años 60s y buscaba proponer un orden al caos que era desarrollar un software. **Establecio las distintas fases y tenia un metodo muy lineal que se tenia que seguir para desarrollar software**. La cantidad de proyectos fallidos debido a los problemas en las distintas fases de desarrollo fue lo que llevo a la caida de esta metodologia.
 
+Adicionalmente, la metodologia de cascada solo es el ejemplar mas popular de las metodologias estrictamente secuenciales.
+## Iterativas
 Las metodologias iterativas fueron un conjunto de metodologias que **integraron las fases traidas desde la cascada pero agregando iteraciones** en ellas, por tanto, no concebia al proceso de creacion de un software como completamente lineal sino como un proceso iterativo que se iba repitiendo hasta lograr tener un producto final. Al existir tantas metodologias iterativas se busco una estandarizacion, lo que resulto en UML y RUP. Estas metodologias fallaron debido a que eran muy estrictas, requerian de mucho modelado y trabajo extra.
 
 Las metodologias agiles son un conjunto de metodologias que integran gran parte de las ideas iterativas, sin embargo agregan que ahora **cada iteracion no solo debe ser repetible sino que debe ser incremental** para el producto de software que se esta desarrollando.

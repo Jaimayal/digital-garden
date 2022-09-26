@@ -11,4 +11,8 @@ Su objetivo principal es convertir las necesidades de los clientes en requisitos
 
 Para realizarlo se utiliza distintas practicas, incluso traidas de la ingenieria (muchas de ellas traidas de *requirements engineering*),
 
-Debido a su constante cambio es NECESARIO hacer un buen [Analisis y Disenio](notes/Analisis%20y%20Disenio.md) del codigo con el que va a trabajar el equipo de desarrolladores.
+## Lidiar con Cambios en los Requisitos
+1. Hacer que todos entiendan los costos en los que se incurre. Tanto de tiempo como de dinero.
+2. Establecer un plan de control para satisfacer las demandas de cambios. Los desarrolladores estaran felices porque sabran cuando llegan nuevos pedidos y los clientes porque se sentiran escuchados.
+3. Utilizar metodologias que se adapten bien a los cambios. Usualmente entre las [[notes/Metodologias de Desarrollo]] las que mas son adaptables a cambios son las Iterativas.
+4. Mantener en mente la [[notes/Definicion del Problema en un Desarrollo de Software]] para saber si algo es trivial o no
