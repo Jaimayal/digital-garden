@@ -10,9 +10,9 @@ Un Execution Context es como un contenedor en el cual pueden vivir todas las par
 
 **Es un concepto analogo a un Stack Frame**
 ### Componentes
-- Variable Environment. Principalmente manejada por el mecanismo de [[notes/Hoisting]].
-- [[notes/Scope]].
-- *this* keyword.
+- Variable Environment. Principalmente manejada por el mecanismo de [Hoisting](notes/Hoisting.md).
+- [Scope](notes/Scope.md).
+- [this en JavaScript](notes/this%20en%20JavaScript.md).
 
 ### Funciones
 Adentrandose mas sobre el conceptos de Execution Context es aplicado tras lograr la compilacion en el proceso de ejecucion dentro de un [JavaScript Engine](notes/JavaScript%20Engine.md).

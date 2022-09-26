@@ -21,7 +21,7 @@ const object = {
 }
 ```
 
-Ahora para llamarla podemos utilizar cualquiera de las dos formas de [Propiedades de Objetos en JavaScript](notes/Propiedades%20de%20Objetos%20en%20JavaScript.md).
+Ahora para llamarla podemos utilizar cualquiera de las dos formas de acceder a las [Propiedades de Objetos en JavaScript](notes/Propiedades%20de%20Objetos%20en%20JavaScript.md).
 
 ```JavaScript
 console.log(object.calcAge(2002)); // 20
