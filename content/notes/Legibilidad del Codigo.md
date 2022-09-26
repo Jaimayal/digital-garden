@@ -31,7 +31,13 @@ Regularmente se recomienda utilizar un estandar de formato de codigo popular en 
 No comentes codigo malo, reescribelo creando nuevas funciones, distribuyendo responsabilidades entre clases u otras formas que no requieran escribir comentarios que aclaran lo que nadie va a entender, que nadie va a entender o que esta sujeto a malinterpretaciones.
 
 ### Nombrado
+Los nombres de variables, metodos, funciones, clases y de todo deben de ser homogeneos, claros, sencillos, simples y suficientemente descriptivos como para que todos puedan entender lo que se engloba dentro de ese nombre (tanto de forma directa como los efectos secundarios que tiene).
 
-
+- Un nombre debe revelar su intencion
+- Un buen nombre lleva tiempo
+- Un nombre es dinamico, se puede cambiar y adaptar
+- Utiliza las palabras clave del [[notes/Modelo del Dominio]]
+- Se evitan acronimos, es decir, son legibles
+- 
 
 
