@@ -14,3 +14,6 @@ Los requisitos, analisis y diseño (tambien llamados [[notes/Prerequisitos]]) se
 Las buenas practicas de escritura de codigo se hacen durante el proceso de construccion con el fin de buscar calidad a la mitad del proyecto.
 
 Todo el trabajo de QA como el testing, el enfoque en el objetivo, buscar que se construya el software correcto y bien es parte de buscar la calidad cerca del final del proyecto.
+
+## Referencias
+*[[reference/@ Code complete]]*

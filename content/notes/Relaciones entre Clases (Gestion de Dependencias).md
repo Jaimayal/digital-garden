@@ -15,7 +15,8 @@ Existen dos grandes tipos de relaciones.
 ## [Relaciones entre Clases por Colaboracion](notes/Relaciones%20entre%20Clases%20por%20Colaboracion.md)
 - [Relacion de Composicion](notes/Relacion%20de%20Composicion.md)
 - [Relacion de Agregacion](notes/Relacion%20de%20Agregacion.md)
-
+- [Relacion de Asociacion](notes/Relacion%20de%20Asociacion.md)
+- [Relacion de Uso (Dependencia)](notes/Relacion%20de%20Uso%20(Dependencia).md)
 
 ## Relaciones por Herencia
 Busca crear jerarquias de clasificacion sin obligar a que exista una colaboracion.

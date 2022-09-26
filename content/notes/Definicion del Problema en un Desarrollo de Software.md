@@ -14,3 +14,6 @@ La definicion del problema debe de estar escrita con el lenguaje del usuario fin
 En caso de no hacerse, se puede incurrir en que se desarrolle el software bien pero no atacando al problema que deberia (es decir, atacanado a un problema fantasma).
 
 ![[files/DefinicionDelProblema.png]]
+
+## Referencias
+*[[reference/@ Code complete]]*

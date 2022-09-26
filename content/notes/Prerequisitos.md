@@ -32,3 +32,5 @@ Nuestra disciplina es considerada algo de solo escribir codigo, se subestima y n
 ### Area
 Sin importar que [[notes/Metodologias de Desarrollo]] se utilice, los prerequisitos juegan un papel fundamental en garantizar que un proyecto de software salga bien desde un inicio.
 
+## Referencias
+*[[reference/@ Code complete]]*
