@@ -2,7 +2,7 @@
 title: "Nullish Coalescing Operator en JavaScript"
 date: "2022-09-27 15:50"
 tags: 
-  - 
+  - javascript
 draft: true
 ---
 Este operador sirve para resolver las situaciones en las que hacer el [[notes/Short Circuiting en JavaScript]] llevara a tener errores debido a los falsy values raros (como 0 o '').
