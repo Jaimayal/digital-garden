@@ -2,7 +2,7 @@
 title: "Spread Operator"
 date: "2022-09-27 11:51"
 tags: 
-  - 
+  - javascript
 draft: true
 ---
 El Spread Operator es un operador que sirve para aplanar los elementos de un array, funciona como recorrer todo el array y colocarlo en variables independientes utilizando lel [[notes/Destructuring en JavaScript]], sin embargo, nos da una sintaxis super simple y limpia de trabajo.
