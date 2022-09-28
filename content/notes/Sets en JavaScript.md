@@ -2,7 +2,7 @@
 title: "Sets en JavaScript"
 date: "2022-09-28 12:20"
 tags: 
-  - 
+  - javascript
 draft: true
 ---
 Un set es una estructura de datos que no permite ningun elemento repetido. En JavaScript fue introducido en ES6 junto con los Maps en JavaScript.
