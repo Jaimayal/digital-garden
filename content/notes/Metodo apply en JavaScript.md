@@ -2,7 +2,7 @@
 title: "Metodo apply en JavaScript"
 date: "2022-09-30 08:22"
 tags: 
-  - 
+  - javascript
 draft: true
 ---
 Es otro metodo que puede ser aplicado en las funciones que nos sirve para cambiar a donde apunta la keyword [[notes/this en JavaScript]].

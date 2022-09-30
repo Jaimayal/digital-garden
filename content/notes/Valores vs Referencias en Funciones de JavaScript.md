@@ -2,7 +2,7 @@
 title: "Valores vs Referencias en Funciones de JavaScript"
 date: "2022-09-29 11:12"
 tags: 
-  - 
+  - javascript
 draft: true
 ---
 Es importante entender como funciona el paso por valor y paso por referencia en JavaScript.

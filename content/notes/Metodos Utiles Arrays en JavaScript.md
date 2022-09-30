@@ -41,3 +41,10 @@ console.log(array[array-1]); // same
 console.log(array.at(-1)); // same
 ```
 
+## forEach()
+Se le pasa un callback function como parametro, esta funcion sera llamada por cada iteracion (es decir, por cada elemento).
+
+Como caracteristicas especiales esque a esta callback function le puede pasar hasta un maximo de tres cosas.
+1. El elemento actual de la iteracion
+2. El indice del elemento actual
+3. El array entero
