@@ -2,7 +2,7 @@
 title: "Funciones de Primera Clase"
 date: "2022-09-29 12:17"
 tags: 
-  - 
+  - programming
 draft: true
 ---
 Significa que las funciones son tratadas como simples valores, por tanto, pueden ser utilizadas como propiedades, retornadas desde otra funcion o recibidas como parametros desde otras funciones.
