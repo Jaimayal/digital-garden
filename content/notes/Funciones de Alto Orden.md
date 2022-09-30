@@ -9,7 +9,7 @@ Una funcion de alto orden es toda aquella que recibe como parametro otra funcion
 
 Como es logico, son un tipo de funciones generadas gracias a la existencia de las [[notes/Funciones de Primera Clase]].
 
-## Ejemplo en JS
+## Funcion que Recibe otra como Parametro
 ```JavaScript
 const oneWordToLower(str) {
 	const [first, ...others] = str.split(' ');
@@ -42,4 +42,26 @@ const simple = function() {
 document.querySelector('button').addEventListener('click', simple)
 ```
 
-**La sintaxis de un callback function es escribir su nombre como parametro pero sin parentesis para que sea pasada y despues llamada**.
+**La sintaxis de un callback function es escribir su nombre como parametro pero sin parentesis para que sea pasada y despues llamada dentro de la funcion original**.
+
+## Funcion que retorna otra
+```JavaScript
+const greet = function(greeting) {
+	return function (name) {
+		console.log(`$[greeting} ${name}`)
+	}
+}
+
+greet('Hola')('Jaime');
+```
+
+Estos mecanismo es especialmente importante para la programacion funcional, debido a que permite encadenar funciones una tras otra
+
+Esto tambien se puede hacer con arrow functions
+
+```JavaScript
+const greet = (greeting) => (name) => console.log(`${greeting} ${name}`);
+
+greet('Hola')('Jaime');
+```
+
