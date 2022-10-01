@@ -18,7 +18,9 @@ Existen dos grandes tipos de relaciones.
 - [Relacion de Asociacion](notes/Relacion%20de%20Asociacion.md)
 - [Relacion de Uso (Dependencia)](notes/Relacion%20de%20Uso%20(Dependencia).md)
 
-## Relaciones por Herencia
+## [Relaciones entre Clases por Herencia](notes/Relaciones%20entre%20Clases%20por%20Herencia.md)
 Busca crear jerarquias de clasificacion sin obligar a que exista una colaboracion.
-- Relacion de Herencia por Extension (extends)
-- Relacion de Herencia por Implementacion (implements)
+- Relacion de Herencia por Extension
+- Relacion de Herencia por Especializacion
+- Relacion de Herencia por Limitacion
+- Relacion de Herencia por Construccion

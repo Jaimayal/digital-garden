@@ -16,12 +16,9 @@ Lo sencillo es lo que funciona, menos es mas, sencillez, simple.
 
 Por cada linea que se escribe, cien mas son leidas, por tanto, escribe codigo que tu mismo y otros puedan enteder, codigo sencillo.
 
-Lo contrario a hacer un codigo sencillo es hacer un codigo dificil de leer lo que resulta en codigo espaguetti, con intenciones oscuras o de generalidad especulativa.
+Lo contrario a hacer un codigo sencillo es hacer un codigo dificil de leer (es decir, con alta complejidad) lo que resulta en codigo espaguetti, con intenciones oscuras o de generalidad especulativa.
 
-Para mantenerlo simple se pueden tomar distitnas estrategias
-
-- Hacer abstracciones de codigo dificil de leer creandole un metodo especifico
-- Utilizar buenos nombres de metodos
+Sin embargo este principio no se aplica solo en codigo, se aplica en todo!, en el tamaño de los sistemas, de las clases, de las funciones, si todo lo mantenemos simple estaremos maximizando la cohesion reduciendo el acoplamiento y teniendo bajo tamaño, simplemente KISS.
 
 ## Formato
 Es importante tener un conjunto de reglas comunes que sirvan para tener un formato de codigo homogeneo entre todos los desarrolladores.
