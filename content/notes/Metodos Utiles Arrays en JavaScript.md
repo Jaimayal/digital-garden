@@ -48,3 +48,5 @@ Como caracteristicas especiales esque a esta callback function le puede pasar ha
 1. El elemento actual de la iteracion
 2. El indice del elemento actual
 3. El array entero
+
+Este metodo en particular tambien funciona con los [[notes/Sets en JavaScript]] y los [[notes/Maps en JavaScript]].
