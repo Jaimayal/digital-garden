@@ -61,12 +61,18 @@ Ocurre cuando:
 4. Ahora la clase C es utilizada en la clase A de forma indirecta
 
 ```Java
-class A {}
+class A {
+	void main() {
+		new B().getClassPerformer().someMethod(); // Acoplamiento indirecto
+	}
+}
 
-class B {}
+class B {
+	classC getClassPerformer();
+}
 
 class C {
 	//...
-	void someMethods();
+	void someMethod();
 }
 ```
