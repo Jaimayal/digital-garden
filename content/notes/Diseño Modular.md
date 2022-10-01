@@ -23,7 +23,7 @@ Esta disciplina del diseño recupera tres conceptos recurrentes.
 - Acoplamiento (Menor)
 - Tamaño (Poco)
 
-Una buena aplicacion de estos criterios resulta en clases altamente cohesivas y pocamente acopladas, con un bajo tamaño. Es decir, respetando al maximo el [[Principio KISS]]
+Una buena aplicacion de estos criterios resulta en clases altamente cohesivas y pocamente acopladas (acoplamiento eferente a clases inestables), con un bajo tamaño. Es decir, respetando al maximo el [[Principio KISS]]
 ## Cohesion
 Es una medida que nos sirve para determinar que tantas responsabilidades tiene un modulo y que tanto se relacionan entre ellas.
 
@@ -42,7 +42,8 @@ Tener un bajo acoplamiento infiere que existen la minima cantidad de dependencia
 
 De este modo, permite que, si una pieza es reemplazada solo sea afectada la minima cantida de modulos porque sus dependencias son muy pocas.
 
-### Acoplamiento Directo
+### Visibilidad
+#### Acoplamiento Directo
 Son todos aquellos dados en cualquier [[notes/Relaciones entre Clases por Colaboracion]] o [[notes/Relaciones entre Clases por Herencia]].
 
 Es decir, para una clase A esta acoplada de una clase B si:
@@ -53,7 +54,7 @@ Es decir, para una clase A esta acoplada de una clase B si:
 - Es derivada de ella
 - Utiliza sus metodos estaticos
 
-### Acoplamiento Indirecto
+#### Acoplamiento Indirecto
 Ocurre cuando:
 1. Clase A tiene una dependencia directa con la clase B. Y ademas, esta 
 2. Clase B en uno de sus metodos retorna una clase C
@@ -76,3 +77,41 @@ class C {
 	void someMethod();
 }
 ```
+
+### Direccion
+#### Acoplamiento Aferente - Reusabilidad
+Quienes dependen de mi para realizar sus funciones, ya sea por colaboracion, por herencia o por acoplamiento indirecto.
+- Cuando esta clase es la usada en una relacion de uso
+- Cuando esta clase es una parte de una relacion de composicion
+- Cuando esta clase es el asociado en una relacion de asociacion
+- Cuando esta clase es padre de otras clases.
+
+#### Acoplamiento Eferente - Dependencias  
+De quien dependeno para reaizar mi funcion, se identifica mediante relaciones de colaboracion, herencia o por acoplamiento indirecto.
+- Cuando esta clase es la que usa a otras en una relacion de uso
+- Cuando esta clase es el todo en una relacion de composicion
+- Cuando esta clase es la que requiere de un asociado en una relacion de asociacion
+- Cuando esta clase es hija de una superclase.
+
+Se puede permitir el acoplamiento alto si:
+- Las clases a las que estoy acoplado son muy estables y generalizadas (como libreria de Java)
+
+Normalmente habra un grado medio de acoplamiento si estoy trabajando para realizar mis funciones
+
+Se busca un bajo acoplamiento de clases que son inestables y que pueden tender a ser cambiadas a futuro (de interfaz o de implementacion).
+
+Estas propiedades estan fuertemente relacionadas, si se impulsa para bien una de ellas de forma inferente se impulsara la otra.
+
+## Tamaño
+Sirven como una referencia a tener en cuenta para escribir codigo de calidad, no se deben seguir a rajatabla sin embargo establecen un punto de partida para permitir identificar codigo de calidad.
+
+- Paquete - 12 a 20 clases
+- Clase - 3 a 5 atributos
+- Clase - 15 a 25 metodos
+- Clase - 200 a 500 lineas
+- Metodo - 1 a 3 parametros
+- Metodo - 10 a 25 lineas
+- Metodo - 2 a 3 sentencias anidadas
+- Linea - 80 a 120 caracteres
+
+**Son solo valores orientativos**.
