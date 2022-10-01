@@ -25,7 +25,7 @@ Esta disciplina del diseño recupera tres conceptos recurrentes.
 
 Una buena aplicacion de estos criterios resulta en clases altamente cohesivas y pocamente acopladas (acoplamiento eferente a clases inestables), con un bajo tamaño. Es decir, respetando al maximo el [[Principio KISS]]
 ## Cohesion
-Es una medida que nos sirve para determinar que tantas responsabilidades tiene un modulo y que tanto se relacionan entre ellas.
+Es una medida que nos sirve para determinar que tantas twresponsabilidades tiene un modulo y que tanto se relacionan entre ellas.
 
 - Una clase con alta cohesion tiene las responsabilidades minimas estrechamente relacionadas. Es decir, tiene un minimo numero de metodos altamente relacionados entre si.
 
