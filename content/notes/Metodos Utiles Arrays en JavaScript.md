@@ -50,3 +50,10 @@ Como caracteristicas especiales esque a esta callback function le puede pasar ha
 3. El array entero
 
 Este metodo en particular tambien funciona con los [[notes/Sets en JavaScript]] y los [[notes/Maps en JavaScript]].
+
+Esta funcion por lo general busca mutar las estructuras de datos de cierta forma!
+## Transformaciones de Datos
+Existen multiples metodos para transformar los datos de un array.
+- map. Aplica una determinada operacion a cada elemento de un array. Devuelve un array nuevo con la operacion aplicada
+- filter. Filtra los elementos basado en cierto criterio, solo pasan los que satisfascan la condicion.
+- reduce. Reduce todos los elementos a uno solo aplicando una operacion de cada elemento hacia un acumulador. En cada iteracion por cada elemento se debe de devolver el valor del acumulador actualizado con la operacion ya ejecutada
