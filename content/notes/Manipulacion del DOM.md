@@ -95,4 +95,11 @@ document.querySelector('.button').classList.add('hidden'); // Selecciona el elem
 
 En este caso, si en el archivo CSS existen propiedades para la clase 'hidden' se aplicaran al elemento de forma dinamica.
 
+### insertAdjacentHtml()
+Sirve para insertar html antes, dentro, antes de terminar y despues de la etiqueta de cierre de un elemento html, de esta forma, podemos agregar de manera dinamica elementos al DOM.
 
+```JavaScript
+const htmlElement = '<div class='hola'>hola</div>';
+
+document.querySelector('.div1').insertAdjacentHtml('afterbegin', htmlElement);
+```
