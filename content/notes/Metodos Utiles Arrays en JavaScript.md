@@ -57,3 +57,5 @@ Existen multiples metodos para transformar los datos de un array.
 - map. Aplica una determinada operacion a cada elemento de un array. Devuelve un array nuevo con la operacion aplicada
 - filter. Filtra los elementos basado en cierto criterio, solo pasan los que satisfascan la condicion.
 - reduce. Reduce todos los elementos a uno solo aplicando una operacion de cada elemento hacia un acumulador. En cada iteracion por cada elemento se debe de devolver el valor del acumulador actualizado con la operacion ya ejecutada
+
+- find. Sirve para encontrar un solo elemento basado en una condicion (o un callback function). Retorna el primer elemento para el cual se obtiene true en la condicion.
