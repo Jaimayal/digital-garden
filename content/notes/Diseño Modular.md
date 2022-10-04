@@ -115,3 +115,16 @@ Sirven como una referencia a tener en cuenta para escribir codigo de calidad, no
 - Linea - 80 a 120 caracteres
 
 **Son solo valores orientativos**.
+
+## Modularidad
+### Numero de Modulos
+La cantidad de modulos por programa debe ser ajustada a la cantidad de codigo que tendra cada una.
+
+Al realizar diseño modular existen dos costes principales.
+- Costo por Implementacion. Lo que cuesta escribir cada clase (cantidad de lineas).
+- Costo por Integracion. Lo que cuesta integrar todas las clases con un buen diseño.
+
+### Distribucion de Responsabilidades
+El problema debe ser dividido entre distintos modulos de modo que todos aporten algo a resolver el problema de forma relativamente equitativa
+
+## Jerarquizacion
