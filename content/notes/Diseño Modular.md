@@ -128,3 +128,38 @@ Al realizar diseño modular existen dos costes principales.
 El problema debe ser dividido entre distintos modulos de modo que todos aporten algo a resolver el problema de forma relativamente equitativa
 
 ## Jerarquizacion
+Existen dos formas de jerarquizar el diseño para resolver un problema
+- Top Down
+	1. Se desarrolla la clase principal
+	2. Se escriben sus atributos privados 
+	3. Se escribe su interfaz publica
+	4. Se codifican las interfaces
+	5. Se instancian objetos y se usan metodos conforme sean necesarios de otras clases.
+	6. Se evalua que clase de las que faltan es la mas riesgosa de escribir
+	7. Se vuelve al paso 2
+- Me hago el diagrama de clases en el que hago el reparto de responsabilidades e inicio con el metodo top down
+- Un diseño es un diagrama UML que puede servir para plantearse el codigo antes de escribirlo
+
+## Interfaz - Parte Publica
+Los smell codes contribuyen a tener un pesimo codigo.
+- Estilos. Nombrado, orden de parametros, valores de retorno
+- Funcionalidad. Que no haya efectos secundarios, que solo sean acciones unicas.
+- Simpleza. Que ofrezca la interfaz minima suficiente para satisfacer las necesidades basicas (primitivas) y nada mas.
+
+### Codigo Sucio por Clases Alternativas con Interfaces Diferentes
+Se debe homogeneizar el nombrado que se le da a las cosas de escencia similar dentro del codigo, tratar de mantener una terminologia homogenea en el como son nombrados los metodos publicos a traves de todas las clases es algo a lograr.
+
+- Homogeneizar los nombres
+- Utilizar herencia por extension o implementacion
+- Mover responsabilidades
+
+### Principios del Menor Compromiso
+Una clase solo debe exponer en su interfaz publica los metodos suficientes como para que desarrolle su unico trabajo sin tener efectos secundarios o tener metodos que no van de acuerdo con el nombrado / los datos que tiene.
+
+**Cada metodo tiene que ser un unico verbo, e implementa solo lo que dice**.
+
+### Interfaz Suficiente, Completa y Primitiva
+- Suficientes caracteristicas para satisfacer las funcionaldiades que debe proveer a otras clases
+- Primitiva. Solo contener operaciones que son primitivas para esta clase y no requiere de muchas especificaciones.
+
+## Diseño por contrato
