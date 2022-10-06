@@ -227,3 +227,22 @@ Es decir, no se respeta el Patron Experto en la Informacion.
 El otro lado de la moneda, en este caso la clase que permite que le pidan todo y queno calcula nada es la clase de Datos.
 
 #### Codigo Sucio por Cambios Divergentes
+Ocurre cuando una clase puede ser afectada por multiples cambios, es decir, si se cambia una tecnologia se cambiara una parte, si se cambia la persistencia otra parte, si se cambia la vista otra parte. Eso esta mal, una clase solo deberia ser afectada por una sola cosa.
+
+La solucion seria dividir esta en diferentes clases.
+
+#### Codigo Sucio por Cirugia a Escopetazos
+Es el lado contrario al anterior, en vez de que exista una clase que se encargue de una responsabilidad, esta responsabilidad esta distribuida a traves de multiples clases y si es cambiada tiene que cambiar en varios lugares a la ves.
+
+#### Codigo Sucio por Grupo de Datos
+Hay grupos de datos que son utilizados en muchos lados y que en realidad deberia estar como una clase y no como datos separados.
+
+La solucion es crear una clase que ademas de ser reusable puede asumir responsabilidad y aliviar a otras clases.
+
+#### Codigo Sucio Obsesion por Tipos Primitivos
+Ocurre cuando en vez de utilizar una clase (donde es necesario porque se requieren operaciones) se utiliza un primitivo con el argumento de que una clase de un atributo no existe.
+
+#### Codigo Sucio por Clases Perezosas
+Una clase que tiene muy pocos datos y ni siquiera hace operaciones, es perezosa. Puede ser como un holder nada mas de datos que no hace nada.
+
+
