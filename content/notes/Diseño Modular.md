@@ -142,10 +142,11 @@ Existen dos formas de jerarquizar el diseño para resolver un problema
 
 ## Interfaz - Parte Publica
 Los smell codes contribuyen a tener un pesimo codigo.
-- Estilos. Nombrado, orden de parametros, valores de retorno
-- Funcionalidad. Que no haya efectos secundarios, que solo sean acciones unicas.
-- Simpleza. Que ofrezca la interfaz minima suficiente para satisfacer las necesidades basicas (primitivas) y nada mas.
+- Homogenea. Nombrado, orden de parametros, valores de retorno
+- Suficiente. Que no haya efectos secundarios, que solo sean acciones unicas.
+- Minima. Que ofrezca la interfaz minima suficiente para satisfacer las necesidades basicas (primitivas) y nada mas.
 
+**Una buena interfaz publica debe de ser minima, ofreciendo los metodos suficientes de forma homogenea para que otros lleven acabo sus operaciones**
 ### Codigo Sucio por Clases Alternativas con Interfaces Diferentes
 Se debe homogeneizar el nombrado que se le da a las cosas de escencia similar dentro del codigo, tratar de mantener una terminologia homogenea en el como son nombrados los metodos publicos a traves de todas las clases es algo a lograr.
 
