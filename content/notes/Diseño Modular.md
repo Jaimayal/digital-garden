@@ -163,3 +163,17 @@ Una clase solo debe exponer en su interfaz publica los metodos suficientes como 
 - Primitiva. Solo contener operaciones que son primitivas para esta clase y no requiere de muchas especificaciones.
 
 ## Diseño por contrato
+Tres terminologias
+- Error
+- Defecto
+- Fallo
+
+Dos tipos de errores
+- Errores Excepcionales
+- Errores logicos
+
+Dos mecanismos para lidiar con fallos
+- Programacion Defensiva
+- Aserciones
+
+1:07:45
