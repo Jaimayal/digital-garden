@@ -176,4 +176,54 @@ Dos mecanismos para lidiar con fallos
 - Programacion Defensiva
 - Aserciones
 
-1:07:45
+El diseño por contrato establece un contrato entre dos partes, el cliente y el servidor.
+El cliente de un metodo es quien le esta llamando, el servidor es el que procesa la entrada y del que se espera obtener un resultado.
+
+El diseño por contrato concibe que estas dos partes tengan un contrato formal en el que se establecen:
+1. Las precondiciones que debe de cumplir un cliente para llamar una funcion
+2. Las postcondiciones que debe de cumplir el servidor y retornarle al cliente
+
+De esta forma, las dos partes del contrato pueden estar seguras que ambas cumpliran con su parte y pueden avanzar de forma segura.
+
+Para implementarlo se suele utilizar los assert.
+
+## Implementacion - Vista Privada
+### Cohesion
+- Cohesion de Metodos
+- Principio de Unica Responsabilidad (S de SOLID)
+- Responsabilidad fuera de Lugar. La responsabilidad no esta donde deberia de estar
+	- Condigo Sucio por Envidia de Caracteristicas
+	- Codigo Sucio por Clase de Datos
+	- Codigo Sucio por Cambios Divergentes
+- Sin clase para una Responsabilidad. Sin nadie puede asumir la responsabilidad
+	- Codigo Sucio por Cirugia a Escopetazos
+	- Codigo Sucio por Grupo de Datos
+	- Codigo Sucio por Obsesion de Tipos Primitivos
+- Clase sin Responsabilidad. Existe una clase pero no tiene nada por hacer
+	- Codigo Sucio por Clases Perezosas
+
+#### Cohesion de Metodos
+- Las funciones deberian hacer una sola cosa.
+- Violaciones
+	- Las funciones realizan mas de una operacion
+	- Las lineas persiguen objetivos distintos a lo que espeifica el metodo
+	- Falta de Cohesion en el metodo
+- Solucion
+	- Dividir las distintas lineas de distinto tipo en diferentes funciones
+	- Evitar el acoplamiento entre distintas funcionalidades de una clase
+**Pedirle Cohesion a un metodo**
+
+#### Principio de Unica Responsabilidad
+Una clase cohesiva (como deberia de estar hecha) solo **deberia tener un unico motivo de cambio**, es decir, solo se deberia ver afectada por una unica cosa (persistencia, vista, comunicacion solo uno pero no todos a la ves).
+
+**Pedirle cohesion a una clase**.
+
+#### Codigo Sucio por Envidia de Caracteristicas
+Una clase que envidia a otra clase pidiendole todo el rato sus caracteristicas para hacer los calculos en vez de que la clase que tiene los datos hacerlos.
+
+Es decir, no se respeta el Patron Experto en la Informacion.
+
+#### Codigo Sucio por Clase de Datos
+El otro lado de la moneda, en este caso la clase que permite que le pidan todo y queno calcula nada es la clase de Datos.
+
+#### Codigo Sucio por Cambios Divergentes
