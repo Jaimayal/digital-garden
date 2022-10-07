@@ -92,7 +92,16 @@ En Spring puede ser integrada para hacer ingenieria inversa, es decir, generar u
 ## HATEOAS
 Es una integracion que sirve para hacer Restful APIs navegables.
 
-
+## Java Bean Validation - JSR 380
+Sirve para validar los datos que son insertados por un usuario, regularmente estos validadores se mantienen en el DTO y se manejan con anotaciones.
+- @Regex
+- @Positive
+- @Min
+- @Max
+- @Size
+- @NotNull
+- @NotBlank
+- 
 
 
 
