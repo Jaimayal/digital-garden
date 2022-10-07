@@ -87,10 +87,20 @@ Para acceder a ellos se utiliza SpEL y regularmente se crean Beans a partir de e
 ## OpenAPI - Swagger
 Es un conjunto de aplicaciones que sirven para generar codigo y documentacion interactiva siguiendo el estandar de OpenAPI.
 
-En Spring puede ser integrada para hacer ingenieria inversa, es decir, generar un documento Swagger a partir de una API ya establecida.  Para ello existe una libreria llamada springfox
+En Spring puede ser integrada para hacer ingenieria inversa, es decir, generar un documento Swagger a partir de una API ya establecida. Para ello existe una libreria llamada springfox
 
+La libreria nos añade anotaciones para poder documentar la interfaz generada de Swagger.
+- @ApiModel - Documentacion para el modelo
+- @ApiModelProperty - Documentacion para un atributo del modelo
+- @Api - Documentacion para un controlador
+- @ApiOperation - Documentacion para un metodo de un controlador
+- @ApiResponse - Documentacion para un metodo de un controlador, pero especifico para los codigos de respuesta
+- @ApiParam - Documentacion para los parametros de un metodo
+
+
+Ademas, es buena practica guardar el YAML que te da esta ingenieria inversa como documentacion para referencias futuras.
 ## HATEOAS
-Es una integracion que sirve para hacer Restful APIs navegables.
+Es una integracion que sirve para hacer Restful APIs navegables entre los distintos endpoints de la API.
 
 ## Java Bean Validation - JSR 380
 Sirve para validar los datos que son insertados por un usuario, regularmente estos validadores se mantienen en el DTO y se manejan con anotaciones.
@@ -101,13 +111,78 @@ Sirve para validar los datos que son insertados por un usuario, regularmente est
 - @Size
 - @NotNull
 - @NotBlank
-- 
+
+Gracias a estas y otras se nos permite hacer validaciones a los datos de entrada de un usuario.
+
+La mejor practica es construir los mensajes de los validadores mediante una externalizacion, es decir, en un archivo .properties.
+
+Adicionalmente, tambien se debe de crecar un POJO para poder enviar los errores a traves de JSON al cliente.
+
+### Externalizacion e Internacionalizacion
+Los mensajes de las constraints de validacion pueden (y deben) ser externalizados aun archivo .properties en resources. De esta forma, aseguramos que la API tenga consistencia atraves de archivos planos.
+
+Ademas, gracias a ellos podemos agregar internacionalizacion al API para que dependiendo del RequestParam ?lang=  se pueda recibir un mensaje externalizado.
+
+### Custom Validators
+Adicionalmente tambien existe la forma de crear tus propios validators por anotaciones.
+
+Para ello se necesitan dos clases
+- @Interface la anotacion que sirve para decorar los atributos.
+- un Validador que implementa ConstraintValidator\<@interface, K\> que contenga toda la logica.
 
 
+### Validacion por Grupos
+Permite validar ciertas anotaciones cosas solo si la entrada de validacion se hace por determinado grupo por ejemplo, en creacion se hace una validacion y en actualizacion se hace otra.
 
+- Para crear un grupo se crean interfaces con el nombre del grupo
+- Despues se especifica en las anotaciones mediante su propiedad 'groups' bajo que grupos (.class) tienen que ser validados
+- Se debe aplicar la validacion utilizando @Validated y especificar el grupo por el que se va a aplicar la validacion (.class)
 
+Debido al punto 3. ahora solo se van a aplicar todas las validaciones que esten marcadas con ese grupo
 
+## Capa Servicio
+- Se implementan las reglas de negiocs
+- Residen los algoritmos complejos
+- Un Controller puede usar uno o mas Servicios
+- Los servicios manipulan los repositorios o DAO
 
+- NO el acceso a datos
+- NO la comunicacion con servicios externos (consumo de datos)
+- NO algoritmos de controladores, nada de lo que tenga que ver con requests ni mecanismos de comunicacion
 
+### IoC
+Patron Hollywood jajaja, no nos llames nosotros te llamaremos.
 
+Se utiliza la Inyeccion de Dependencias, de esta manera se evita la construccion de objetos y se delega la construccion a Spring
 
+Estyo reduce el acoplamiento entre interfaz e implementacion. Ademas permite tener un punto de control para cambios de implementacion
+
+Anotaciones interesantes para la Inyeccion de Dependencia
+- @Autowired. Deja al contenedor de spring insertar el bean de forma automatica
+- @Qualifier. Especifica al contenedor de spring el bean a insertar por nombre, en un bean permite especificar el nombre que tiene
+- @Primary. Marca un bean como el primario para ser elegido en caso de ambiguedad.
+- @Lazy. Especifica que la inyeccion no se realizara sino hasta que sea neesario
+- @ConditionalOnProperty. Es mucho mas potente, permite colocar expresiones que permiten elegir un bean o otro basado en ellas.
+
+## Consumo de Servicios Externos
+Muchas veces es parte de la capa de negocios pero debe de estar separada de la logica dura de negocio para mantener una modularidad. Para ello se crea una capa "Cliente" que es la que se encarga de consumir los servicios.
+
+- La capa cliente es un segmento de codigo que se enfoca en recuperar datos de otras APIs, cloud, web scrapping, etc.
+
+![[files/LayerClient.png]]
+
+Regularmente se utiliza **RestTemplate** para implementar la logica del consumo a otros servicios REST.
+
+Estas RestTemplate se añaden a clases concretas usualmente construidas a partir de interfaces para establecer contratos y aprovechar Spring. Se mapean a DTOs especificos y son utilizadas desde la logica fuerte en la capa de Servicio
+
+### Feign
+Hay otra forma de hacerlo utilizando el Stack de Netflix y se hace mediante todo anotaciones y se puede utilizar tambien para consumir servicios
+
+## Librerias Utiles
+- Apache POI. Permite interactuar con cualquier programa de Office (Powerpoint, Word, Excel, etc)
+- iTEXT. Libreria para trabajar con PDF y otros formatos de texto planos.
+
+## Optional
+Una de las nuevas cosas que ofrece Java 8, Permite especificar que un objeto puede estar o no presente (es  opcional), de tal modo que las comprobaciones, excepciones y el trabajo con la API stream es mucho mas facil.
+
+## Sistema de Trazas - Logback
