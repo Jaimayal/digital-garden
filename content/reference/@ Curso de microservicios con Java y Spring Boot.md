@@ -89,6 +89,9 @@ Es un conjunto de aplicaciones que sirven para generar codigo y documentacion in
 
 En Spring puede ser integrada para hacer ingenieria inversa, es decir, generar un documento Swagger a partir de una API ya establecida.  Para ello existe una libreria llamada springfox
 
+## HATEOAS
+Es una integracion que sirve para hacer Restful APIs navegables.
+
 
 
 
