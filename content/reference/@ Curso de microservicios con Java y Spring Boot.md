@@ -186,3 +186,75 @@ Hay otra forma de hacerlo utilizando el Stack de Netflix y se hace mediante todo
 Una de las nuevas cosas que ofrece Java 8, Permite especificar que un objeto puede estar o no presente (es  opcional), de tal modo que las comprobaciones, excepciones y el trabajo con la API stream es mucho mas facil.
 
 ## Sistema de Trazas - Logback
+Presente en Spring, es subyacente, es decir, se utiliza en Spring. 
+- Logback viene a reemplazar a log4j
+- Es la forma de guardar informacion del programa
+- Permite trazar errores
+- Pueden ser persistidas en archivos planos, bases de datos, u otros.
+
+Frameworks 
+- Log4j
+- Logback
+- JUL
+
+Niveles de Trazas
+- Debug
+- Info
+- Warn
+- Error
+- Fatal
+
+Medios para persistencia (Appenders)
+- Console
+- File
+- FTP
+- Kafka
+- Cassandra
+- 
+
+### Recomendaciones generales
+- Configurar un Logger Manager
+- Implementar logs Info en las acciones mas signifcativas
+- Implementar debug en las acciones criticas (riesgosas, las que me dan mas miedo)
+- Implementar error lo mas verbosos posible
+
+### Configuracion
+Para cambiar la configuracion de logback (incluido con Spring) podemos utilizar el archivo logback.xml dentro de resources
+- ConsoleAppender - Apende las trazas a la consola
+- FileAppender - Apender a un archivo
+- RollingFileAppender - Apender a un archivo que reinicia cada que cumple determinada expresion (cada x tiempo, cada cantidad de lineas, etc). Ademas tambien puede eliminar cada ciertas lineas, cada cierto peso y cada cierto tiempo
+- SiftingAppender - Apender que sirve para logear hacia un archivo pero con la ventaja que permite colocar condiciones logicas para agregar a los archivos bajo determinadas situaciones, aplicaciones o contextos
+
+
+Aparte de definir un Appender se tiene que especificar en el rel los distintos appenders a utilizar.
+
+Existe la anotacion @Slf4j para hacer logging evitando escribir toda la parte verbosa del logging
+
+Ademas, nos permite establecer condicionales con la etiqueta \<if\> lo que nos permitira cambiar los appender, la configruacion, las trazas y todo con solo cumplir o cambiar una variable de un archivo .properties!. Esto se hace gracias a la libreria **Janino**.
+
+Ademas, tambien podemos definir estrategias para loggear diferentes paquetes. Para ellos podemos utilizar la etiqueta \<logger\> en donde podemos especificar el paquete, el nivel de tracing, los appenders y asi a cada uno que queramos!
+
+### Infraestructura de Logging
+- Logs
+- Logstash para Data Processing
+- Elasticsearch para Storage
+- Kibana para Visualizar
+
+
+
+
+
+## Capa de Persistencia
+Spring utiliza Hibernate como motor ORM.
+- Jpa es un estandar que envuelve a Jdbc.
+
+dockercompose es una solucion YAML que permite declarar las imagenes necesarias para una solucion fullstack (Base de datos, Back, Front, etc).
+
+docker brinda mucha practicidad para trabajar con bases de datos y programas complejos
+
+### Dependencia
+Se necesita de dos dependencias escenciales
+- La spring boot starter de JPA
+- El driver de la base de datos a utilizar
+
+
