@@ -21,7 +21,7 @@ draft: true
 7. Lombok
 8. Externalizacion de Parametros
 
-### Arquitectura Orientada a Microservicios
+## Arquitectura Orientada a Microservicios
 Monolitico. Software que contiene toda la solucion integra.
 
 Causa dependencias entre cada modulo.
@@ -43,7 +43,7 @@ La capa Service debe contener toda la logica de negocio.
 
 La capa DAO unicamente debe encargarse de comunicarse con la persistencia de la aplicacion
 
-### CI/CD
+## CI/CD
 Docker. Te permite crear un contenedor en el cual puede existir cada microservicio con su sistema operativo. 
 - Cada contenedor puede heredar de una imagen base que ya tiene instalada todas las dependencias necesarias para que los microservicios corran
 
@@ -52,4 +52,50 @@ OpenShift. Es un orquestador de maquinas Docker (PaaS) que te permite desplegar 
 Spring Specification sirve para meter filtros a los recursos de forma estandarizada.
 
 Una buena practica esque en post se devuelva la ruta donde se puede recuperar el usuario creado.
+
+Otra buena practica es retornar el header Location despues de crear un recurso.
+
+Los controladores normales no deberian de tener recursos anidados, para ellos se debe de crear otro aparte y a su vez para los recursos anidados se debe hacer otro por si se necesitan hacer operaciones mas alla de lectura (CRUD).
+
+Dependiendo del Dominio un JSON deberia o no contener lo relacionado con un recurso y sus anidaciones. Si se requiere, se pueden enviar links para poder recuperar mas informacion del usuario.
+## Rest Buenas Practicas
+- Rest es orientado a recursos, por tanto, poner plurales en las URI
+- Entregar codigos HTTP adecuados
+- No anidar mas de tres niveles de recursos
+- Tener un JSON claro de maximo dos - tres niveles de anidacion
+- Integrar paginacion
+- Integrar Sorting
+- Integrar filtros
+- Documentar la API
+	- Preferentemente OPEN API - Swagger
+- Generar links de Navegacion
+	- Preferentemente siguiendo HATEOAS
+- Asegurar la API definiendo roles (seguridad)
+- Exportar clientes de demostracion
+	- Preferentemente usando POSTMAN
+- Entregar errores definidos y verbosos
+- Validacion de Campos
+- Versionado de la API
+
+## Externalizacion
+La externalizacionc es un proceso en el cual se pasan las propiedades que son ajenas al codigo a archivos de texto plano que pueden ser importados hacia el codigo.
+
+En Spring la externalizacion se hace a archivos de texto plano con terminacion .properties (app.properties, config.properties, etc).
+
+Para acceder a ellos se utiliza SpEL y regularmente se crean Beans a partir de estas propiedades en texto plano. 
+
+## OpenAPI - Swagger
+Es un conjunto de aplicaciones que sirven para generar codigo y documentacion interactiva siguiendo el estandar de OpenAPI.
+
+En Spring puede ser integrada para hacer ingenieria inversa, es decir, generar un documento Swagger a partir de una API ya establecida.  Para ello existe una libreria llamada springfox
+
+
+
+
+
+
+
+
+
+
 
