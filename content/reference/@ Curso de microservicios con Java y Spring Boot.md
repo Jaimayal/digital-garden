@@ -42,3 +42,14 @@ La capa Controller solo debe encargarse de enviar los datos que recibe del mundo
 La capa Service debe contener toda la logica de negocio.
 
 La capa DAO unicamente debe encargarse de comunicarse con la persistencia de la aplicacion
+
+### CI/CD
+Docker. Te permite crear un contenedor en el cual puede existir cada microservicio con su sistema operativo. 
+- Cada contenedor puede heredar de una imagen base que ya tiene instalada todas las dependencias necesarias para que los microservicios corran
+
+OpenShift. Es un orquestador de maquinas Docker (PaaS) que te permite desplegar cada container de acuerdo a las necesidades que tiene cada uno (load balancing)., es decir, te permite escalar cada microservicio de acuerdo a las necesidades que se tienen.
+
+Spring Specification sirve para meter filtros a los recursos de forma estandarizada.
+
+Una buena practica esque en post se devuelva la ruta donde se puede recuperar el usuario creado.
+
