@@ -264,3 +264,5 @@ initialization.mode=always. Es un parametro importante debido a que permite tene
 jpa.hibernate.ddl=update|create-drop|validate|none. Similar al anterior pero en este claso se realiza de acuerdo a los cambios en las clases marcadas con @Entity.
 
 
+
+##
