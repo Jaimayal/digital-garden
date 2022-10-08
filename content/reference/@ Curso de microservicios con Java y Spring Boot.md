@@ -263,6 +263,67 @@ initialization.mode=always. Es un parametro importante debido a que permite tene
 
 jpa.hibernate.ddl=update|create-drop|validate|none. Similar al anterior pero en este claso se realiza de acuerdo a los cambios en las clases marcadas con @Entity.
 
+### Queries con Wildcards
+La clave esta en los nombrados que se les puede dar a los metodos, expresado de esta manera se pueden obtener los datos sin problema.
 
+Se puede obtener mas informacion en la [documentacion oficial](https://docs.spring.io/spring-data/jpa/docs/1.3.0.RELEASE/reference/html/jpa.repositories.html#jpa.query-methods).
 
-##
+### Queries con @Query
+Tambien se pueden hacer queries cutomizadas utilizando la anotacion @Query, escribir la consulta y utilizar wildcards en ella que son pasados al metodo como parametro.
+
+### Pageable y Sort
+Pageable es un objeto especial que nos sirve para limitar la cantidad de elementos que deben de mostrarse en una pagina.
+
+Los datos de Pageable llegan desde la URI mediante @RequestParam, requiere de un valor de 'page' y un valor de 'size' que determina cuantos elementos tendra la pagina.
+
+Podemos darle valores por defecto a un Pageable para que no sea necesario que el frontend lo tenga que enviar.
+- @PageableDefault(size, sort, direction). En caso de no ser suministrados
+
+Sort es otro objeto especial
+
+### Repositorios NoSql
+JPA tambien tiene soporte para bases de datos NoSQL como Mongo o Cassandra basadas en Documentos.
+
+Para añadir soporte a ellos solo es necesario;
+- Agregar la dependencia
+- Crear unos beans para Mongo
+- Añadir un Repositorio
+- Las entities ahora son decoradas con @Document
+
+## Mapping
+### Dtos vs Entities
+Los entities deben interaccionar con la base de datos y servir como objetos de transferencia
+
+Los DTOs deben ser los objetos utilizados para la comunicacion con clientes externos
+
+Al proceso de pasar un DTO an un Entity o viceversa es el Mapping
+
+La libreira de MapStruct provee una forma de convertir entre entities y DTOs de forma automatica.
+
+1. Agregar Dependencia
+2. Agregar plugin para integracion con Lombok
+3. Crear una interfaz para hacer el mapping
+
+## Testing
+Todas las capas deben de ser testeadas, cada una de forma aislada de las otras. Hacer estas pruebas no asegura que el software este 100% libre de errores.
+### Testing de Software
+### Testing Unitario
+Se escribe codigo para probar otro codigo. Un test Unitario como su nombre indica, busca probar una unica unidad de codigo.
+
+Los mocks nos sirven para desacoplar las capas y poder testear de forma verdadera la capa.
+
+### Testing de Integracion
+Cucumber
+
+## Diseño del Software
+Autores Importantes
+- Edsger Dijkstra
+- Edward Yourdon
+- Ivar Jacobson
+- Grady Booch
+- James Rumbaugh
+- Erich Gamma
+- Martin Fowler
+- Robert Martin
+- Kent Beck
+
