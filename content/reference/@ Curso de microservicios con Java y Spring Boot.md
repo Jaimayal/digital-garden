@@ -306,14 +306,31 @@ La libreira de MapStruct provee una forma de convertir entre entities y DTOs de 
 
 ## Testing
 Todas las capas deben de ser testeadas, cada una de forma aislada de las otras. Hacer estas pruebas no asegura que el software este 100% libre de errores.
-### Testing de Software
 ### Testing Unitario
 Se escribe codigo para probar otro codigo. Un test Unitario como su nombre indica, busca probar una unica unidad de codigo.
 
 Los mocks nos sirven para desacoplar las capas y poder testear de forma verdadera la capa.
 
+La anotacion @InjectMocks marca a la clase bajo test que se le van a inyectar los Mocks
+
+La anotacion @Spy sirve para mockear parcialmente comportamientos, se utiliza en vez de @Mock
+
+Anotaciones Utiles de JUnit Jupiter
+- @DisplayName. Nombre que se va a mostrar como descripcion del test
+- @Order. Orden de ejecucion
+- @Disabled. Desactiva al test
+- @EnabledOnOs(OS.VALUE). Test que solo se activa al sistema operativo
+
+Cualidades un poco mas avanzadas, test parametrizados
+- @ParametirzedTest marca que el test tiene parametros especificados por nosotros
+- @ValueSource. Una de las formas de especificar valores de entrada para el test
+
+Libreria muy util **Podam**. Sirve para poder crear multiples objetos de una misma clase y poder poblar listas u otras cosas, sirve mucho para proveer resultados para los metodos de los mocks. Sirve para poder generar informacion Dummy que puede ser utilizada para hacer tests u otras cosas.
+- Se recomienda la base de datos H2 para hacer tests a la capa de persistencia
+- @Import Hateoeas es necesario para importar la configuracion desde un bean
+- 
 ### Testing de Integracion
-Cucumber
+Cucumber + Gherkin
 
 ## Diseño del Software
 Autores Importantes
@@ -327,3 +344,18 @@ Autores Importantes
 - Robert Martin
 - Kent Beck
 
+## Docker
+Propone contenedores muy ligeros que sirven como contenedores para poder guardar un conjunto de tecnologia, configuracion y todo lo que se necesita para que todo funcione de un software.
+
+Propone el concepto de Imagen de Docker que representa una descripcion para como se debe de instanciar un contenedor a partir de ella (Es como la OOP por Prototitpos).
+
+- docker pull \<imagen\>
+- docker images
+- docker run \<containerId\>
+- docker push. Subir una imagen a la nube
+- docker ps. Ver las instancias de contenedores corriendo
+- docket stop \<containerId\>
+- docker run -it \<containerId\> /bin/bash. Te deja entrar a la linea de comandos de la maquina
+- docker inspect \<containerId\>. Te permite ver informacion detallada del contenedor
+
+Con un Dockerfile te puedes crear una imagen docker desde el ciclo de vida directo de Maven.
