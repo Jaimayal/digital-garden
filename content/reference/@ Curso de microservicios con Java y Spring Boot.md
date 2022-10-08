@@ -257,4 +257,10 @@ Se necesita de dos dependencias escenciales
 - La spring boot starter de JPA
 - El driver de la base de datos a utilizar
 
-1:16:16
+Posteriormente se necesita de agregar configuracion al application.properties
+
+initialization.mode=always. Es un parametro importante debido a que permite tener una inicializacion de tablas mediante un script sql. Se pueden tener multiples y se seleccionara el que coincida con el especificado en el platform de application;properties
+
+jpa.hibernate.ddl=update|create-drop|validate|none. Similar al anterior pero en este claso se realiza de acuerdo a los cambios en las clases marcadas con @Entity.
+
+
