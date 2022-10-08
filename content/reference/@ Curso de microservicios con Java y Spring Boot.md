@@ -257,4 +257,4 @@ Se necesita de dos dependencias escenciales
 - La spring boot starter de JPA
 - El driver de la base de datos a utilizar
 
-
+1:16:16
