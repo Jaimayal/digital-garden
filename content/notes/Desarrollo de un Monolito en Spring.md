@@ -7,6 +7,7 @@ draft: true
 ---
 ## Buenas Practicas Generales
 Spring Specification sirve para meter filtros a los recursos de forma estandarizada.
+En caso de enviar un request malo es buena practica devolver los tipos de request que un endpoint acepta
 
 Una buena practica esque en post se devuelva la ruta donde se puede recuperar el usuario creado.
 
