@@ -251,3 +251,12 @@ Una clase que tiene muy pocos datos y ni siquiera hace operaciones, es perezosa.
 #### Codigo Sucio Inapropiada Intimidad (Evita los ciclos).
 Una relacion bidireccional complica el codigo y muchas veces crea ciclos muy complejos que hacen al codigo dificil de manejar
 - Para quitar una relacion bidireccional se debe abstraer eso que tienen en comun las dos clases (se debe cosificar) en otra clase aparte. Entre Compra y Venta se deben conocer, para eviarlo se crea la clase CompraVenta,
+
+#### Leyes de Demeter
+Son un conjunto de leyes obtenidas desde un proyecto. En el cual se dictamenta que UNICAMENTE SE PUEDE COLABORAR CON:
+- this
+- Parametros
+- Atributos
+- Objetos Locales
+
+Por tanto, nunca se debe interactuar con un encadenamiento de mensajes obtenidas de enviar un mensaje a otro objeto. Es decir EVITAR EL ACOPLAMIENTO INDIRECTO A TODA COSTA.
