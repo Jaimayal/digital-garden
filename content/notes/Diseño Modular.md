@@ -247,3 +247,6 @@ Ocurre cuando en vez de utilizar una clase (donde es necesario porque se requier
 Una clase que tiene muy pocos datos y ni siquiera hace operaciones, es perezosa. Puede ser como un holder nada mas de datos que no hace nada.
 
 
+### Acoplamiento
+#### Codigo Sucio Inapropiada Intimidad (Evita los ciclos).
+Una relacion bidireccional complica el codigo.
