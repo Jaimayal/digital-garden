@@ -248,11 +248,11 @@ Una clase que tiene muy pocos datos y ni siquiera hace operaciones, es perezosa.
 
 
 ### Acoplamiento
-#### Codigo Sucio Inapropiada Intimidad (Evita los ciclos).
+#### Codigo Sucio Inapropiada Intimidad (Evita los ciclos). - No te acoples en ciclos
 Una relacion bidireccional complica el codigo y muchas veces crea ciclos muy complejos que hacen al codigo dificil de manejar
 - Para quitar una relacion bidireccional se debe abstraer eso que tienen en comun las dos clases (se debe cosificar) en otra clase aparte. Entre Compra y Venta se deben conocer, para eviarlo se crea la clase CompraVenta,
 
-#### Leyes de Demeter
+#### Leyes de Demeter - No te acoples con quien no conoces
 Son un conjunto de leyes obtenidas desde un proyecto. En el cual se dictamenta que UNICAMENTE SE PUEDE COLABORAR CON:
 - this
 - Parametros
@@ -260,3 +260,21 @@ Son un conjunto de leyes obtenidas desde un proyecto. En el cual se dictamenta q
 - Objetos Locales
 
 Por tanto, nunca se debe interactuar con un encadenamiento de mensajes obtenidas de enviar un mensaje a otro objeto. Es decir EVITAR EL ACOPLAMIENTO INDIRECTO A TODA COSTA.
+
+
+#### Codigo Sucio por Libreria Incompleta - No te acoples a librerias
+Crea una clase para englobar una libreria, no hagas que la libreria interaccione con todos y despues, cuando quieras cambiar la libreria, se tenga que hacer una cirugia a escopetazos.
+
+ENCAPSULA LA LIBRERIA EN UNA SOLA CLASE. PATRON FACHADA.
+
+La libreria da las primitivas (en su interfaz) y es nuestro deber encapsular para reducir el acoplamiento que tenemos a ella.
+
+### Tamaño
+#### Codigo Sucio por Listas de Parametros Largas
+Es una variacion del smell code de Grupos de Datos, cuando, en vez de utilizar una clase cohesivas que encapsule operaciones y datos se utilizan un grupo de valores primitivos, lo que incrementa mucho la complejidad de los metodos o clases.
+
+En base a las heuristicas lo maximo serian 2 -3 parametros por metodo.
+
+Para tener cero parametros se necesitan de establecer buenas relaciones entre las clases. Muchas veces no hay necesidad de tenerlas
+
+#### Codigo Sucio por Metodos Largos
