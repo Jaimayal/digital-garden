@@ -278,3 +278,60 @@ En base a las heuristicas lo maximo serian 2 -3 parametros por metodo.
 Para tener cero parametros se necesitan de establecer buenas relaciones entre las clases. Muchas veces no hay necesidad de tenerlas
 
 #### Codigo Sucio por Metodos Largos
+Todos los metodos deben ser pequeños 10 a 15 lineas
+
+#### Codigo Sucio por Clases Grandes
+Siguiendo las metricas tambien deben ser pequeñas 200 a 500 lineas
+## Patron de Indireccion
+Los niveles de abstraccion ayudan a reducir el acoplamiento de la cantidad de elementos con los que se trabaja.
+
+Para agregar un nivel de abstraccion en codigo basta con agregar una clase y posteriormente utilizar su interfaz publica para ejecutar las operaciones de los elementos que engloba. 
+
+No necesariamente se puede agregar una, se pueden agregar varias e incrementar la Cohesion, dividir un problema y dividir responsabilidades.
+
+**Todo se resuelve con mas clases, que reduzcan las responsabilidades y reduzcan el acoplamiento**
+
+## Patron de Invencion Pura
+Inventate todas las clases que te hagan falta, mientras mantengan un conjunto altamente cohesivo de operaciones aunque no representen a un objeto del modelo del dominio en particular. Todo esto mientras no hagas YAGNI, NO TE INVENTES PROBLEMAS, creala donde veas que hay mucha
+
+## Patron de Vista Separada
+Nunca hagas un modulo que interactue con el usuario, comunicacion o que sea cualquier interfaz para cualquier canal externo. SEPARA LAS COMUNICACIONES, LA PANTALLA Y TUS MODELOS.
+
+Todas las clases con System.out y todo deben ir en otra clase. Para trabajar con ficheros otra clase, para trabajar con GUI otra clase.
+
+**Una vista es todo aquello que recibe, lee y valida la informacion que proviene de un sitio externo al software**. 
+
+## Patron Controlador
+**Un controlador maneja el evento proveniente de una vista, se encarga de mantener la logica**
+
+
+Por tanto en resumen, tenemos tres capas.
+- Modelos
+- Controladores
+- Vistas
+
+Las vistas son con lo que el usuario final interactua, este unicamente se encarga de recibir datos que pueden provenir desde multiples fuentes (una API, un archivo, un usuario u otro).
+
+Los controladores son aquellos que se encargan de procesar un pedido SIN IMPORTAR EL MEDIO DEL QUE PROVENGA, debido a que las vistas ya prepararon todo para que llegue como me tiene que llegar por el contrato.
+
+Los modelos se encargan de ejecutar y administrar las peticiones ya evaluadas, son los datos sensibles y no pueden estar siendo modificadas asi sin mas.
+
+## Patron Creador
+Debido a que, la solucion a los problemas de diseño (para lograr una buena cohesion con bajo acoplamiento y bajo tamaño) es agregar clases las cuales pueden venir del modelo o ser inventadas (Como las vistas y los controladres), el patron creador viene para resolver toda esa conglomeracion de creacion de objetos y clases que pueden hacer que un sistema se vuelva dificil de manejar.
+
+- Factorias
+- Builder
+
+En el caso de una aplicacion de Spring.
+- Lo comunmente llamado "Controller" (o donde recide toda la llegada de comunicacion mediante endpoints HTTP) es la Vista.
+- Lo comunmente llamado "Service" (o donde recide toda la logica de negocio fuerte) es el controlador.
+
+La capa Controller solo se encarga de recibir peticiones y remover todo lo relacionado con HTTP, al servicio nada mas le llegan los datos y el lo procesa, ni siquiera sabe que llegan por HTTP, bien podria ser cambiado por una app de Swing y no hay ningun problema.
+
+- Vista, una por cada protocolo de comunicacion, interfaz o forma de recibir datos
+- Controlador, uno por cada caso de uso que se necesitan
+- Modelo, inspirados del modelo del dominio, datos duros
+
+Inyeccion de Dependencias = Relacion por Asociacion
+
+**TODOS LOS PROBLEMAS DE DISEÑO, DESACOPLAMIENTO, COHESION SE ARREGLAN AGREGANDO MAS CLASES.**
