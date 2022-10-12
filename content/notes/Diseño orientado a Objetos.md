@@ -11,3 +11,9 @@ Nivel siguiente al [Diseño Modular](notes/Dise%C3%B1o%20Modular.md), ahora ya n
 Contempla:
 - Principio Open/Closed
 - Principio de Sustitucion de Liskov
+- Principio de Separacion de Interfaces
+- Principio de Inversion de Dependencias
+
+La herencia tiene la misma reusabilidad que una composicion.
+
+La herencia te acopla fuertemente a la interfaz de tu padre y a sus atributos. Solo se pueden agregar atributos y metodos y redefinir metodos, nada mas.
