@@ -39,7 +39,7 @@ Lo anterior mismo puede mandar con comunicacion entre clases con mensajes. Mient
 - Prohibidas las variables globales
 
 DEBIDO A QUE ESTO NOS ACOPLA A LAS PARTICULARIDADES DETRAS DE UNA JERARQUIA POLIMORFICA.
-
+ 
 ## Principio Open/Closed
 Es el Objetivo del Diseño Orientado a Objetos.
 
