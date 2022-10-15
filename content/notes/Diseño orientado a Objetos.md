@@ -52,3 +52,48 @@ Esto se hace teniendo dos partes
 2. Multiples implementaciones dinamicas que pueden colgar de una referencia a una clase fija polimorfica
 
 Por tanto, la clase fija SIEMPRE sera abstracta y el infinito numero de posibilidades extensibles son las clases concretas dinamicas.
+
+El controlador se encarga del dialogo entre el actor y el sistema. Existe uno por cada caso de uso.
+
+## Reusabilidad
+Presente en la Herencia, Composicion y Parametrizacion. La reusabilidad esta permitida y puede ser aprovechada mediante estos tres mecanismos
+
+### Herencia vs Parametrizacion
+La parametrizacion es la programacion generica, en general se usa cuando se busca tener exactamente las mismas operaciones en una clase pero hablando de diferentes cosas. 
+
+Por ejemplo una ColaDePersonas tiene las mismas operaciones que una ColaDeHormigas. Si quisieramos usar Jerarquia aqui tendriamos que hacer que la clase base utilizara Object, y todos los objetos que entraran serian objects y cuando necesitaramos obtener uno se tendria que hacer downcast preguntando el tipo y es un caos.
+
+Por otro lado, con la programacion parametrizada no tenemos esa necesidad, podemos tener una pila de T, cualquier objeto y las operaciones ya sabrian por si mismas de que tipo de objeto se esta tratando.
+
+La diferencia entre usar genericos y Object es que con genericos te ahorras todos los cast y poder guardar cosas que no se podrian.
+
+Esta es un aspecto en que la herencia no sirve para hacer reusabilidad
+
+### Herencia vs Composicion
+En la Composicion la reusabilidad es programatica, debido a que debo enviar mensajes a mis colaboradores y relegar las operaciones para que ellos la satisfascan. En este caso, la clase que mantiene las partes (el todo) tiene la capacidad de decidir que operaciones estan disponibles y cuale sno.
+- Enlace Dinamico
+- No existe acoplamiento alguno con la clase parte, solo le delego responsabilidades
+
+En la Herencia la reusabilidad es automatica, debido a que teniendo operaciones en la clase padre no necesito redefinir los metodos. El lenguaje lo hace por ti. Caso contrario a la Composicion, la herencia no tiene forma de ocultar metodos heredados por el padre, los tiene que ofrecer si o si.
+- Enlace estatico
+- Acoplamiento a los atributos de la clase base por modificador 'protected'.
+
+La herencia con polimorfismo es el mecanismo mas fuerte para utilizar en las partes del proyecto que son mas propensas a ser extendidas
+
+### Ley Flexible y Estricta de Demeter
+#### Ley Estricta de Demeter
+- Ni se te ocurra hablar con los atributos de la clase base, esto para evitar acoplamiento a la clase base.
+- Si es la parte critica de la aplicacion, la que mas tiende a los cambios, esta es la indicada
+#### Ley flexible de Demeter
+- Si se te permite hablar con los atributos de la clase base. Si es una herencia pequeña esta es la indicada
+
+### Patron Metodo Plantilla
+Template Method. Es utilizado en una Jerarquia de herencia.
+
+Se utiliza cuando dos clases derivadas tienen partes similares dentro del algoritmo de un metodo cambiando solo una pequeña parte debido a los detalles de su especializacion.
+
+Lo que se hace es mover el codigo comun de ese metodo a la clase padre y definir un metodo abstracto para que los detalles que cambian sean redefinidos por las clases hijas.
+
+## Flexibilidad
+### Clases Abstractas e Interfaces
+
