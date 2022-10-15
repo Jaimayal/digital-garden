@@ -233,6 +233,7 @@ public class Main {
 
 Utilizar instanceof rompe el principio openclosed.
 
+Ante cualquier mala herencia se debe de considerar la composicion.
 
 
 
