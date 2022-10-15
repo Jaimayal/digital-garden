@@ -123,6 +123,32 @@ Dicta que, si se busca flexibilidad y extensibilidad ni los modulos de alto nive
 ![[files/PrincipioInversionDeDependencias.png]]
 
 
+### Inversion de Control
+Es cuando. en vez de que llame a las funciones de una libreria, la libreria me llame a mi.
+
+No me llames, ya te llamaremos.
+
+El Template Pattern consigue la Inversion de Control debido a que el control se encuentra en la clase abstracta que cuenta con los metodos definidos en las clases concretas. Las clases concretas desconocen cuando su codigo sera llamado.
+
+Otro ejemplo es la inyeccion de dependencias
+
+### Inuye
+En vez de elegir de forma clara dentro de la clase que colaborador tienes, este te llega como parametro a un constructor o un setter.
+
+En vez de acoplarte como clase concreta, te acoplas unicamente con una clase abstracta y esperas a que te pasen una clase concreta desde fuera, unicamente apegandote a los metodos de la clase abstracta.
+
+En vez de composicion, se basa en una asociacion.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
