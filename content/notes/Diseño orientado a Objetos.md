@@ -96,4 +96,22 @@ Lo que se hace es mover el codigo comun de ese metodo a la clase padre y definir
 
 ## Flexibilidad
 ### Clases Abstractas e Interfaces
+La interfaz es un contrato que existe entre una clase derivada y la interfaz, declara que, toda clase que la implemente como minimo debe implementar de forma concreta un algoritmo para los metodos si no quiere ser abstracta.
+
+Una interfaz es una clase abstracta pura la cual no fomenta la reusabilidad porque no tiene atributos ni metodos que debe transmitir, solo cabeceras de metodos (es decir, solo la interfaz).
+
+Por otro lado, las interfaces aportan mucha flexibilidad con respecto al cambio, porque, mientras que una clase concreta implemente esos metodos a nadie le interesa que tecnologias utiliza o como lo este haciendo.
+
+### Principio Separacion de Interfaces
+
+
+
+
+
+
+
+
+
+
+
 
