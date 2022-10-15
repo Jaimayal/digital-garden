@@ -118,7 +118,7 @@ Es como agregar otro nivel de abstraccion para que un cliente de una clase solo 
 ### Principio de Inversion de Dependencias
 Surge como resultado de cumplir el principio Open/Closed y la Sustitucion de Barbara Liskov.
 
-Dicta que, si se busca flexibilidad y extensibilidad ni los modulos de alto nivel ni los de bajo nivel deben trabajar el uno con el otro de forma directa, si no que ambos deben de trabajar con interfaces intermedias para que se pueda extender a futuro y incremente la flexibilidad de mis colaboradores.
+Dicta que, si se busca flexibilidad y extensibilidad ni los modulos de alto nivel ni los de bajo nivel deb eben de trabajar con interfaces intermedias para que se pueda extender a futuro y incremente la flexibilidad de mis colaboradores.
 
 ![[files/PrincipioInversionDeDependencias.png]]
 
@@ -138,6 +138,105 @@ En vez de elegir de forma clara dentro de la clase que colaborador tienes, este 
 En vez de acoplarte como clase concreta, te acoplas unicamente con una clase abstracta y esperas a que te pasen una clase concreta desde fuera, unicamente apegandote a los metodos de la clase abstracta.
 
 En vez de composicion, se basa en una asociacion.
+
+### Principio de Sustitucion de Liskov
+Es un principio que sirve para evaluar una Jerarquia de Clasificacion (herencia) y ver si es valido utilizarla en conjunto con sus colaboradores por un cliente.
+
+Para que la Jerarquia sea dada como valida, un cliente deberia de poder utilizar una clase abstracta y cualquiera de sus derivadas, utilizar sus operaciones publicas y que todas ellas ejecuten su funcion.
+
+Como sabemos que ejecuto su funcion correctamente?.
+- Lo que **si esta permitido** esque la precondicion de las derivadas sea mas flexible que la precondicion de la base.
+- Lo que **no esta permitido** esquie la postcondicion de la derivada sea mas flexible que la precondicion de la base
+
+Si una clase derivada tontita se le ocurre violar las condiciones de arriba es mejor ni concebirla como funcional.
+
+Es como el pinguino y el ave, no puede ser una jerarquia de clasificacion debido a que el pinguino limita las operaciones de ave porque no puede volar.
+
+Como yo lo entiendo tambien indica que las jerarquias de herencia por limitacion y herencia por exclusion rompen este principio.
+
+### Herencia vs Delegacion
+Como sabemos, la herencia permite transmitir metodos y datos de una clase base a unas clases derivadas. Asi mismo, si es una clase abstracta permite tener implementaciones entre meditas y utilizar el Template Pattern.
+
+Sin embargo, todo esto tambien es posible hacer mediante una Composicion utilizando el mecanismo de Delegacion.
+
+Con el mecanismo de Delegacion, una clase todo puede utilizar el codigo de su parte para brindar un servicio, esta clase todo tiene un nivel de abstraccion debido a que los clientes que interactuan con el no saben ni la existencia de sus partes.
+
+Mediante la delegacion tambien podemos aplicar el Template Pattern, teniendo en la clase parte una llamada al metodo de la clase Todo.
+
+Esto forma un ciclo, debido a que la clase todo conoce a la parte y la parte al todo para llevar a cabo el Template Pattern.
+
+La forma de romperlo es meter una interfaz, de modo que la Parte puede utilizar a cualquiera que implemente la interfaz con el metodo que se encuentra dentro del Template y no necesita conocer de forma directa a ningun Todo.
+
+### Tecnica de Doble Despacho
+Esta tecnica se utiliza cuando un objeto A tiene que responder de una u otra forma dependiendo del tipo de objeto que es B dentro de una Jerarquia Polimorfica.
+
+La mala solucion a este problema seria darle la responsabilidad al objeto A de checar el tipo del objeto polimorfico con el operador 'instanceof' o similar.
+
+La solucion correcta recaeria en dejar que la responsabilidad recayera en cada uno de los objetos B polimorficos, de modo que ellos le pidan a el Objeto A ejecutar el metodo con ellos, pasandose a si mismos como parametro
+
+```Java
+abstract class Person {  
+    void greet() {  
+        System.out.println("Hi!");  
+    }  
+  
+    abstract void accept(Global global);  
+  
+    void receive(Global global) {  
+        System.out.println("Yes i receive u");  
+        this.accept(global);  
+    }  
+}  
+  
+class Men extends Person {  
+    @Override  
+    void accept(Global global) {  
+        global.accept(this);  
+    }  
+}  
+  
+class Women extends Person {  
+    @Override  
+    void accept(Global global) {  
+        global.accept(this);  
+    }  
+}  
+  
+class Global {  
+    void greet(Person person) {  
+        person.greet();  
+        person.receive(this);  
+    }  
+  
+    void accept(Men men) {  
+        System.out.println("I accept a men");  
+    }  
+  
+    void accept(Women women) {  
+        System.out.println("I accept a women");  
+    }  
+}
+```
+
+Ahora para probarlo podriamos utilizar cualquier objeto polimorfico sin problemas
+
+```Java
+public class Main {  
+    public static void main(String[] args) {  
+        Global global = new Global();  
+        Person men = new Men();  
+          
+        global.greet(men);  
+    }  
+}
+```
+
+Utilizar instanceof rompe el principio openclosed.
+
+
+
+
+
 
 
 
