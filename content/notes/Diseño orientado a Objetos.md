@@ -103,10 +103,24 @@ Una interfaz es una clase abstracta pura la cual no fomenta la reusabilidad porq
 Por otro lado, las interfaces aportan mucha flexibilidad con respecto al cambio, porque, mientras que una clase concreta implemente esos metodos a nadie le interesa que tecnologias utiliza o como lo este haciendo.
 
 ### Principio Separacion de Interfaces
+Es un principio que dicta que una clase no debe conocer nada mas alla de lo que le compete con otra clase con la que colabora.
 
+Es decir, solo deben de tener la minima cantidad de metodos de modo que puedan comunicarse y hablar entre ellos.
 
+Imaginando que un Alumno interactua con un Profesor mediante su interfaz Profesor y no conoce sus otras interfaces de Padre, Hermano, Hijo que forman parte de el y con la que otros interactuan, el solo conoce la de Profesor.
 
+Otro ejemplo con una Secretaria se veria asi:
 
+![[files/SegregacionInterfaces.png]]
+
+Es como agregar otro nivel de abstraccion para que un cliente de una clase solo conozca las operaciones minimas.
+
+### Principio de Inversion de Dependencias
+Surge como resultado de cumplir el principio Open/Closed y la Sustitucion de Barbara Liskov.
+
+Dicta que, si se busca flexibilidad y extensibilidad ni los modulos de alto nivel ni los de bajo nivel deben trabajar el uno con el otro de forma directa, si no que ambos deben de trabajar con interfaces intermedias para que se pueda extender a futuro y incremente la flexibilidad de mis colaboradores.
+
+![[files/PrincipioInversionDeDependencias.png]]
 
 
 
