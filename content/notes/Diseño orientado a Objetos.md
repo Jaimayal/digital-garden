@@ -180,39 +180,34 @@ abstract class Person {
         System.out.println("Hi!");  
     }  
   
-    abstract void accept(Global global);  
-  
-    void receive(Global global) {  
-        System.out.println("Yes i receive u");  
-        this.accept(global);  
-    }  
+    abstract void accept(Global global);   
 }  
   
 class Men extends Person {  
     @Override  
     void accept(Global global) {  
-        global.accept(this);  
+        global.visit(this);  
     }  
 }  
   
 class Women extends Person {  
     @Override  
     void accept(Global global) {  
-        global.accept(this);  
+        global.visit(this);  
     }  
 }  
   
 class Global {  
     void greet(Person person) {  
         person.greet();  
-        person.receive(this);  
+        person.accept(this);  
     }  
   
-    void accept(Men men) {  
+    void visit(Men men) {  
         System.out.println("I accept a men");  
     }  
   
-    void accept(Women women) {  
+    void visit(Women women) {  
         System.out.println("I accept a women");  
     }  
 }
