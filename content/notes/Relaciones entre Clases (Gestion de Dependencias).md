@@ -4,7 +4,7 @@ date: "2022-09-20 11:52"
 tags: 
   - ooad
   - oop
-draft: true
+draft: false
 ---
 Dependencia y Relacion son sinonimos en la [Programacion Orientada a Objetos](notes/Programacion%20Orientada%20a%20Objetos.md). Ambas se refieren a las colaboraciones que pueden existir entre las clases de una aplicacion.
 

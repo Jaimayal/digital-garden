@@ -3,7 +3,8 @@ title: "Validacion de Datos en API REST"
 date: "2022-10-08 19:22"
 tags: 
   - softwaredev
-draft: true
+  - java
+draft: false
 ---
 Sirve para validar los datos que son insertados por un usuario, regularmente estos validadores se mantienen en el DTO y se manejan con anotaciones.
 - @Regex

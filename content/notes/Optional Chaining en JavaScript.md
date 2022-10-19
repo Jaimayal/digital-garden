@@ -3,7 +3,7 @@ title: "Optional Chaining en JavaScript"
 date: "2022-09-28 09:48"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Esta caracteristica introducida en ES6 ayuda cuando tenemos que estar comprobando la existencia de propiedades dentro de objetos.
 

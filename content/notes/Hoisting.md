@@ -3,7 +3,7 @@ title: "Hoisting"
 date: "2022-09-25 08:29"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Es un mecanismo de [[notes/JavaScript]] que sirve para manejar la creacion y flujo de las variables. Lo que hace esque **permite a algunas variables ser utilizadas antes de que sean declaradas**.
 

@@ -3,7 +3,7 @@ title: "Microservicios"
 date: "2022-10-08 19:01"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 Es un tipo de arquitectura de Software, algunas de sus caracteristicas principales son:
 - Dividir toda la solucion en multiples modulos llamados microservicios en el que cada uno resuelve una funcionalidad.

@@ -3,7 +3,7 @@ title: "Buenas Practicas API REST"
 date: "2022-10-08 19:07"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 A continuacion una lista de buenas practicas recomendadas al desarrollar una RESTful API
 - Rest es orientado a recursos, por tanto, poner plurales en las URI

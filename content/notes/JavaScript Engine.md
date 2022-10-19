@@ -3,7 +3,7 @@ title: "JavaScript Engine y Runtime"
 date: "2022-09-23 12:45"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 JS Engine. El programa principal de un solo hilo que convierte el codigo de JavaScript, en un ejecutable de optimizacion constante.
 

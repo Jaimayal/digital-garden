@@ -3,7 +3,7 @@ title: "Metodos call y apply en JavaScript"
 date: "2022-09-29 22:10"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Es un metodo muy util que sirve para aplicar una funcion global como si fuese llamada desde un objeto. De esta forma, hacemos que la keyword [[notes/this en JavaScript]] apunte al objeto en cuestion y no a undefined o window.
 

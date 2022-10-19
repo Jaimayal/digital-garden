@@ -3,7 +3,8 @@ title: "Externacionalizacion"
 date: "2022-10-08 19:20"
 tags: 
   - softwaredev
-draft: true
+  - java
+draft: false
 ---
 La externalizacionc es un proceso en el cual se pasan las propiedades que son ajenas al codigo a archivos de texto plano que pueden ser importados hacia el codigo y poder ser utilizados de forma dinamica
 

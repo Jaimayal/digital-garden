@@ -3,7 +3,7 @@ title: "Construccion de Software"
 date: "2022-09-26 09:44"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 Se podria decir que es una variante del [[notes/Desarrollo de Software]], sin embargo, tiene un enfoque mucho mas especifico a las partes de [[notes/Programacion]] y [[notes/Pruebas]].
 

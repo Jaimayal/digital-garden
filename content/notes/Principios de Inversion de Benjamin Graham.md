@@ -3,7 +3,7 @@ title: "Principios de Inversion de Benjamin Graham"
 date: "2022-09-22 09:12"
 tags: 
   - finance
-draft: true
+draft: false
 ---
 Benjamin Graham fue uno de los mejores inversores manteniendo su empresa con un 15% de crecimiento anual de forma constante, hizo inversiones millonarias y creo el primer y mejor framework de inversion, lo redacto en su libro 'Security Analysis' un clasico para el area de finanzas hoy en dia.
 

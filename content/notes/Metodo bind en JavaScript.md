@@ -3,7 +3,7 @@ title: "Metodo bind en JavaScript"
 date: "2022-09-30 08:28"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Tal y como los metodos [[notes/Metodo apply en JavaScript]] y [[notes/Metodo call en JavaScript]], este tambien nos permite cambiar la keyword [[notes/this en JavaScript]] de lugar.
 

@@ -3,7 +3,7 @@ title: "Compilacion vs Interpretacion"
 date: "2022-09-23 12:51"
 tags: 
   - programming
-draft: true
+draft: false
 ---
 Como se sabe, las computadoras solamente entienden codigo maquina (Binario, regularmente). En la [[notes/Programacion]] existen dos tipos de lenguajes que llegan a este fin de maneras diferentes, los lenguajes Compilados y los Interpretados.
 

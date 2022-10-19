@@ -3,7 +3,7 @@ title: "Prerequisitos"
 date: "2022-09-26 09:39"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 ## Definicion
 Es un conjunto de practicas que se realiza en el [[notes/Desarrollo de Software]] con el fin de reducir los riesgos, planear las partes criticas y garantizar la calidad desde el inicio de un proyecto.

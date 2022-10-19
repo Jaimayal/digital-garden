@@ -4,7 +4,7 @@ date: "2022-10-08 19:42"
 tags: 
   - java
   - spring
-draft: true
+draft: false
 ---
 ## Buenas Practicas Generales
 Spring Specification sirve para meter filtros a los recursos de forma estandarizada.

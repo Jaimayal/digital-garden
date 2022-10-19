@@ -3,7 +3,7 @@ title: "Parametros Default en JavaScript"
 date: "2022-09-29 10:58"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Es una caracteristica agregada a las funciones en ES6 que permite asignar valores por defecto a los parametros en caso de que no sean brindados por el usuario.
 

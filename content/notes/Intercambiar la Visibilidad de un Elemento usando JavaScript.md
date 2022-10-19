@@ -3,7 +3,7 @@ title: "Intercambiar la Visibilidad de un Elemento usando JavaScript"
 date: "2022-09-23 09:41"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Para saber como cambiar la visibilidad de un objeto en JavaScript primero debemos tener un poco de conocimiento sobre la [Manipulacion del DOM](notes/Manipulacion%20del%20DOM.md).
 

@@ -4,7 +4,7 @@ date: "2022-09-20 08:42"
 tags: 
   - ooad
   - programming
-draft: true
+draft: false
 ---
 Es el nivel posterior al [Diseño en Codigo](notes/Dise%C3%B1o%20en%20Codigo.md), aparte de ser codigo bien inspirado del modelo del dominio que es altamente legible, se agrega que son modulos (o piezas) de codigo que tienen un tamaño homogeneo con alta cohesion y poco acoplamiento. 
 

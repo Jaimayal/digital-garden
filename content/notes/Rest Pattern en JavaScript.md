@@ -3,7 +3,7 @@ title: "Rest Pattern en JavaScript"
 date: "2022-09-27 12:13"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Utiliza la misma sintaxis del [[notes/Spread Operator en JavaScript]], sin embargo, hace lo contrario, recolecta multiples elementos y los condensa en una sola estructura, un array.
 

@@ -3,7 +3,7 @@ title: "IIFE (Expresiones Funcionales Inmediatamente Invokadas) en JavaScript"
 date: "2022-09-30 10:12"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Permite invocar una funcion anonima inmediatamente que se carga la pagina, de modo que no requiere de invocacion ni de ningun otro mecanismo.
 

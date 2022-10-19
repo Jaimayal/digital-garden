@@ -1,8 +1,8 @@
 ---
-title: "CD"
+title: "CICD"
 date: "2022-10-08 19:05"
 tags: 
-  - 
+  - softwaredev
 draft: true
 ---
 Se refiere al Continuous Integration Continuous Delivery, la cual es una practica que consiste en Integrar y hacer Delivery de partes de un Software de forma continua, es una practica especialmente popular debido al bajo acoplamiento que permite la arquitectura de [Microservicios](notes/Microservicios.md). 

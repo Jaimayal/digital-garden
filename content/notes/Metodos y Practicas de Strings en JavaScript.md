@@ -3,7 +3,7 @@ title: "Metodos y Practicas de Strings en JavaScript"
 date: "2022-09-28 19:55"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Aunque en JavaScript los strings son primitivos estos tienen metodos debido a que aprovecha el mecanismo del boxing.
 

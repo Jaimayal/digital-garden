@@ -3,7 +3,7 @@ title: "Principio General de Asignacion de Responsabilidades"
 date: "2022-09-20 09:28"
 tags: 
   - ooad
-draft: true
+draft: false
 ---
 > *Inspirate en el Mundo Real, pero se coherente y has que las clases hagan las operaciones que les corresponden con los datos que encapsulan.*
 

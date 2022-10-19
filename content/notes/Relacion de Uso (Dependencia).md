@@ -2,8 +2,8 @@
 title: "Relacion de Uso (Dependencia)"
 date: "2022-09-21 12:37"
 tags: 
-  - 
-draft: true
+  - oop
+draft: false
 ---
 Este tipo de relacion ocurre cuando una clase A utiliza los servicios de una clase B en algun punto especifico sin mayor dependencia a futuro.
 

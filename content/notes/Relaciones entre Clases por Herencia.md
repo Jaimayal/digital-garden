@@ -2,9 +2,8 @@
 title: "Relaciones entre Clases por Herencia"
 date: "2022-09-26 11:29"
 tags: 
-  - ooad
   - oop
-draft: true
+draft: false
 ---
 Es un tipo de relacion que existe entre dos clases cuando se identifican factores en comun. Se obtiene una clase de mas alto nivel y se crea una pequeña jerarquia.
 

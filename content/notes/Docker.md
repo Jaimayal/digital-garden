@@ -4,7 +4,7 @@ date: "2022-10-08 19:03"
 tags: 
   - softwaredev
   - devops
-draft: true
+draft: false
 ---
 Es una tecnologia que te permite crear contenedores (variacion de maquinas virtuales). Propone contenedores muy ligeros que sirven para poder guardar un conjunto de tecnologias, configuracion y todo lo que se necesario para que el funcionamiento de un Software
 - Cada contenedor puede heredar de una imagen base que ya tiene instalada todas las dependencias necesarias para que los microservicios corran

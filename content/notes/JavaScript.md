@@ -3,7 +3,7 @@ title: "JavaScript"
 date: "2022-09-23 12:23"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 JavaScript es un lenguaje de programacion que integra muchas caracteristicas que lo hacen el lenguaje por excelencia de la web.
 

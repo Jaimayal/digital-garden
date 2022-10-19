@@ -3,7 +3,7 @@ title: "Funciones de Alto Orden"
 date: "2022-09-29 12:25"
 tags: 
   - programming
-draft: true
+draft: false
 ---
 Una funcion de alto orden es toda aquella que recibe como parametro otra funcion, que retorna una funcion o ambas,
 

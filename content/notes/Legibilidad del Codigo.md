@@ -4,7 +4,7 @@ date: "2022-09-26 12:05"
 tags: 
   - softwaredev
   - programming
-draft: true
+draft: false
 ---
 Es la disciplina encargada de escribir ya no las clases ni las partes especificas, es la parte del diseño que se enfoca a las lineas especificas de cada metodo, clase, etc.
 

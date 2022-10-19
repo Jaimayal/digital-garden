@@ -3,7 +3,7 @@ title: "Patron Experto en la Informacion"
 date: "2022-10-01 09:04"
 tags: 
   - ooad
-draft: true
+draft: false
 ---
 Se dice que un objeto tiene obligaciones que son dadas por los datos que guarda. Sus obligaciones es ofrecer una interfaz publica que satisfasca las operaciones necesarias que otros objetos tienen que hacer con ese dato.
 

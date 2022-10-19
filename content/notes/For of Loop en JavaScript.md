@@ -3,7 +3,7 @@ title: "For of Loop en JavaScript"
 date: "2022-09-28 08:59"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Es un nuevo tipo de for que fue agregado en ES6 como otra forma de iterar sobre estructuras de datos con una sintaxis mas simple sin preocuparte por contadores o condiciones.
 

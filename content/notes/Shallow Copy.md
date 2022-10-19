@@ -3,7 +3,7 @@ title: "Shallow Copy"
 date: "2022-09-25 11:03"
 tags: 
   - programming
-draft: true
+draft: false
 ---
 Tipo de clonado de un objeto que ocurre cuando solo se logra clonar los atributos superficiales, las referencias internas que componen al objeto no cambiaran, solo lo superficial.
 

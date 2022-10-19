@@ -2,8 +2,8 @@
 title: "Relacion de Asociacion"
 date: "2022-09-21 12:06"
 tags: 
-  - 
-draft: true
+  - oop
+draft: false
 ---
 NO cuenta con ningun tipo de composicion, ni debil, ni fuerte, pero a la vez, es la primera que hace que una relacion entre un cliente (objeto activo) y un servidor (objeto pasivo) persista a traves de una temporalidad mas larga.
 

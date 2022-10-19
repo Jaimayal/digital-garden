@@ -3,7 +3,7 @@ title: "Aprendizaje por Capas"
 date: "2022-10-19 11:42"
 tags: 
   - learning
-draft: true
+draft: false
 ---
 Es una tecnica de estudio la cual sirve para aprender y organizar una estructura de conceptos en forma jerarquica de modo que puedas determinar que ideas son clave, cuales son detalles y cuales son extras.
 

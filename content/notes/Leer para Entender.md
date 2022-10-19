@@ -3,7 +3,7 @@ title: "Leer para Entender"
 date: "2022-10-05 11:50"
 tags: 
   - learning
-draft: true
+draft: false
 ---
 Es la forma de lectura por excelencia que se deberia buscar alcanzar. Esta aplica tecnicas de lectura activa y avisa de las tecnicas de lectura pasiva que deben ser evitadas.
 

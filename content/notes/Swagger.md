@@ -2,8 +2,8 @@
 title: "Swagger"
 date: "2022-10-08 19:23"
 tags: 
-  - 
-draft: true
+  - programming
+draft: fakse
 ---
 Es un conjunto de aplicaciones que sirven para generar codigo y documentacion interactiva siguiendo el estandar de OpenAPI.
 

@@ -3,7 +3,7 @@ title: "JavaScript Execution Context"
 date: "2022-09-23 13:39"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 ### Definicion
 Un Execution Context es como un contenedor en el cual pueden vivir todas las partes de un codigo de javascript, keywords, objetos, funciones (solo las cabeceras), variables, etc.

@@ -3,7 +3,7 @@ title: "Maps en JavaScript"
 date: "2022-09-28 15:21"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 
 La diferencia entre objetos y mapas esque en los mapas las keys pueden ser de cualquier tipo de dato (No como en los objetos, que solo permiten strings).

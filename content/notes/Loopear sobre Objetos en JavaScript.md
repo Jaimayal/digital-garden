@@ -3,7 +3,7 @@ title: "Loopear sobre Objetos en JavaScript"
 date: "2022-09-28 10:08"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Aunque los objetos en javascript no tienen la propiedad de ser iterables, existe una forma de obtener un conjunto de elementos que si integran esta propiedad.
 

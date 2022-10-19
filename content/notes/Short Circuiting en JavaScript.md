@@ -3,7 +3,7 @@ title: "Short Circuiting en JavaScript"
 date: "2022-09-27 15:26"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 En JavaScript los operadores logicos AND y OR (&& e ||) sirven para hacer mas que comparaciones logicas.
 

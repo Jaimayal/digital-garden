@@ -3,7 +3,7 @@ title: "Estrategias de Clasificacion a partir del Modelo del Dominio (Encontrar 
 date: "2022-09-20 11:07"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 Existen muchas estrategias para encontrar las clases a partir del [Modelo del Dominio](notes/Modelo%20del%20Dominio.md), veamos las cinco mas relevantes y sus aportaciones:
 - Descripcion Informal

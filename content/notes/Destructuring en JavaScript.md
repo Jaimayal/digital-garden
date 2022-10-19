@@ -3,7 +3,7 @@ title: "Destructuring en JavaScript"
 date: "2022-09-27 08:31"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Es un mecanismo de [[notes/JavaScript]] que sirve para desestructurar una estructura de datos hacia multiples variables.
 

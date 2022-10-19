@@ -3,7 +3,7 @@ title: "Closures en JavaScript"
 date: "2022-09-30 10:20"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Es una caracteristica especial de las [[notes/Funciones en JavaScript]] que combina los [[notes/JavaScript Execution Context]], el [[notes/Call Stack]]y los [[notes/Scope]] .
 

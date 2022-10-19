@@ -2,8 +2,9 @@
 title: "Spring IoC Container"
 date: "2022-10-08 19:30"
 tags: 
-  - software
-draft: true
+  - java
+  - spring
+draft: false
 ---
 El IoC, tambien llamado patron Hollywood jajaja, "no nos llames nosotros te llamaremos". Es una forma de ceder el control del flujo del programa al framework en vez de al codigo.
 

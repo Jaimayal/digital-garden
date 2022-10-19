@@ -3,7 +3,7 @@ title: "Enhanced Object Literals en JavaScript"
 date: "2022-09-28 09:39"
 tags: 
   - javascript
-draft: true
+draft: false
 ---
 Es una mejora implementada en ES6 a las declaraciones de objetos literales.
 

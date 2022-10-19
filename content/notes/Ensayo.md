@@ -2,8 +2,8 @@
 title: "Ensayo"
 date: "2022-10-05 09:30"
 tags: 
-  - 
-draft: true
+  - writing
+draft: false
 ---
 ## Que es
 Un ensayo es una pieza de texto escrita como intento para explorar un tema o responder una pregunta.

@@ -3,7 +3,7 @@ title: "Call Stack"
 date: "2022-09-23 14:03"
 tags: 
   - programming
-draft: true
+draft: false
 ---
 Es la forma en que un compilador trabaja con el llamado y la ejecucion de funciones. Mediante ella, **se sabe que funcion se ejecuta primero, quien esta esperando su resultado y quien sigue posteriormente**.
 

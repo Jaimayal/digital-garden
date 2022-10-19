@@ -4,7 +4,7 @@ date: "2022-09-20 08:39"
 tags: 
   - ooad
   - programming
-draft: true
+draft: false
 ---
 El Diseño en el Codigo es la aplicacion mas basica del diseño en la [[notes/Programacion|programacion]] y contempla dos aspectos generales:
 - Modelo del Dominio. Respetar la terminologia y las funciones que se esperan obtener, por tanto, debe estar fuertemente inspirado en el.
