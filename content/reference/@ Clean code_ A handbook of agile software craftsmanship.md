@@ -42,7 +42,10 @@ Si los requerimientos estan bien hechos no solo pueden servir como representacio
 - Clean Code
 - Robust Code
 - Wrappers for libraries
-
+- Unchecked Exceptions
+- Checked Exceptions
+- Open Closed
+- Special Case Pattern
 
 
 
