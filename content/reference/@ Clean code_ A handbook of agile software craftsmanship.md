@@ -36,7 +36,12 @@ Si los requerimientos estan bien hechos no solo pueden servir como representacio
 - radio de lectura a escritura de codigo es 10:1
 - no puedes escribir codigo si no entiendes el codigo alrededor
 - 
-
+### Error Handling
+- Error Handling
+- Logic
+- Clean Code
+- Robust Code
+- Wrappers for libraries
 
 
 
