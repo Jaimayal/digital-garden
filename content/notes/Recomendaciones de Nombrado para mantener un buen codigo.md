@@ -6,7 +6,7 @@ tags:
   - ooad
 draft: false
 ---
-Es una tecnica que se enfoca en el [[notes/Diseño en Codigo]] de bajo nivel. 
+Son una serie de heuristicas que se enfocan en el [[notes/Diseño en Codigo]] de bajo nivel. Particularmente, en el nombrado de las cosas.
 
 Debido a que los nombres se encuentran presentes en las funciones, las variables, los argumentos, las clases, los paquetes y las aplicaciones; utilizar nombres adecuados, descriptivos y detallados se vuelven muy relevantes.
 
