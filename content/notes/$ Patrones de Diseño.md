@@ -41,12 +41,17 @@ Conocerlos, sirve como una caja de herramientas la cual podemos utilizar para re
 ###### Cohesion
 La cohesion es el resultado del Reparto de Responsabilidades. Hacerlo bien dara una buena cohesion, hacerlo mal, causara lo contrario-
 
-
 ###### ¿Qué variaciones se le pueden agregar al Patron Singleton?
 - Herencia (Cumplir Open-Closed)
 - Multiples instancias (Como un pool)
 
+###### ¿Cuáles son las clasificaciones de los Patrones de Diseño?
+Son tres clasificaciones
+- Patrones Creaciones
+- Patrones Estructurales
+- Patrones de Comportamiento
 
+###### ¿Cuáles son los 
 
 
 
