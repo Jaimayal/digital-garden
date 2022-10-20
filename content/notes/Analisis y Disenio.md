@@ -46,5 +46,5 @@ Resultado:
 ## ¿Cómo lograr tener un buen diseño?
 Para lograrlo debemos seguir los tres aspectos relacionados con el diseño:
 - [Diseño en Codigo](notes/Dise%C3%B1o%20en%20Codigo.md)
-- [Diseño Modular](notes/Dise%C3%B1o%20Modular.md)
-- [Diseño orientado a Objetos](notes/Diseño%20orientado%20a%20Objetos.md)
+- [$ Diseño Modular](notes/$%20Diseño%20Modular.md)
+- [$ Diseño orientado a Objetos](notes/$%20Diseño%20orientado%20a%20Objetos.md)
