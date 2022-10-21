@@ -5,6 +5,8 @@ tags:
   - designpattern
 draft: true
 ---
+***Proveer una Interfaz para crear familias de objetos relacionados (o dependientes entre si) sin la necesidad de especificar sus clases concretas**
+
 Es como cuando un cirugano necesita de instrumentos para poder realizar su cirugia. Sin este patron, el cirugano deberia encargarse de instanciar los instrumentos por si mismo. 
 
 Dado caso que se pudieran utilizar diferentes instrumentos basado en un contexto la clase Cirugano adquiriria una cantidad de complejidad extrema.

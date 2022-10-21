@@ -5,6 +5,8 @@ tags:
   - designpattern
 draft: false
 ---
+***Asegurar que una clase solo tenga una unica instancia y proveer un unico punto global de acceso a ella***
+
 ## Problema
 Este patron surge de la necesidad de que una clase cuente con una unica instancia para multiples clases del sistema. Al ser aplicado de forma correcta, la clase en cuestion tendra una instancia y un punto de acceso global a ella.
 
