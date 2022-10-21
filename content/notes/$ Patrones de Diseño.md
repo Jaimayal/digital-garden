@@ -14,7 +14,7 @@ Normalmente la herencia no se aplica porque si, sino porque representa un punto 
 
 ###### ¿Qué es un patron de Diseño?
 ***Una solucion para un problema en un contexto.***
-- Solucion = Objetos y Clases
+- Solucion = Conjunto de Objetos y Clases
 - Problema = Problema de Diseño (mantenibilidad, reusabilidad, flexibilidad, legibilidad, etc)
 - Contexto = Dominio del software
 
