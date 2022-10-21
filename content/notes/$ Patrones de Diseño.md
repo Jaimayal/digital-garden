@@ -13,7 +13,10 @@ Todas las listas de antipatrones, patrones, etc se reducen a Cohesion, Acoplamie
 Normalmente la herencia no se aplica porque si, sino porque representa un punto critico de la aplicacion que es muy extensible
 
 ###### ¿Qué es un patron de Diseño?
-- A un problema recurrente una solucion reusable cambiando los detalles minimos.
+***Una solucion para un problema en un contexto.***
+- Solucion = Objetos y Clases
+- Problema = Problema de Diseño (mantenibilidad, reusabilidad, flexibilidad, legibilidad, etc)
+- Contexto = Dominio del software
 
 ###### ¿Qué nos llevo a utilizar patrones?
 Los expertos reconocen que hacer diseño y rediseño (mantener la cohesion, el acoplamiento y el tamaño) es dificil.
@@ -22,17 +25,17 @@ Conocerlos, sirve como una caja de herramientas la cual podemos utilizar para re
 
 ###### ¿Qué se espera conseguir de un Patron?
 - Ahorrar tiempo
-- Reusar tecnicas ya probadas
+- Reusar tecnicas ya probadas que vuelven a un sistema mantenible
 - Integrarte a la comunidad de desarrollo profesional mediante la expancion del conocimiento
 - Expandir tus horizontes para hacer un mejor diseño
 
 ###### ¿Cuáles son los elementos de un patron?
-- Nombre. Identificador del Patron
-- Problema. Lo que resuelve.
+- Nombre. Identificador del Patron que puede referirse al problema + solucion.
+- Problema. Especifica cuando aplicar el Patron.
 	- Motivacion: Problema y Como resolverlo. (Cual y Como)
 	- Intencion: Razon de ser y que hace el patron. (Por que y que)
 	- Aplicabilidad Condiciones bajo las cuales se debe aplicar. (Cuando)
-- Solucion. Como lo resuelve
+- Solucion. Describe los elementos del diseño incluida sus relaciones, colaboraciones y responsabilidades que sirven para solucionar el problema.
 - Consecuencias. Compromiso por aplicarlo
 
 ###### ¿Cuál es la intencion del Patron Singleton?
