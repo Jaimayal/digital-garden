@@ -1,6 +1,6 @@
 ---
-title: Fundamentos de la Programacion
-date: 2022-08-26 15:01
+title: "Fundamentos de la Programacion"
+date: "2022-08-26 15:01"
 tags:
   - programming
 draft: false
