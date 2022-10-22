@@ -10,10 +10,7 @@ Son un tipo de [Relaciones entre Clases (Gestion de Dependencias)](notes/Relacio
 Responde al acronimo *tiene un*
 - A tiene un B ?
 ## Caracteristicas
-Todas las relaciones por colaboracion tienen tres grandes caracteristicas.
-1. Fidelidad. ¿Con quién colaboro, colabora solo conmigo o con muchos otros?
-2. Temporalidad. ¿Cuánto tiempo dura mi colaboracion?
-3. Versatilidad. ¿Puedo intercambiar mi colaborador por otro de caracteristicas similares?
+Todas las relaciones por colaboracion tienen tres grandes caracteristicas descritas en [Caracteristicas de las Relaciones por Colaboracion](notes/Caracteristicas%20de%20las%20Relaciones%20por%20Colaboracion.md)
 
 ## Tipos
 - [Relacion de Composicion](notes/Relacion%20de%20Composicion.md)
