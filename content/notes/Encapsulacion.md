@@ -3,6 +3,7 @@ title: "Encapsulacion"
 date: "2022-10-22 10:37"
 tags: 
   - softwaredev
+  - oop
 draft: true
 ---
 La encapsulacion es un proceso en el cual se aprovechan los resultados de la abstraccion. Lo que se hace esque:

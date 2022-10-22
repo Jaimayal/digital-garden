@@ -3,6 +3,7 @@ title: "Abstraccion"
 date: "2022-10-22 10:07"
 tags: 
   - softwaredev
+  - oop
 draft: true
 ---
 La **abstraccion es un mecanismo que tenemos los humanos para reducir la complejidad** de algo en particular. Este proceso lo podemos realizar mediante el uso de patrones, ocultacion u otras practicas que permitan que el entendimiento de algo sea mucho mas sencillo.

@@ -2,7 +2,7 @@
 title: "Descomposicion"
 date: "2022-10-22 12:08"
 tags: 
-  - softwaredev
+  - oop
 draft: true
 ---
 Es un principio no muy popular de la Programacion Orientada a Objetos. Mediante este, se dice que un Todo esta formado por distintas partes.
