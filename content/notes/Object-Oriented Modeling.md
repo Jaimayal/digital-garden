@@ -2,7 +2,7 @@
 title: "Object-Oriented Modeling"
 date: "2022-10-21 18:03"
 tags: 
-  - 
+  - softwaredev
 draft: true
 ---
 Es el proceso de pensamiento necesario para pasar de un paradigma de programacion estructurado a un paradigma de [[notes/Programacion Orientada a Objetos]].

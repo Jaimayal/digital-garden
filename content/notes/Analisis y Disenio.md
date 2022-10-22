@@ -42,6 +42,18 @@ Busca diseñar en software lo ya analizado y hablar sobre las tecnologias con la
 Resultado:
 - Diagramas que ayuden a interpretar las fases iniciales del software.
 - Reparto de Modulos y responsabilidades a multiples miembros de un equipo.
+- Asignacion de relaciones y vias de comunicacion entre clases. Colaboracion
+
+## Tradeoffs
+Al realizar diseño, se deben de tener en cuenta los intercambios que se hacen en las distintas cualidades de un software. Especialmente relacionado a los Requisitos no Funcionales, puesto que se intuye que los requisitos funcionales son garantizados por cumplirse.
+
+Sin embargo, los requisitos no funcionales son mucho mas complejos que ello. Algunos de los aspecots que engloban
+- Time to Market
+- Mantenibilidad del Codigo
+- Eficiencia
+- Eficacia
+
+El Analisis y Diseño es un constante balance entre los requisitos no funcionales y funcionales. No se puede tener mucho de unos ni mucho de otros.
 
 ## ¿Cómo lograr tener un buen diseño?
 Para lograrlo debemos seguir los tres aspectos relacionados con el diseño:

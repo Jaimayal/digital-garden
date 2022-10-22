@@ -20,6 +20,7 @@ Por ejemplo. *Crear una barra de busqueda de Comida*. Los componentes de esta se
 	- Ingredientes
 	- Receta
 
+En esta etapa se identifican los componentes, sus relaciones y las responsabilidades que tiene cada uno.
 ## Diseño Tecnico
 En el se empiezan a establecer los detalles importantes (relaciones, metodos, algoritmos) de cada uno de los componentes obtenidos en el diseño anterior. 
 
@@ -29,3 +30,7 @@ Siguiendo el ejemplo,
 - La barra necesita o no abrir una nueva pagina con resultados de busqueda
 - Que detalles se deben de mostrar de una receta
 
+En esta etapa se refinan las conexiones y responsabilidades del modulo, se delegan de ser necesario.
+
+
+ 
