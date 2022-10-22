@@ -5,13 +5,22 @@ tags:
   - ooad
 draft: false
 ---
-Se dice que un objeto tiene obligaciones que son dadas por los datos que guarda. Sus obligaciones es ofrecer una interfaz publica que satisfasca las operaciones necesarias que otros objetos tienen que hacer con ese dato.
+Es una heuristica que dicta que **un objeto tiene obligaciones que son dadas por los datos que guarda**. Sus obligaciones deben ser cumplidas y debe proveer interfaz publica para hacerlas accesibles a otros objetos desde fuera. Por tanto, podemos decir que esta fuertemente asociado al [[notes/Principio General de Asignacion de Responsabilidades]].
 
-Pensar muy bien la relacion que existe entre el conocimiento que tiene una parte del sistema y las operaciones que hace con esos datos.
+Para realizarlo bien se debe de pensar la relacion que existe entre el conocimiento que tiene una parte del sistema y las operaciones que hace con esos datos. Para apoyar este proceso se pueden utilizar Diagramas UML o [[notes/Tarjetas CRC]]
 
-Es ilogico que un subsistma que busca persistir los datos haga calculos de cuanto tiempo tienen que durar en ella.
+En pocas palabras, **asigna la responsabilidad que le corresponde a la clase que tiene la informacion necesaria para cumplirarla**. De ser necesario tener colaboradores (hacer una [[notes/Composicion]]), tambien se puede especificar
 
-**Este es el principio general de la asignaciond e responsabilidades:**
-> *Inspirate en el Mundo Real, pero se coherente y has que las clases hagan las operaciones que les corresponden con los datos que encapsulan.*
+## Abuso del Patron Experto en la Informacion
+Hay que tener una cosa en consideracion, a pesar de que la heuristica pueda sonar razonable, como todo, es importante no llevarlo al extremo.
 
-En pocas palabras, **asigna la responsabilidad que le corresponde a la clase que tiene la informacion necesaria para cumplirarla**. De ser necesario tener colaboradores, tambien se puede especificar
+En caso de ser llevado al extremo puede ocasionar que una clase llegue a tener un acoplamiento excesivo, a pesar de ser la que contiene los datos, debe utilizar colaboradores para delegar las tareas y que no tenga que hacer todo.
+
+Un ejemplo seria la clase Alumno, que conoce sus datos y ademas de eso tiene que persistirse, imprimirse por pantalla, enviarse en comunicaciones TCP y otras mas cosas. 
+
+### Consecuencias
+- Rompes completamente el Principio Open/Closed debido a que tu clase se vuelve poco flexible y nada reusable.
+- Rompes completamente los principios del [[notes/$ Diseño Modular]]
+
+
+
