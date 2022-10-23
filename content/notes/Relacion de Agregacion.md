@@ -8,6 +8,8 @@ draft: false
 Siguiendo las caracteristicas de las [Relaciones entre Clases por Colaboracion](notes/Relaciones%20entre%20Clases%20por%20Colaboracion.md). La relacion por agregacion tendria las siguientes:
 
 En esta relacion la agregacion se encarga de gestionar todo lo relacionado con los agregados una vez forman parte de ella.
+
+Se dice que ***Una agregacion tiene un(os) agregado(s)***, y ambas partes siguen existiendo aun asi no estan vinculadas con el otro.
 ## Caracteristicas
 ### Temporalidad - Media
 La vida de la agregacion (el todo) no tiene porque coincidir con la vida de ninguno de los agregados (Las partes). 

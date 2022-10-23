@@ -5,7 +5,7 @@ tags:
   - oop
 draft: true
 ---
-Es un principio no muy popular de la Programacion Orientada a Objetos. Mediante este, se dice que un Todo esta formado por distintas partes.
+Es un principio no muy popular de la Programacion Orientada a Objetos. Mediante este, se dice que un Todo esta formado por distintas partes. *Un todo esta compuesto por partes*
 
 Permite la reusabilidad y flexibilidad. Ademas permite descomponer un problema severamente dificil en multiples partes que posteriormente compongan un Todo que se encarge de servir como interfaz para ejecutar todas las funciones mediante Delegacion.
 
