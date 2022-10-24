@@ -10,6 +10,10 @@ Es un tipo de relacion que existe entre dos clases cuando se identifican factore
 Response al acronimo *es un*:
 - A es un B ?
 
+Malos usos de la herencia
+- Las subclases no se especializan
+- Las subclases no extienden mas alla el concepto de la clase padre
+- Ruptura del principio de Liskov (La subclase Limita los metodos heredados de la superclase)
 ## Herencia por Especializacion
 Se tiene una clase padre que tiene elementos comunes, sin embargo, las clases hijas se especialziaran con unas operaciones sobre sus propios datos 
 
