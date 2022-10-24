@@ -14,54 +14,11 @@ Para hacerlo aprovecha e impulsa la abstraccion, encapsulacion, modularidad y je
 
 ## Criterios
 Esta disciplina del diseño recupera tres conceptos recurrentes.
-- Cohesion (Maxima)
-- Acoplamiento (Menor)
-- Tamaño (Poco)
-
-Una buena aplicacion de estos criterios resulta en clases altamente cohesivas y pocamente acopladas (acoplamiento eferente a clases inestables), con un bajo tamaño. Es decir, respetando al maximo el KISS.
-
 - [[notes/Cohesion]]
 - [[notes/Acoplamiento]]
+- [[notes/Granularidad]]
 
-
-
-## Tamaño
-Sirven como una referencia a tener en cuenta para escribir codigo de calidad, no se deben seguir a rajatabla sin embargo establecen un punto de partida para permitir identificar codigo de calidad.
-
-- Paquete - 12 a 20 clases
-- Clase - 3 a 5 atributos
-- Clase - 15 a 25 metodos
-- Clase - 200 a 500 lineas
-- Metodo - 1 a 3 parametros
-- Metodo - 10 a 25 lineas
-- Metodo - 2 a 3 sentencias anidadas
-- Linea - 80 a 120 caracteres
-
-**Son solo valores orientativos**.
-
-## Modularidad
-### Numero de Modulos
-La cantidad de modulos por programa debe ser ajustada a la cantidad de codigo que tendra cada una.
-
-Al realizar diseño modular existen dos costes principales.
-- Costo por Implementacion. Lo que cuesta escribir cada clase (cantidad de lineas).
-- Costo por Integracion. Lo que cuesta integrar todas las clases con un buen diseño.
-
-### Distribucion de Responsabilidades
-El problema debe ser dividido entre distintos modulos de modo que todos aporten algo a resolver el problema de forma relativamente equitativa
-
-## Jerarquizacion
-Existen dos formas de jerarquizar el diseño para resolver un problema
-- Top Down
-	1. Se desarrolla la clase principal
-	2. Se escriben sus atributos privados 
-	3. Se escribe su interfaz publica
-	4. Se codifican las interfaces
-	5. Se instancian objetos y se usan metodos conforme sean necesarios de otras clases.
-	6. Se evalua que clase de las que faltan es la mas riesgosa de escribir
-	7. Se vuelve al paso 2
-- Me hago el diagrama de clases en el que hago el reparto de responsabilidades e inicio con el metodo top down
-- Un diseño es un diagrama UML que puede servir para plantearse el codigo antes de escribirlo
+Una buena aplicacion de estos criterios resulta en clases altamente cohesivas y pocamente acopladas (acoplamiento eferente a clases inestables), con un bajo tamaño. Es decir, respetando al maximo el KISS.
 
 ## Interfaz - Parte Publica
 Los smell codes contribuyen a tener un pesimo codigo.

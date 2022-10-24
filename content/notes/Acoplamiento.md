@@ -29,3 +29,9 @@ Se puede permitir el acoplamiento alto si:
 
 Normalmente habra un grado medio de acoplamiento si estoy trabajando para realizar mis funciones
 
+___
+Complejidad entre un modulo y otros modulos
+
+Cantidad de modulos (se busc abaja)
+Obviedad de las conexiones (se busca alta)
+Flexibilidad que tan facil es intercambiar otros modulos (se busca alta)

@@ -14,3 +14,13 @@ Este elemento es fundamental, se encuentra en todos lados, las nuevas arquitectu
 ## Objetivos
 - Pocas funcionalidades
 - Altamente relacionadas
+
+___
+Complejidad en el interior del modulo.
+
+Representa la claridad de sus responsabilidades
+
+Una tarea, proposito claro (high)
+
+Encapsula multiples propositos o no tiene proposito claro (low)
+
