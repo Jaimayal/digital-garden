@@ -10,6 +10,6 @@ Es un concepto general aplicable a la [[notes/Programacion Orientada a Objetos]]
 Algunos mecanismos de Generalizacion son:
 - [[notes/Metodos]]
 - Herencia
-- Template Method
+- [[notes/Template Method (Metodo Plantilla)]]
 
 Su objetivo final es cumplir con el Principio DRY para no necesitar repetir el mismo codigo una y otra vez.
