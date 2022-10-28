@@ -20,7 +20,7 @@ Un ejemplo seria la clase Alumno, que conoce sus datos y ademas de eso tiene que
 
 ### Consecuencias
 - Rompes completamente el Principio Open/Closed debido a que tu clase se vuelve poco flexible y nada reusable.
-- Rompes completamente los principios del [[notes/$ Diseño Modular]]
+- Rompes completamente los principios del [[notes/Diseño Modular]]
 
 
 

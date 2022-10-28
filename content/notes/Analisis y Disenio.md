@@ -58,5 +58,5 @@ El Analisis y Diseño es un constante balance entre los requisitos no funcionale
 ## ¿Cómo lograr tener un buen diseño?
 Para lograrlo debemos seguir los tres aspectos relacionados con el diseño:
 - [Diseño en Codigo](notes/Dise%C3%B1o%20en%20Codigo.md)
-- [$ Diseño Modular](notes/$%20Diseño%20Modular.md)
+- [Diseño Modular](notes/Diseño%20Modular.md)
 - [$ Diseño orientado a Objetos](notes/$%20Diseño%20orientado%20a%20Objetos.md)
