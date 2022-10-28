@@ -20,29 +20,6 @@ Esta disciplina del diseño recupera tres conceptos recurrentes.
 
 Una buena aplicacion de estos criterios resulta en clases altamente cohesivas y pocamente acopladas (acoplamiento eferente a clases inestables), con un bajo tamaño. Es decir, respetando al maximo el KISS.
 
-## Interfaz - Parte Publica
-Los smell codes contribuyen a tener un pesimo codigo.
-- Homogenea. Nombrado, orden de parametros, valores de retorno
-- Suficiente. Que no haya efectos secundarios, que solo sean acciones unicas.
-- Minima. Que ofrezca la interfaz minima suficiente para satisfacer las necesidades basicas (primitivas) y nada mas.
-
-**Una buena interfaz publica debe de ser minima, ofreciendo los metodos suficientes de forma homogenea para que otros lleven acabo sus operaciones**
-### Codigo Sucio por Clases Alternativas con Interfaces Diferentes
-Se debe homogeneizar el nombrado que se le da a las cosas de escencia similar dentro del codigo, tratar de mantener una terminologia homogenea en el como son nombrados los metodos publicos a traves de todas las clases es algo a lograr.
-
-- Homogeneizar los nombres
-- Utilizar herencia por extension o implementacion
-- Mover responsabilidades
-
-### Principios del Menor Compromiso
-Una clase solo debe exponer en su interfaz publica los metodos suficientes como para que desarrolle su unico trabajo sin tener efectos secundarios o tener metodos que no van de acuerdo con el nombrado / los datos que tiene.
-
-**Cada metodo tiene que ser un unico verbo, e implementa solo lo que dice**.
-
-### Interfaz Suficiente, Completa y Primitiva
-- Suficientes caracteristicas para satisfacer las funcionaldiades que debe proveer a otras clases
-- Primitiva. Solo contener operaciones que son primitivas para esta clase y no requiere de muchas especificaciones.
-
 ## Diseño por contrato
 Tres terminologias
 - Error
@@ -50,12 +27,14 @@ Tres terminologias
 - Fallo
 
 Dos tipos de errores
-- Errores Excepcionales
-- Errores logicos
+- Errores Excepcionales. Que ocurren debido a fallas externas al Software
+- Errores logicos. Que ocurren debido a la logica interna del programa
 
 Dos mecanismos para lidiar con fallos
 - Programacion Defensiva
 - Aserciones
+
+La programacion defensiva es poco apropiada, pero de ser implementada, puede servir finalmente como una red de aserciones.
 
 El diseño por contrato establece un contrato entre dos partes, el cliente y el servidor.
 El cliente de un metodo es quien le esta llamando, el servidor es el que procesa la entrada y del que se espera obtener un resultado.
