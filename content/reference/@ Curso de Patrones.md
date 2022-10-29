@@ -114,7 +114,7 @@ Es el hermano del Abstract Factory. Traido desde el mundo dinamico (js) hacia el
 
 Con Abstract Factory se satisfacen familias de objetos. Con el prototype lo mismo.
 
-
+Lo que se hace esque las clases ahora solo son prototipos ya definidos, a partir de ellas, se devuelven distintas copias de si mismas para que los usuarios hagan su trabajo.
 
 
 
