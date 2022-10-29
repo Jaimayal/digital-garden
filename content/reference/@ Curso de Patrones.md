@@ -29,7 +29,7 @@ Normalmente la herencia no se aplica porque si, sino porque representa un punto 
 Los expertos reconocen que hacer diseño y rediseño (mantener la cohesion, el acoplamiento y el tamaño) es dificil.
 
 Conocerlos, sirve como una caja de herramientas la cual podemos utilizar para resolver los problemas de diseño.
-
+**Utilizamos Patrones por incumplir algun principio de diseño (anti patron, smell code)**
 ###### ¿Qué se espera conseguir de un Patron?
 - Ahorrar tiempo
 - Reusar tecnicas ya probadas que vuelven a un sistema mantenible
