@@ -2,7 +2,7 @@
 title: "Inyeccion de Dependencias"
 date: "2022-10-28 17:45"
 tags: 
-  - 
+  - oop
 draft: true
 ---
 Es basicamente, una relacion de asociacion que te llega por Constructor, Setter o de cualquier otra forma posible.
