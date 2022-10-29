@@ -116,7 +116,25 @@ Con Abstract Factory se satisfacen familias de objetos. Con el prototype lo mism
 
 Lo que se hace esque las clases ahora solo son prototipos ya definidos, a partir de ellas, se devuelven distintas copias de si mismas para que los usuarios hagan su trabajo.
 
+Las copias son necesarias debido a que si devuelves los mismos objetos distintos clientes tendran las mismas referencias a los mismos objetos.
 
+Las subclases pueden auto registrarse al array asociativo que sirve para guardar los prototipos.
+
+## Patrones Estructurales
+Mi problema ya no es crear, mi problema es combinar distintas clases y objetos 
+
+## Patron Adapter
+No acoples tu capricho a la escencia de una clase ajena a ti. Puede ser de una libreria, de un paquete diferente, de un subsistema, etc. Utiliza un adaptador que haga que se cumplan tus necesidades sin afectar a otros.
+
+Es como lo que se hace al desarrollar en Swing, heredas de clases ya programadas y las adaptas para tu problema particular
+
+Va de 1 a 1 y regularmente el Adaptador agrega o oculta informacion de una clase.
+## Patron Bridge
+El problema se ve normalmente en una Jerarquia de herencia duplicada. Existen dos jerarquias de herencia paralelas.
+
+Lo que se logra con este patron es desacoplar la jerarquia una de otra, de modo que ambas pueden crecer de forma ilimitada. Esto se hace haciendo que las clases abstractas colaboren entre ellas y que las implementaciones se extiendan de forma ilimitada.
+
+## Patron Composite
 
 
 
