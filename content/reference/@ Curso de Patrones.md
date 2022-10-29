@@ -73,6 +73,60 @@ Son tres clasificaciones
 - Prototype. Abstract Factory utilizado en lenguajes dinamicos
 - Singleton. *Asegurar que una clase tiene una unica instancia y un unico punto de acceso global*.
 
+Prototipo y Abstract Factory son similares
+
+Singleton Acceso global a una unica isntancia desde un unic punto
+
+Factory Method Utilizar un colaborador u otro dependiendo de un tipo (sencillo) Basda en Herencia y Estatica
+
+AF. Familias de objetos que deben cambiar de modo dinamico
+
+Builder Reducir complejidad de creacion
+
+Prototype El hermano de Abstract Factory
+
+## Patron Builder
+El problema conocido es cuando *Una persona desea comer distintas saludable, para ello necesita variar mucho sus comidas. Sin embargo, hay dias que quiere disfrutar y hay dias que quiere comer comida no tan saludable.*.
+
+Aqui ya vemos el punto de extension. Un if  (en este caso, con solo dos casos) que tiene tendencia a incrementar.
+
+En el problema sin aplicar el Builder la Persona debe conocer a todos y cada uno de los Platos y tiene un metodo largisimo con un switch que depende ciertas circunstancias come saludable o sano o un punto intermedio o mas sano que saludable, etc etc.
+
+Aplicando un Builder se introduce a un "Chef" intermedio (abstract) del cual subyacen todos los tipos de Chef que preparan las comidas para las distintas situaciones que quiere la Persona. 
+
+La Persona no conoce ningun Plato. Conoce a los Chefs que preparan platos, cada tipo de chef conoce los platos que le competen.
+
+Builder es muy complejo porque una cosa tiene muchas otras de forma interna y se le tienen que colocar todos.
+
+Abstract Factory no es complejo crear las cosas, lo complejo son conjuntos enteros d eelementos que es lo que hace complejo
+
+## Patron Factory Method
+El problema conocido es cuando *Un Repartidor puede usar mutliples vehiculos para transportarse, dependiendo lo disponible este seleccionara uno u otro*.
+
+La complejidad viene de que el Repartidor se tiene que esforzar en repartir y en ver la disponibilidad de los vehiculos e instanciarlos.
+
+La forma de Solucionarlo es volver a Repartidor abstracta con el metodo que le de un vehiculo y cada uno de los repatidores sabra que vehiculo instanciar. 
+
+Se dice que es estatico porque un RepartidorEnBicicleta esta acoplado para siempre con una Bicicleta y no puede cambiarse de forma dinamica.
+
+## Patron Prototype 
+Es el hermano del Abstract Factory. Traido desde el mundo dinamico (js) hacia el estatico.
+
+Con Abstract Factory se satisfacen familias de objetos. Con el prototype lo mismo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
