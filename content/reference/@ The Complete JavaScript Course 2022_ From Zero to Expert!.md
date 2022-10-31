@@ -42,3 +42,11 @@ const isFinite3 = Number.isFinite(+'hola'); // false
 ```
 
 ## Math and Rounding
+Math.max
+Math.min
+Math.sqrt
+
+Math.random
+
+Constants 
+Math.PI
