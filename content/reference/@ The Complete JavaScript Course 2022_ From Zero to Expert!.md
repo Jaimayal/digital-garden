@@ -50,3 +50,24 @@ Math.random
 
 Constants 
 Math.PI
+
+Existe un metodo que arregla el numero de decimales que debe tener un numero
+```JavaScript
+const round = +(2.3).toFixed(3); // 2.300
+```
+
+Adicionalmente, existe un separador numerico especial que sirve para diferenciar los numeros unos de otros. El separador es el simbolo '\_';
+
+```JavaScript
+console.log(200_000); // 200,000
+```
+
+BigInt agrega las capacidades de trabajar con numeros extremadamente grandes. Para utilizarlo se puede utilizar el casteo con la funcion BigInt() o agregando una 'n' al final de un numero
+
+```JavaScript
+const hugeNumber = 12893712983712893172489326757834n;
+```
+
+Trabajar con fechas tambien es bastante simple. Existe el objeto Date con multiples constructores, puede convertirlo desde un Timestamp, desde un String o desde un nuermo de anios, meses, dias, etc.
+
+Adicionalmente, podemos hacer calculaciones sobre ellas gracias a las timestamps!
