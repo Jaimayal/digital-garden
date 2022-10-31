@@ -54,23 +54,39 @@ Este metodo en particular tambien funciona con los [[notes/Sets en JavaScript]] 
 Esta funcion por lo general busca mutar las estructuras de datos de cierta forma!
 ## Transformaciones de Datos
 Existen multiples metodos para transformar los datos de un array.
-- map. Aplica una determinada operacion a cada elemento de un array. Devuelve un array nuevo con la operacion aplicada
-- filter. Filtra los elementos basado en cierto criterio, solo pasan los que satisfascan la condicion.
-- reduce. Reduce todos los elementos a uno solo aplicando una operacion de cada elemento hacia un acumulador. En cada iteracion por cada elemento se debe de devolver el valor del acumulador actualizado con la operacion ya ejecutada
+### map
+Aplica una determinada operacion a cada elemento de un array. Devuelve un array nuevo con la operacion aplicada
 
-- find. Sirve para encontrar un solo elemento basado en una condicion (o un callback function). Retorna el primer elemento para el cual se obtiene true en la condicion.
-- findIndex. Funciona de la misma forma que el metodo find pero devuelve el indice en lugar del elemento
-- some. Hace lo mismo que includes pero puede recibir una condicion mas compleja (o un callback function). Por ejemplo si existe un elemento mayor que 0
-- every. Hace lo mismo que some pero solo devolvera true si todos los elementos pasan la condicion.
+### filter
+Filtra los elementos basado en cierto criterio, solo pasan los que satisfascan la condicion.
 
-- flat. Sirve para aplanar una estructura de datos que tiene otras anidadas. Devuelve un nuevo array con todos los elementos aplanados. **Como argumento podemos pasarle la cantidad de niveles a aplanar**.
-- flatMap. Combina los metodos flat y map en una misma operacion. Primero recibe una operacion para hacer map y al final aplana el resultado. **Este solo funciona con un nivel de nest**.
+### reduce
+Reduce todos los elementos a uno solo aplicando una operacion de cada elemento hacia un acumulador. En cada iteracion por cada elemento se debe de devolver el valor del acumulador actualizado con la operacion ya ejecutada
 
-- sort, Muta el array y lo ordena **basado en strings. primero lo convierte despues hace sorting, es decir, ordena de acuerdo al ascii**. Para arreglarlo se le debe pasa runa **funcion de comparacion como argumento** en forma de callback function. 
+### find 
+Sirve para encontrar un solo elemento basado en una condicion (o un callback function). Retorna el primer elemento para el cual se obtiene true en la condicion.
+
+### findIndex
+Funciona de la misma forma que el metodo find pero devuelve el indice en lugar del elemento
+
+### some
+Hace lo mismo que includes pero puede recibir una condicion mas compleja (o un callback function). Por ejemplo si existe un elemento mayor que 0
+
+### every
+Hace lo mismo que some pero solo devolvera true si todos los elementos pasan la condicion.
+
+### flat
+Sirve para aplanar una estructura de datos que tiene otras anidadas. Devuelve un nuevo array con todos los elementos aplanados. **Como argumento podemos pasarle la cantidad de niveles a aplanar**.
+
+### flatMap
+Combina los metodos flat y map en una misma operacion. Primero recibe una operacion para hacer map y al final aplana el resultado. **Este solo funciona con un nivel de nest**
+
+### sort
+Muta el array y lo ordena **basado en strings. primero lo convierte despues hace sorting, es decir, ordena de acuerdo al ascii**. Para arreglarlo se le debe pasa runa **funcion de comparacion como argumento** en forma de callback function. 
 
 Este callback function de comparacion tiene dos argumentos 'a' y 'b'. Se espera un valor positivo o negativo. Si es negativo se colocara 'a' antes que 'b' y si es positivo viceversa.
 
-Crear arrays
+## Crear arrays
 - Creacion por brackets []
 - Creacion por constructor 
 - Creacion por constructor de elementos vacios + Fill
