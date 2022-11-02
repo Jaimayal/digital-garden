@@ -11,6 +11,8 @@ Es un conjunto de instrucciones que sirven para realizar la busqueda de un eleme
 
 Dependiendo el algoritmo, la estructura de datos deberia estar ordenada o no para que se ejecute correctamente.
 
+### Algoritmos
+- Linear Search
 ## Sorting
 Un Algoritmo de Sorting es una serie de pasos que busca ordenar una estructura de datos que inicialmente esta desordenada.
 

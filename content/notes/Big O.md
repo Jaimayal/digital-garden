@@ -77,3 +77,8 @@ Por logica se tendria in Big O(2n), esto no es incorrecto pero para hablar de un
 En un algoritmo, los terminos pequeños suelen marcar una minima e infima diferencia mientras mas crezca el tamaño de los datos, es por ello que se recomienda ignorar todos los terminos que no tengan que ver con la entrada de datos (n)
 
 ![[files/Big_O_Irrelevante.svg]]
+
+## Consejos para Identificarlo
+- Si existe un loop o varios separados sera **n**
+- Si hay loops dentro de loops (anidados) sera una elevacion de n, dos loops igual a **n^2**, tres loops igual a **n^3**
+- Si dentro de cualquiera de los loops hay una division por la mitad sera **log n** o **n log n**
