@@ -2,7 +2,7 @@
 title: "Array"
 date: "2022-11-02 09:07"
 tags: 
-  - 
+  - datastructures
 draft: true
 ---
 Un Array es una estructura de datos de tamaño arreglado que guarda informacion de forma continua en memoria, una detras de la otra. Esto significa que esta estructura no puede crecer.

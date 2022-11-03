@@ -2,7 +2,7 @@
 title: "Binary Search"
 date: "2022-11-02 12:21"
 tags: 
-  - 
+  - algorithms
 draft: true
 ---
 Es uno de los algoritmos mas clasicos y una de las bases para otros algoritmos puesto que es el primer algoritmo que requiere que la estructura de datos este ordenada.

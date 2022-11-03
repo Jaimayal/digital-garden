@@ -2,7 +2,7 @@
 title: "Algoritmos"
 date: "2022-11-02 11:52"
 tags: 
-  - 
+  - algorithms
 draft: true
 ---
 Un Al
