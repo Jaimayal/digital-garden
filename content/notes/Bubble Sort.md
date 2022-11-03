@@ -2,7 +2,7 @@
 title: "Bubble Sort"
 date: "2022-11-02 18:20"
 tags: 
-  - 
+  - algorithms
 draft: true
 ---
 Es un Algoritmo de Ordenamiento que sirve para ordenar una estructura de datos.
