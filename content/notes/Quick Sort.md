@@ -24,5 +24,24 @@ Posteriormente el resultado de cada recursion sera el array izquierdo + el pivot
 
 ![[files/QuickSort.png]]
 
+## Implementacion en Python
+```Python
+def qsort(arr):
+    length = len(arr)
+    if length < 2:
+        return arr
+    pivotIdx = round(length / 2)
+    low = []
+    high = []
+    for n in range(0, len(arr)):
+        if n != pivotIdx:
+            if arr[n] > arr[pivotIdx]:
+                high.append(arr[n])
+            elif arr[n] <= arr[pivotIdx]:
+                low.append(arr[n])
+    return qsort(low) + [arr[pivotIdx]] + qsort(high)
+
+print(qsort([5, 3, 2, 1, 4, 8, 3, 1, 9]))
+```
 
 
