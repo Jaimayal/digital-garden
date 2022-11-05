@@ -32,3 +32,10 @@ Por tanto, sin importar los elementos de la operacion o la cantidad de nodos que
 
 Lo que cuesta es viajar hasta el elemento que se desea eliminar, o en la posicion a la que se desea agregar. Estos tienen un O(n).
 
+## Compromiso
+### Ventajas
+- Facilmente agregar elementos y extender la capacidad O(1)
+- Uso y desuso de memoria de forma dinamica
+
+### Desventajas
+- Obtener un elemento requiere viajar por todos los punteros de todos los elementos anterior a el O(n). **Acceso Secuencial**

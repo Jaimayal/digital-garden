@@ -36,11 +36,12 @@ arr[1] = 0;
 ```
 
 
-## Ventajas
-- Acceso por indice a cualquier valor (Debido a que por aritmetica de pointers podemos acceder a cualquier valor).
-- No se puede usar tan facilmente
+## Compromiso
+### Ventajas
+- Acceso por indice a cualquier valor (Debido a que por aritmetica de pointers podemos acceder a cualquier valor). **Acceso Aleatorio**
 - O(1) Todo, traer y guardar informacion.
-- Usa memoria de forma constante, no cambia hasta cuando esta sin usar
+- Insertar un elemento a una posicion especifica sin afectar al resto requiere de O(n) para mover todos los elementos a otras posiciones.
 
-- LinkedList optimizada para tomar y soltar memoria dinamicamente
-- Acceder a cualquier elemento toma una busqueda lineal
+### Desventajas
+- Usa memoria de forma constante, no cambia hasta cuando esta sin usar
+- Imposible agregar mas elementos de los requeridos inicialmente 

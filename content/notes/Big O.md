@@ -7,6 +7,8 @@ draft: true
 ---
 Es un criterio que sirve para **categorizar la eficiencia de un algoritmo (en tiempo o espacio), basandose en que tan bien escala respecto a la informacion que recibe de entrada (n)**. No se una medida exacta, es solo una forma de generalizar.
 
+No es suficiente con saber la diferencia de tiempo entre dos algoritmos dada cierta cantidad de informacion, debido a que cada algoritmo crecera de forma diferente mientras mayor sea la informacion. Por ejemplo, no es lo mismo comparar [[notes/Linear Search]] y [[notes/Binary Search]] con 100 elementos (donde el Binary Search es 15 veces mas rapido) a compararlo con 1billon de elementos (donde el Binary Search es 33 millones de veces mas rapido). Por eso se necesita comparar como incrementa el tiempo de cada uno respecto a la informacion que recibe.
+
 Usualmente, este criterio muesta el **peor caso (worst-case scenario)**, es decir, en el peor de los casos con que complejidad creceria un algoritmo.
 
 Emplearla nos ayuda a tomar decisiones respecto a las estructuras de datos y algoritmos que utilizamos para escribir codigo.
@@ -27,11 +29,11 @@ En Big O solo hay un conjunto de valores que utilizados por los algoritmos mas p
 ![[files/Big_O_Comunes.svg]]
 
 - O(1). Tiempo constante  
-- O(log n). TIempo logaritmico  
+- O(log n). TIempo logaritmico. Ejemplo [[notes/Binary Search]]
 - O(sqrt(n)). Tiempo raiz cuadratico  
-- O(n). Tiempo lineal  
-- O(n log(n)). Tiempo log-lineal  
-- O(n^2). Tiempo cuadratico  
+- O(n). Tiempo lineal  Ejemplo [[notes/Linear Search]]
+- O(n log(n)). Tiempo log-lineal  . Ejemplo Quicksort
+- O(n^2). Tiempo cuadratico  Ejemplo Selection Sort
 - O(2^n). Tiempo exponencial  
 - O(n!). Tiempo factorial
 
