@@ -5,11 +5,11 @@ tags:
   - algorithms
 draft: true
 ---
+El algoritmo consiste en saltar entre la estructura partiendola en la mitad cada vez hasta encontrar el elemento. Para esto, se requiere que la estructura este **ordenada**.
+
+Debido a los saltos a la mitad de la estructura, el [[notes/Big O]] de este algoritmo es **O(log n)**.
+
 Es uno de los algoritmos mas clasicos y una de las bases para otros algoritmos puesto que es el primer algoritmo que requiere que la estructura de datos este ordenada.
-
-El algoritmo consiste en saltar entre la estructura partiendola en la mitad cada vez hasta
-
-Debido a los saltos entre la estructura, el [[notes/Big O]] de este algoritmo es **O(log n)**.
 
 ## Implementacion en Python
 ```Python

@@ -5,7 +5,9 @@ tags:
   - algorithms
 draft: true
 ---
-Un Al
+Es un conjunto de instrucciones que buscan conseguir un fin.
+
+
 ## Searching
 Es un conjunto de instrucciones que sirven para realizar la busqueda de un elemento especifico dentro de una Estructura de Datos.
 
