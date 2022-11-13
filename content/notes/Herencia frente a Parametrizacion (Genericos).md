@@ -3,7 +3,7 @@ title: "Herencia frente a Parametrizacion (Genericos)"
 date: "2022-10-29 15:31"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 La parametrizacion es la programacion generica, en general se usa cuando se busca tener exactamente las mismas operaciones en una clase pero hablando de diferentes cosas. 
 

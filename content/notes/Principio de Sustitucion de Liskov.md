@@ -3,7 +3,9 @@ title: "Principio de Sustitucion de Liskov"
 date: "2022-10-28 17:30"
 tags: 
   - oop
-draft: true
+  - solid
+  - ooad
+draft: false
 ---
 **Cualquier subclase debe sustituir de forma satisfactoria a una clase padre dentro de una jerarquia, sin cambiar de forma exagerada su comportamiento**
 

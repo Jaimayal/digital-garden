@@ -3,7 +3,7 @@ title: "Clase Object vs Parametrizacion (Genericos)"
 date: "2022-10-29 15:30"
 tags: 
   - java
-draft: true
+draft: false
 ---
 En Java existen dos formas de hacer una clase que puede guardar cualquier elemento. 
 

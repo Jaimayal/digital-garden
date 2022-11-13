@@ -3,7 +3,7 @@ title: "Flexibilidad"
 date: "2022-10-28 17:56"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 ## Clases Abstractas e Interfaces
 La interfaz es un contrato que existe entre una clase derivada y la interfaz, declara que, toda clase que la implemente como minimo debe implementar de forma concreta un algoritmo para los metodos si no quiere ser abstracta.

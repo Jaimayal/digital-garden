@@ -3,7 +3,8 @@ title: "Tecnica de Doble Despacho"
 date: "2022-10-28 17:29"
 tags: 
   - oop
-draft: true
+  - ooad
+draft: false
 ---
 Esta tecnica se utiliza cuando un objeto A tiene que responder de una u otra forma dependiendo del tipo de objeto que es B dentro de una Jerarquia Polimorfica.
 

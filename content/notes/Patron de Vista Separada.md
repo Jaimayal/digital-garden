@@ -2,8 +2,8 @@
 title: "Patron de Vista Separada"
 date: "2022-10-28 16:58"
 tags: 
-  - 
-draft: true
+  - ooad
+draft: false
 ---
 Es uno de los Patrones recurrentes que dio vida a la arquitectura MVC. Dicta que, los modelos como minimo deben estar desacoplados totalmente de la tecnologia de vista necesaria para interactuar con los usuarios, puesto que, de estar acoplados (Mediante el [[notes/Patron Experto en la Informacion]], por ejemplo) crearian clases que romperian con los principios de [[notes/Cohesion]], [[notes/Acoplamiento]] y [[notes/Granularidad]].
 

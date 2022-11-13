@@ -3,7 +3,7 @@ title: "Acoplamiento Eferente"
 date: "2022-10-22 15:04"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 ¿De quién dependo para realizar mi funcion?. Se identifica mediante las [[notes/Relaciones entre Clases (Gestion de Dependencias)]] y por el [[notes/Acoplamiento Indirecto]]. Es necesario reducir este acoplamiento al minimo, tenerlo demasiado indica una muy baja [[notes/Cohesion]],
 

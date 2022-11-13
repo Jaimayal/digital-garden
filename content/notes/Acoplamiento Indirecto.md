@@ -3,7 +3,7 @@ title: "Acoplamiento Indirecto"
 date: "2022-10-22 15:00"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 Es un tipo de [[notes/Acoplamiento]] dado por la visibilidad. Es aquel que dificulta mucho su identificacion, debido aque esta dado de forma implicita en una interaccion entre clases.
 

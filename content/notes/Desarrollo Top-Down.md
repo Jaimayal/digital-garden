@@ -4,7 +4,7 @@ date: "2022-10-24 11:32"
 tags: 
   - oop
   - programming
-draft: true
+draft: false
 ---
 Es un metodo de desarrollo que sirve para escribir programas simples de forma ordenada, manteniendo en todo momento los conceptos de [[notes/Cohesion]], [[notes/Modularidad]] y [[notes/Granularidad]].
 

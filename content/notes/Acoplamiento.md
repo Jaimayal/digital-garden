@@ -3,7 +3,7 @@ title: "Acoplamiento"
 date: "2022-10-22 14:55"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 Es una medidaque nos sirve para determinar la cantidad de [[notes/Relaciones entre Clases (Gestion de Dependencias)]] que tiene un modulo con otro. 
 

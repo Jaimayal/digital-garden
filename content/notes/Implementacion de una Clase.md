@@ -2,8 +2,8 @@
 title: "Implementacion de una Clase"
 date: "2022-10-28 16:55"
 tags: 
-  - 
-draft: true
+  - oop
+draft: false
 ---
 ### Cohesion
 - Cohesion de Metodos

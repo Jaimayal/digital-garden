@@ -3,7 +3,7 @@ title: "Granularidad"
 date: "2022-10-24 11:22"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 Las heuristicas de Granularidad sirven como una referencia a tener en cuenta para escribir codigo de calidad, no se deben seguir a rajatabla sin embargo establecen un punto de partida para permitir identificar codigo de calidad.
 

@@ -3,7 +3,9 @@ title: "Principio Open-Closed"
 date: "2022-10-28 17:40"
 tags: 
   - oop
-draft: true
+  - solid
+  - ooad
+draft: false
 ---
 Es el Objetivo del Diseño Orientado a Objetos.
 

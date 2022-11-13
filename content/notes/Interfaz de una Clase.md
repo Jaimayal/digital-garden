@@ -3,7 +3,7 @@ title: "Interfaz de una Clase"
 date: "2022-10-28 14:16"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 La interfaz de una [[notes/Clase]] se refiere al conjunto de [[notes/Metodos]] que estan expuestos de forma publica para que otras clases desde cualquier otro paquete puedan colaborar con ella.
 

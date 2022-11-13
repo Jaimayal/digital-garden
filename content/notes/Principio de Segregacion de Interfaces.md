@@ -3,7 +3,9 @@ title: "Principio de Segregacion de Interfaces"
 date: "2022-10-28 17:42"
 tags: 
   - oop
-draft: true
+  - ooad
+  - solid
+draft: false
 ---
 Es un principio que dicta que una clase no debe conocer nada mas alla de lo que le compete con otra clase con la que colabora.
 

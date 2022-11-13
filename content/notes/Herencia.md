@@ -3,7 +3,7 @@ title: "Herencia"
 date: "2022-10-28 18:00"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 La herencia tiene la misma reusabilidad que una composicion.
 

@@ -3,7 +3,7 @@ title: "Modularidad"
 date: "2022-10-24 11:26"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 Es un concepto que se refiere a la descomposicion de un programa en multiples modulos. Un modulo es una pieza de construccion, en la [[notes/Programacion Orientada a Objetos]], un modulo es una [[notes/Clase]]. 
 

@@ -3,7 +3,7 @@ title: "Inversion de Control"
 date: "2022-10-28 17:37"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 Cuando escribimos codigo normalmente nosotros hacemos llamada a las distintas librerias y partes que nosotros queremos a lo largo de nuestro programa, en otras palabras "Nosotros tenemos el control sobre lo que utilizamos y lo que no".
 

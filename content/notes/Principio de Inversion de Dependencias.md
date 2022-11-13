@@ -3,7 +3,9 @@ title: "Principio de Inversion de Dependencias"
 date: "2022-10-28 17:39"
 tags: 
   - oop
-draft: true
+  - ooad
+  - solid
+draft: false
 ---
 Surge como resultado de cumplir el principio Open/Closed y la Sustitucion de Barbara Liskov.
 

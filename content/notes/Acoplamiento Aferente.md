@@ -3,7 +3,7 @@ title: "Acoplamiento Aferente"
 date: "2022-10-22 15:02"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 ¿Qué tanto se reusa mi clase?. Esa es la pregunta que se debe hacer para determinar la cantidad de acoplamiento Aferente. Se debe de tener especial cuidado, si se trata de una clase muy poco estable, que tiende a cambiar, es mas recomendado mirar en mecanismos dados por [[notes/Patrones de Diseño]] u otros.
 

@@ -3,7 +3,7 @@ title: "Acoplamiento Directo"
 date: "2022-10-22 14:58"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 Es un tipo de [[notes/Acoplamiento]] dado por la visibilidad. Es aquel que puede ser identificado a simple vista dentro de una clase.
 

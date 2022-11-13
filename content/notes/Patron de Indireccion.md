@@ -3,7 +3,8 @@ title: "Patron de Indireccion"
 date: "2022-10-28 16:55"
 tags: 
   - oop
-draft: true
+  - ooad
+draft: false
 ---
 Es un Patron que dicta que la Indireccion de la complejidad en la [[notes/Programacion Orientada a Objetos]] debe ocurrir mediante la creacion de mas clases. 
 

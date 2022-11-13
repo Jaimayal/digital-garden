@@ -3,7 +3,7 @@ title: "Ley de Demeter"
 date: "2022-10-28 17:53"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 Son un conjunto de leyes obtenidas desde un proyecto. En el cual se dictamenta que UNICAMENTE SE PUEDE COLABORAR CON:
 - this

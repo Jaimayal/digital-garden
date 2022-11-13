@@ -3,7 +3,7 @@ title: "Diseño por Contrato"
 date: "2022-10-28 16:51"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 El diseño por contrato establece un contrato entre dos partes, el cliente y el servidor. Regularmente, es utilizada al desarrollar la implementacion de una clase. En este caso, el cliente de un metodo es quien le esta llamando, el servidor es el que procesa la entrada y del que se espera obtener un resultado.
 

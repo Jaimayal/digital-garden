@@ -3,7 +3,7 @@ title: "Complejidad en el Software"
 date: "2022-10-24 18:38"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 La complejidad es una caracteristica inherente de todo lo que nos rodea en el universo. Por tanto, tambien esta presente en el Software. La vemos cuando los proyectos dejan de salir bien, cuando hay perdidas de dinero y cuando cuesta mucho avanzar en la profesion.
 

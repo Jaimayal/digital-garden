@@ -3,7 +3,7 @@ title: "Cohesion"
 date: "2022-10-22 14:53"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 Es una medida que nos sirve para determinar que tantas responsabilidades tiene un modulo y que tanto se relacionan entre ellas.
 

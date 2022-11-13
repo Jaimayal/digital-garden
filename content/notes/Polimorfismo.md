@@ -3,7 +3,7 @@ title: "Polimorfismo"
 date: "2022-10-28 17:59"
 tags: 
   - oop
-draft: true
+draft: false
 ---
 El polimorfismo es una relajacion del sistema de tipos que nos permite interactuar con una clase y con todos sus derivados no abstractos apegandonos de forma fiel a su interfaz publica.
 

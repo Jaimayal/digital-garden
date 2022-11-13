@@ -3,7 +3,7 @@ title: "ApplicationContext"
 date: "2022-10-29 15:19"
 tags: 
   - spring
-draft: true
+draft: false
 ---
 El ApplicationContext es la representacion mas completa del IoC Container, tiene absolutamente toda la funcionalidad basica proveniente del [[notes/BeanFactory]]. 
 

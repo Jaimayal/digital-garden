@@ -3,7 +3,7 @@ title: "Cateogiras de los Objetos en Diseño"
 date: "2022-10-21 19:46"
 tags: 
   - softwaredev
-draft: true
+draft: false
 ---
 En el diseño, los objetos y tareas deben ser descritos en terminos de objetos, usualmente, estos se traducen a otros de granularidad mas pequeña. Los tres principales que podemos encontrar en todo diseño son:
 - Entidades. Parte del Dominio

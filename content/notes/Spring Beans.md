@@ -3,7 +3,7 @@ title: "Java Beans"
 date: "2022-10-29 15:21"
 tags: 
   - java
-draft: true
+draft: false
 ---
 Son uno de los conceptos principales que subyacen en el [[notes/Spring Framework]]. En palabras simples son los objetos que forman las partes clave de tu aplicacion, los cuales esperan ser instanciados, construidos y manejados por el contenedor de Spring que tiene la [[notes/Inversion de Control]].
 

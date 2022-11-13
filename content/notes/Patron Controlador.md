@@ -3,7 +3,8 @@ title: "Patron Controlador"
 date: "2022-10-28 17:00"
 tags: 
   - oop
-draft: true
+  - ooad
+draft: false
 ---
 Es uno de los patrones que le dio vida a la arquitectura MVC. En este, se indica que las Entidades del dominio de tu problema deberian estar desacopladas de las reglas de negocio que van a ser aplicadas a ellas. Ademas, sirven como un intermedio de comunicacion entre estos objetos entidad y las vistas generadas por el [[notes/Patron de Vista Separada]].
 
