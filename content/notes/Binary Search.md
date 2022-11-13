@@ -3,7 +3,7 @@ title: "Binary Search"
 date: "2022-11-02 12:21"
 tags: 
   - algorithms
-draft: true
+draft: false
 ---
 El algoritmo consiste en saltar entre la estructura partiendola en la mitad cada vez hasta encontrar el elemento. Para esto, se requiere que la estructura este **ordenada**.
 

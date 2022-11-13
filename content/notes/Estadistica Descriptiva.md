@@ -2,8 +2,8 @@
 title: "Estadistica Descriptiva"
 date: "2022-11-03 12:53"
 tags: 
-  - 
-draft: true
+  - math
+draft: false
 ---
 Conjunto de tecnica que sirven para mostrar y resumir informacion presente en los datos de una muestra.
 

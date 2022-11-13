@@ -3,7 +3,7 @@ title: "Queue"
 date: "2022-11-02 19:18"
 tags: 
   - datastructures
-draft: true
+draft: false
 ---
 Es una estructura de datos fundamental basada en FIFO (First in, First Out). Es decir, el primero que este en ella es el primero que va a salir, tal como una cola en la vida real.
 

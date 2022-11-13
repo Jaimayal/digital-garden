@@ -3,7 +3,7 @@ title: "Big O"
 date: "2022-11-02 08:30"
 tags: 
   - algorithms
-draft: true
+draft: false
 ---
 Es un criterio que sirve para **categorizar la eficiencia de un algoritmo (en tiempo o espacio), basandose en que tan bien escala respecto a la informacion que recibe de entrada (n)**. No se una medida exacta, es solo una forma de generalizar.
 

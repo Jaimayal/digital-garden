@@ -3,7 +3,7 @@ title: "Linked List"
 date: "2022-11-02 18:55"
 tags: 
   - datastructures
-draft: true
+draft: false
 ---
 
 En comparacion con un [[notes/Array]] este si permite eliminar e insertar elementos (mas alla de solo sobreescribirlos). Ademas puede crecer de tamaño y reducirlo como le apetezca.

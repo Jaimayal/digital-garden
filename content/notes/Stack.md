@@ -2,8 +2,8 @@
 title: "Stack"
 date: "2022-11-04 09:15"
 tags: 
-  - 
-draft: true
+  - datastructures
+draft: false
 ---
 La estructura de datos contraria a un Queue,  sigue el principio FIFO (First in, First out) y funciona tal cual lo haria una pila de cosas en la vida real.
 

@@ -3,7 +3,7 @@ title: "ArrayList"
 date: "2022-11-04 09:57"
 tags: 
   - datastructures
-draft: true
+draft: false
 ---
 Combina lo mejor del mundo del [[notes/Array]] y del [[notes/Linked List]].
 - Acceso a un elemento con O(1)

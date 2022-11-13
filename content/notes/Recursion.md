@@ -3,7 +3,7 @@ title: "Recursion"
 date: "2022-11-04 10:57"
 tags: 
   - programming
-draft: true
+draft: false
 ---
 Se trata de una tecnica de programacion en la cual una funcion, metodo o subrutina (dependiendo del paradigma que estemos llevando a cabo), que, para llevar acabo sus funciones, se llama a si misma.
 

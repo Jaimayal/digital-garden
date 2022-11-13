@@ -3,7 +3,7 @@ title: "ArrayBuffer"
 date: "2022-11-04 10:18"
 tags: 
   - datastructures
-draft: true
+draft: false
 ---
 Efectivamente es bsatante parecida a un [[notes/Linked List]], otra forma de llamarla es RingBuffer.
 

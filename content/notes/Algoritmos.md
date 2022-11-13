@@ -3,7 +3,7 @@ title: "Algoritmos"
 date: "2022-11-02 11:52"
 tags: 
   - algorithms
-draft: true
+draft: false
 ---
 Es un conjunto de instrucciones que buscan conseguir un fin.
 

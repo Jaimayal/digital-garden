@@ -3,7 +3,7 @@ title: "Divide-and-conquer"
 date: "2022-11-05 12:41"
 tags: 
   - algorithms
-draft: true
+draft: false
 ---
 *Divide y Venceras* es una tecnica algoritma que sirve para resolver problemas en los cuales se divide un problema en subproblemas mas pequeños mas faciles de resolver.
 

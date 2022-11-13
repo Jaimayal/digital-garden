@@ -2,8 +2,8 @@
 title: "Leetcode Effectively"
 date: "2022-11-01 08:40"
 tags: 
-  - 
-draft: true
+  - programming
+draft: false
 ---
 Basic Knowledge:
 - Algorithms

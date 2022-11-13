@@ -3,7 +3,7 @@ title: "Quick Sort"
 date: "2022-11-05 15:12"
 tags: 
   - algorithms
-draft: true
+draft: false
 ---
 Es un Algoritmo de Sorting mucho mas rapido que [[notes/Bubble Sort]] o Selection Sort. Esta basado en [[notes/Divide-and-conquer]].
 
