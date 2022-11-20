@@ -24,3 +24,15 @@ Con la anotacion @Test marcamos una pieza de codigo para que sea ejecutada en la
 Un import static nos sirve de la clase Assertions nos sirve para traer todos los metodos de aserciones para comprar un elemento esperado con un elemento real que se generado por la ejecucion de un metodo.
 
 Para cada test se crea una nueva instancia 
+
+assertThrows sirve para validar que una excepcion es tirada como resultado de ejecutar una pieza de codigo
+
+```Java
+void testException() {
+	Cuenta cuenta = new Cuenta();
+	assertThrows(Exception.class, () -> {
+		cuenta.metodo();
+	})
+
+}
+```
