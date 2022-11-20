@@ -2,7 +2,7 @@
 title: "JUnit"
 date: "2022-11-20 08:56"
 tags: 
-  - 
+  - testing
 draft: true
 ---
 JUnit nos permite escribir pruebas con mucha facilidad y multiples pruebas para cada clase individual. Nos permite escribir tests rapido y provee informacion limpia sobre los errores metodos y lugares en los que fallo la aplicacion.
