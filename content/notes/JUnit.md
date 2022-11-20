@@ -18,3 +18,9 @@ Implementa una nueva arquitectura robusta en la cual se tienen distintos compone
 - JUnit Platform. Libreria principal orientada a la ejecucion de pruebas. Esto permite que las pruebas esten escritas con JUnit Jupiter o cualquier otra que interactue con la JUnit Platform.
 - JUnit Jupiter. Componente que permite a los desarrolladores escribir sus pruebas mediante codigo y ejecutarlas en la JUnit Platform
 - JUnit Vintage. Componente que permite preservar pruebas escritas en versiones anteriores de JUnit.
+
+Con la anotacion @Test marcamos una pieza de codigo para que sea ejecutada en la JUnit Platform
+
+Un import static nos sirve de la clase Assertions nos sirve para traer todos los metodos de aserciones para comprar un elemento esperado con un elemento real que se generado por la ejecucion de un metodo.
+
+Para cada test se crea una nueva instancia 
