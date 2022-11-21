@@ -2,7 +2,7 @@
 title: "Estructuras de Datos"
 date: "2022-11-20 13:27"
 tags: 
-  - 
+  - datastructures
 draft: true
 ---
 Una Estructura de Datos es un conjunto de direcciones libres en memoria que sirven para guardar, procesar y organizar informacion dentro de ellas. 
