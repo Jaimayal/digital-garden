@@ -2,8 +2,8 @@
 title: "Hash Table"
 date: "2022-11-23 09:10"
 tags: 
-  - 
-draft: true
+  - datastructures
+draft: false
 ---
 Es una estructura de datos que sirve para ordenar elementos con combinacion de diferentes estructuras de datos, usualmente, es una combinacion entre un array y diferentes tipos de listas.
 
