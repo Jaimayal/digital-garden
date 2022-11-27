@@ -22,4 +22,4 @@ Existen dos tipos principales de grafos
 
 ![[files/TiposGrafos.png]]
 
-
+Existen otros tipos especiales en los cuales las conexiones solo van hacia un solo lado. Este tipo de grafos son llamados arboles.
