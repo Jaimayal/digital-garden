@@ -15,3 +15,11 @@ Las conexiones existentes entre multiples nodos pueden ser clasificadas en nivel
 
 ![[files/GrafosNivelesConexiones.png]]
 
+## Tipos
+Existen dos tipos principales de grafos
+- Directos. Las conexiones tienen una direccion, por lo que nodo A puede tener una conexion con nodo B pero no necesariamente es al reves a menos que se indique de forma explicita.
+- Indirectos. Las conexiones son bidireccionales por lo que nodo A se conecta con nodo B y nodo B con nodo A
+
+![[files/TiposGrafos.png]]
+
+
