@@ -34,4 +34,9 @@ Mediante estas puedes manejar tus recursos desde la creacion hasta sus configura
 ## Azure Marketplace
 Permite la extension y uso de las capacidades de una maquina virtual para permitir a usuarios comunes acceder a conjuntos de configuraciones creadas por grupos de desarrolladores o desarrolladores independientes.
 
+## Cuentas
+Para usar Microsoft Azure se requiere de una suscripcion. Existe una suscripcion gratuita que te permite explorar una cantidad limitada de recursos. 
+Te da acceso a 20 productos de forma gratuita
+
+Adicionalmente, las lecciones de la plataforma de aprendizaje de azure te proveen un espacio aislado que te permite entender la funcionalidad de una de las caracteristicas en especifico. Estas no incurren en ningun costo y son limpiadas de forma automatica tras terminar un modulo.
 
