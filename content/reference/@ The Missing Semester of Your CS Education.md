@@ -157,3 +157,47 @@ Es como un manual que te permite ver la documentacion de un comando
 man ls #Devuelve la pagina del manual del comando ls
 ```
 
+## Combinacion entre comandos
+El shell nos da una nocion de streams. Cada programa tiene dos por defecto
+- Entrada
+- Salida
+
+El stream de entrada mas comun para un programa es el teclado
+
+El stream de salida mas comun para un programa es la consola
+
+Sin embargo, hay formas de hacer que el stream de salida de un programa se conecte con el stream de entrada de un programa, es decir, nos da formas de redirigir la entrada y salida de cada programa.
+
+Una forma facil de hacerlo es utilizando los brackets \< y \>.
+
+```bash
+echo Hello > hello.txt
+```
+
+El comando de arriba toma el stream de salida de echo y lo pasa al archivo hello.txt
+
+Algo un poco mas complejo seria
+```bash
+cat < hello.txt > hello2.txt #hello
+```
+
+Estos angle brackets tambien nos sirven para apender a un stream ya activo
+```bash
+cat > hello.txt >> hello2.txt #hello \n hello
+```
+
+### Pipe
+Sirve para estableccer una pipa de conexion entre el stream de salida de un programa y el stream de entrada de otro.
+
+Es decir, *toma el stream de salida del programa de la izquierda y conectalo con el stream de entrada de la derecha*
+## cat
+Te permite ver los contenidos de un archivo
+
+usuario root
+es especial porque tiene acceso y permiso a todas las cosas del sistema. La mayoria del tiempo no seras root, seras un usuario normal. Si fueses un usuario root todo el tiempo podrias destruir tu SO.
+
+## sudo
+Te permite convertirte en superusuario por un momento para ejecutar un comando en particular
+
+## root
+El simbolo del # te permite ejecutar como un root
