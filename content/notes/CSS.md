@@ -269,3 +269,58 @@ Adicionalmente existen pseudoelementos que nos permiten seleccionar elementos y 
 
 Estos dos nos permiten seleccionar el elemento antes del selector y despues del selector.
 
+## Background
+Ademas de background-color, podemos designar una back-ground image para tener algo de fondo en cualquier contenedor.
+
+```CSS
+#container {
+	background-image: url('image.png');
+	background-size: 100%;
+	background-position: bottom;
+}
+```
+
+Una forma de conseguir imagenes para un fondo es utilizando el sitio [unsplash](https://unsplash.com/photos/).
+
+## Display
+Las dos mas comunes utilizadas es inline y block. Todos los elementos (aun si la propiedad no esta definida explicitamente) tienen una. La mayoria de los elementos en HTML tienen por defecto el valor block.
+
+- block rellena el ancho de toda la pagina de forma automatica
+- inline el ancho no toma toda la pagina, solamente toma el ancho que tenga el texto por defecto. De modo que se pueden colocar multiples elementos inline y otros elementos con display inline de forma consecutiva.
+
+La desventaja de utilizar elementos inline esque los unicos espacios que puedes manejar son los horizontales. Los verticales por defecto se encuentran desactivados para margin, padding y height.
+
+Una forma de combinar lo mejor de los bloques (conservar padding, height y margin vertical) y de los inline (mantener todo en una misma linea) es el display especial inline-block.
+
+```CSS
+a {
+	display: inline-block;
+	margin: 20px
+}
+```
+
+## Position
+Es una forma de posicionar en el espacio de una pagina distintos contenedores.
+
+### Relative
+Marca un contenedor con posicion relativa sobre el cual otros contenedores pueden marcar sus posiciones.
+
+
+### Static
+Es el valor por defecto de todos los elementos. Es estatico en la pagina.
+
+### Absolute
+Los valores absolutos seran relativos al primer contenedor que tenga la position en relative. En caso de no tener ninguno, body por defecto adquiere esta propiedad.
+
+### Fixed
+Tambien coloca a un contenedor en posicion arreglada que se escapa del comportamiento de otros contenedores.
+
+Para un correcto funcionamiento podemos aprovechar la propiedad z-index para colocar los contenedores que queremos en la jerarquia que queremos dentro de nuestr apagina web para que uno aparezca sobre otros.
+
+
+
+
+
+
+
+
