@@ -144,3 +144,47 @@ Es un tipo de input que cuenta con un checkbox el cual solo tomara un valor bool
 
 ### input radio
 Es un tipo de input multiopcinal en el cual de un grupo de opciones se permite solo seleccionar una en un boton con forma de circulo.
+
+## Estilos y Scripts
+- En linea
+- Bloques
+- Importados
+
+### En Linea
+#### Estilos
+Son estilos en linea que utilizan el atributo especial "style" dentro de cualquier etiqueta. No es muy recomendado utilizarlos debido a que tu estructura se mezcla con estilos y muchas veces es dificil identificar donde se encuentra.
+
+Otra cosa a tener en cuenta esque el estilo en linea siempre tendra prioridad sobre la declaracion de estilos utilizando otros medios
+
+#### Scripts
+Los scripts se declaran de forma similar que el CSS, en este caso, se utilizan atributos especiales para los eventos como "onclick". SIn embargo, estos tienen los mismos inconveniente que utilizar estilos en linea.
+
+### Bloques
+#### Estilos
+La etiqueta \<style\> sirve tambien para marcar un bloque de texto en el cual podemos insertar un bloque muy grande de CSS sin problemas hasta que cierre el bloque.
+
+#### Scripts
+Una etiqueta equivalente tambien existe al insertar un script de JS. Para ello, se utiliza la etiqueta especial \<script\>. Dentro de esta se escribe la cantidad de codigo de JS que sea necesaria
+
+
+### Importados
+#### Estilos
+Los estilos se importan de forma especial en forma de metadatos en el header del archivo de HTML.
+
+Para hacerlo, debe de existir un archivo aparte que contenga todos los estilos, estos deben de llevar la terminacion .css.
+
+Estos se importan utilizando la etiqueta \<link\> con el atributo rel especificando que se trata de un stylesheet y un href para referirse a la localizacion de la hoja de estilos.
+
+#### Scripts
+Los scripts se importan de la misma forma que los estilos, pero esta vez se utiliza la etiqueta \<script\> con su atributo especial src para marcar la localizacion del archivo
+
+## Elementos Semanticos vs Estructurales
+Inicialmente tenemos elementos estructurales como \<div\> y \<span\> que nos sirven para agrupar contenido, como ya sabemos.
+
+Sin embargo, tambien existen otro tipo de elementos llamados semanticos dentro de los cuales podemos declarar contenido y otras etiquetas. Proveen muchas veces la misma funcionalidad que los contenedores estructurales pero estos nos ayudan a entender un poco mejor el codigo HTML que estamos trabajando.
+
+## Data tag
+Es una forma de guardar un valor que es transparente para los usuarios pero que puede ser usado a futuro en un script para guardar un estado que se busca que tenga un contenedor o lo que sea.
+
+## iFrame
+Es una forma de linkearse y visualizar otros sitios para su uso dentro de tu pagina. Mediante este se puede tener una pagina web dentro de una pagina web.
