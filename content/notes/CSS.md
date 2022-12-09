@@ -243,7 +243,11 @@ Muchas de las pseudoclases tienen que ver con las interacciones que ha hecho el 
 - :focus
 
 Adicionalmente tambien hay otras clases que sirven como selectores y no interaccionan tanto con el usuario. Algunos ejemplos de ellos son:
-- 
+- :first-child
+- :last-child
+- :nth-child
+- :first-of-type
+
 ## Transition
 Usualmente utilizada con la pseudoclase hover sirve para insertar la animacion de transicion. Recibe tres propiedades en su forma mas simple, al igual que border:
 
@@ -257,3 +261,11 @@ Te ayuda a definir una funcion para transformar tu elemento. Hay muchas de ellas
 Dentro de las predefinidas, tenemos una funcion muy importante llamada translate, que sirve para desplazar el elemento una medida definida hacia abajo, derecha, izquierda, etc. 
 
 Todo esto forma parte de las animaciones que le dan un toque mas profesional al sitio.
+
+## Pseudoelementos
+Adicionalmente existen pseudoelementos que nos permiten seleccionar elementos y referirnos a otros elementos. Los mas importantes son:
+- ::before
+- ::after
+
+Estos dos nos permiten seleccionar el elemento antes del selector y despues del selector.
+
