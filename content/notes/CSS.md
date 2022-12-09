@@ -317,15 +317,54 @@ Tambien coloca a un contenedor en posicion arreglada que se escapa del comportam
 
 Para un correcto funcionamiento podemos aprovechar la propiedad z-index para colocar los contenedores que queremos en la jerarquia que queremos dentro de nuestr apagina web para que uno aparezca sobre otros.
 
-
+Es usualmente utilizado en navs.
 ## Display Flex - Flexbox
 Es uno de los mas populares y formo su propia forma de distribuir elementos en una pagina web. Este display en particular cuenta con sub atributos que permiten modificar el comportamiento del contenedor.
 
 ### flex-direction
-Cambia la direccion hacia donde se orienta el fle
+Cambia la direccion hacia donde se orienta el flex, puede ser en forma de columna o row, inversa o normal. Esto ayuda a dirigir los elementos con una orientacion y hacia el lado que queramos
 
 
+### flex-wrap
+Te ayuda a definir mas comportamientos, esta vez relacionados con la responsabilidad y el tamaño de un elemento. En caso de que los elementos de un contenedor excedan el tamaño que tiene la aplicacion esta los pasara a una nueva fila manteniendo el tamaño de cada uno.
+```CSS
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+```
 
+
+### justify-content
+Te ayuda a definir el espacio de los elementos del contenedor. Puedes definir espacio entre ellos, centrarlos, separarlos, moverlos al final, entre otros. Este es espacio horizontal
+
+### align-items
+Te ayuda a definir los mismos espacios entre elementos pero esta vez trabaja con el espacio vertical.
+
+### align-self
+Permite alinear un solo elemento del contenedor en el eje vertical
+
+### flex-grow
+Te permite cambiar el tamaño de todos los elementos para rellenar el contenedor padre. Esto trae un problema con el flex-wrap debido a que no hay un minimo tamaño a partir del cual se deba usar el wrap. Para ello existe otra propiedad llamada flex-basis
+
+### flex-basis
+Sirve para definir un tamaño minimo a partir del cual la propeidad flex-wrap debe actuar.
+
+### flex'shrink
+Sirve para mantener el tamaño de un elemento sin importar los otros elementos al cambiar de tamaño.
+
+## Media Queries
+Te permite hacer que tu sitio se mire aplicando diferentes estilos dependiendo el tamaño de la pantalla en la que quieres visualizar. Tiene una sintaxis especial utilizando el @ como caracter especial. 
+
+```CSS
+@media only screen and (max-width: 500px) {
+	.container {
+		color: red;
+	}
+}
+```
+
+La forma mas comun de escribir el CSS es escribir primero el contenido para movil primero. 
 
 
 
