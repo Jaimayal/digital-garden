@@ -318,6 +318,12 @@ Tambien coloca a un contenedor en posicion arreglada que se escapa del comportam
 Para un correcto funcionamiento podemos aprovechar la propiedad z-index para colocar los contenedores que queremos en la jerarquia que queremos dentro de nuestr apagina web para que uno aparezca sobre otros.
 
 
+## Display Flex - Flexbox
+Es uno de los mas populares y formo su propia forma de distribuir elementos en una pagina web. Este display en particular cuenta con sub atributos que permiten modificar el comportamiento del contenedor.
+
+### flex-direction
+Cambia la direccion hacia donde se orienta el fle
+
 
 
 
