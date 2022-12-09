@@ -164,3 +164,96 @@ Existen dos principales que son utilizados comunmente:
 - Utilizar porcentajes en el contenido (width y height)
 - Utilizar medidas absolutas para el min-width, min-height, max-width y max-height
 - Utilizar las medidas especiales vh y vw para margen y padding.
+
+## Selectors Avanzados
+### Descendant
+El espacio es el selector descendiente. Marca que un selector se debe encontrar forzozamente dentro de otro para que se le apliquen los estilos.
+
+```CSS
+.conteenedor .selector {
+	/*Todos los elementos dentro de la clase contenedor que tengan la clase selector recibiran las propiedades aqui marcadas*/
+}
+```
+
+### Padre
+Este es un selector que utiliza el caracter especial \>. Marca que se aplicaran las propiedades a el selector del lado derecho del operador siempre y cuando su padre inmediato sea el selector a la izquierda del operador.
+
+```CSS
+div > p {
+	/*Todos los elementos p donde su padre inmediato sea un div*/
+}
+```
+
+### Lista
+Te permite asignar las mismas propiedades a diferentes selectores a la vez en forma de lista
+
+```CSS
+h1, h2, p {
+	/*Todas estas propiedades se aplicaran a todos los h1, h2 y p*/
+}
+```
+
+### Elemento con Clase / Combo
+El operador especial es no dejar ningun espacio entre ellos. Sirve para referirte a todos los elementos que tengan la clase especificada.
+```CSS
+p.class {
+	/*Las propiedades se aplicaran a todos los elementos p siempre y cuando tengan la clase especificada*/
+}
+```
+
+
+### Adjacente
+El operador especial es +. Te permite referirte al selector de la derecha siempre y cuando se encuentre adyacente al de la izquierda. Es decir, que se encuentren en el mismo nivel de anidacion y que al terminar el de la izquierda inmediatamente inicie el de la derecha
+```CSS
+h1 + h2 {
+	/*Todas las propiedades se aplicaran a un H2 siempre y cuando antes de el termine un h1*/
+}
+```
+
+
+### Mismo nivel
+El operador especial es ~. Te permite referirte al selector de la derecha siempre y cuando se encuentren en el mismo nivel de anidacion, sin importar si son consecuentes o no.
+
+```CSS
+h1 ~ p {
+	/*Todas estas propiedades se aplicaran a todos los p siempre y cuando esten en el mismo nivel de anidacion que h1*/
+}
+```
+
+## Pseudoclases
+Existen pseudoclases en forma de selectores que sirven para referirse a estados que pueden ocurrirle a un selector.
+
+Las pseudoclases utilizan la sintaxis de los : (dos puntos) para referirse a ellas.
+
+Un detalle muy importante a tener en cuenta con ellas esque **una pseudoclase siempre va despues del bloque en el que se definen los estilos para el selector base**
+
+Entre los principales tenemos
+- :hover. Aplica estilos cuando el mouse se encuentra sobre el elemento y los remueve cuando se quita el mouse.
+
+```CSS
+h1:hover {
+	cursor: pointer;
+	color: white;
+	background-color: darkblue;
+	transition: 1s ease all;
+}
+```
+
+Muchas de las pseudoclases tienen que ver con las interacciones que ha hecho el usuario.
+- :focus
+
+Adicionalmente tambien hay otras clases que sirven como selectores y no interaccionan tanto con el usuario. Algunos ejemplos de ellos son:
+- 
+## Transition
+Usualmente utilizada con la pseudoclase hover sirve para insertar la animacion de transicion. Recibe tres propiedades en su forma mas simple, al igual que border:
+
+- tiempo. El tiempo que toma la animacion en ejecutarse
+- bizarre. define donde ocurre la aceleracion al ocurrie el evento
+- llave atributo. El nombre del atributo a la cual se aplicara la transicion
+
+## Transform
+Te ayuda a definir una funcion para transformar tu elemento. Hay muchas de ellas predefinidas y cada una de ellas recibe un valor especifico, muchas veces,  es una medida. 
+
+Dentro de las predefinidas, tenemos una funcion muy importante llamada translate, que sirve para desplazar el elemento una medida definida hacia abajo, derecha, izquierda, etc. 
+
+Todo esto forma parte de las animaciones que le dan un toque mas profesional al sitio.
