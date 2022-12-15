@@ -25,3 +25,11 @@ TIENES QUE GRINDEAR. Rellena tus horas de cosas utiles que te provean valor para
 
 
 
+
+
+## Planear tu negocio
+### Invertir en tu negocio
+
+### Tu nicho
+### Que servicios vas a ofrecer
+### Crear la compañia
