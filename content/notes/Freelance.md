@@ -29,7 +29,28 @@ TIENES QUE GRINDEAR. Rellena tus horas de cosas utiles que te provean valor para
 
 ## Planear tu negocio
 ### Invertir en tu negocio
+Costo de servicios
+- Pagar cuentas
+- Pagar seguros
+- Espacios de servicios
+Los costos se van a unir conforme pases el tiempo, la meta es ganar dinero a partir del dia 1, no perder. Perder dinero no es OK.
 
-### Tu nicho
+- **Profit First**.
+- Evita las deudas a toda costa
+- Deja que tu negocio se sostenga por si solo con sus propias ganancias
+### Elegir el nicho de tu negocio
+- Grupo de clientes / servicios que vas a proveer
+- Elegir un nicho limita la cantidad de cosas que tienes que aprender y te permite realizar proyectos con mayor rapidez y ofrecer mejores servicios a tus clientes
+
+- Te interesa - disfrutas hacerlo y eres bueno
 ### Que servicios vas a ofrecer
-### Crear la compañia
+Que vas a ofrecer para tu nicho y como vas a cobrarles.
+#### Servicios a ofrecer
+1. Que tanto te interesa el trabajo
+2. Que tan escalable es. Que tanto puedo reutilizar mi trabajo
+3. Que tanto puedes delegar trabajo a personas externas
+#### Cobrar por los servicios
+#### Recurring revenue
+### Formar tu negocio
+- Que tipo de entidad vas a ser. LLC ventajas de proteccion legales y ventajas en impuestos
+- Formarla
