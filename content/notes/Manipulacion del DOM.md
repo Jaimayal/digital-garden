@@ -9,6 +9,43 @@ La manipulacion del [DOM](notes/DOM.md) ocurre cuando utilizamos un lenguaje de 
 
 Utilizando JavaScript existen muchas formas de manipularlo. Aqui algunas de ellas.
 
+
+### Estilos
+#### Inline
+Tambien podemos cambiar los estilos de cualquier elemento de forma dinamica, esto se hace accediendo a la propiedad .style de cualquier objeto del querySelector:
+
+```JavaScript
+document.querySelector('.texto').style;
+```
+
+Esto devuelve un objeto con todos los estilos del elemento al que seleccionamos, de modo que ahora, solo nos queda especificar una propiedad de CSS por cambiar:
+
+```JavaScript
+document.querySelector('.texto').style.color = '00fffff'; // Cambia la letra a color amarillo
+```
+
+#### Clases
+Otra forma (y la mas utilizada) de modificiar los estilos de una pagina web es agregar, remover y modificar las clases de un elemento, de esta forma, podemos agregar y remover un grupo de caracteristicas del elemento que busquemos. 
+
+Para esto, cada elemento del documento cuenta con un objeto especial llamado **classList** que sirve para referirse al atributo de clases de la etiqueta HTML.
+
+```JavaScript
+document.querySelector('.button').classList.add('hidden'); // Selecciona el elemento con la clase 'boton', selecciona su lista de clases y agrega la clase 'hidden'
+```
+
+En este caso, si en el archivo CSS existen propiedades para la clase 'hidden' se aplicaran al elemento de forma dinamica.
+
+
+## Seleccionar elementos
+Hay una forma especial de seleccionar todo el documento
+### documentElement
+Es un elemento especial del objeto document que sirve para seleccionar todo el documento HTML.
+
+### document.head
+Te permite seleccionar el head del HTML
+### document.body
+Te permite seleccionar el body del HTML
+
 ### querySelector()
 Primeramente debemos obtener el objeto del documento html, y posteriormente llamar al metodo especial querySelector().
 
@@ -70,31 +107,20 @@ document.addEventListener('keydown', (event) => {
 
 ### querySelectorAll()
 Tiene las mismas funciones y propiedades que querySelector solo que, en vez de seleccionar al primero, **selecciona todos los elementos con el selector especificado** y devuelve un NodeList (que funciona como un [Arrays en JavaScript](notes/Arrays%20en%20JavaScript.md)) con ellos dentro.
-### Estilos
-#### Inline
-Tambien podemos cambiar los estilos de cualquier elemento de forma dinamica, esto se hace accediendo a la propiedad .style de cualquier objeto del querySelector:
 
-```JavaScript
-document.querySelector('.texto').style;
-```
 
-Esto devuelve un objeto con todos los estilos del elemento al que seleccionamos, de modo que ahora, solo nos queda especificar una propiedad de CSS por cambiar:
 
-```JavaScript
-document.querySelector('.texto').style.color = '00fffff'; // Cambia la letra a color amarillo
-```
+### getElementById
+Recibe un id de un elemento del documento y lo devuelve. Tiene que ser un id especificamente
+### getElementsByTagName
+Recibe una etiqueta y te devuelve un HTMLCollection con todos los elementos que sean de esa etiqueta.
 
-#### Clases
-Otra forma (y la mas utilizada) de modificiar los estilos de una pagina web es agregar, remover y modificar las clases de un elemento, de esta forma, podemos agregar y remover un grupo de caracteristicas del elemento que busquemos. 
+Un HTML Collection es afectada en tiempo real por cambios en el DOM
 
-Para esto, cada elemento del documento cuenta con un objeto especial llamado **classList** que sirve para referirse al atributo de clases de la etiqueta HTML.
+### getElementsByClassName
+Recibe una clase y devuelve un HTMLCollection con todos los elementos que contengan ese nombre de clase.
 
-```JavaScript
-document.querySelector('.button').classList.add('hidden'); // Selecciona el elemento con la clase 'boton', selecciona su lista de clases y agrega la clase 'hidden'
-```
-
-En este caso, si en el archivo CSS existen propiedades para la clase 'hidden' se aplicaran al elemento de forma dinamica.
-
+## Crear e Insertar elementos
 ### insertAdjacentHtml()
 Sirve para insertar html antes, dentro, antes de terminar y despues de la etiqueta de cierre de un elemento html, de esta forma, podemos agregar de manera dinamica elementos al DOM.
 
@@ -103,3 +129,27 @@ const htmlElement = '<div class='hola'>hola</div>';
 
 document.querySelector('.div1').insertAdjacentHtml('afterbegin', htmlElement);
 ```
+
+### createElement()
+Recibe el nombre de una etiqueta y retorna el elemento que peude ser agregado al DOM en cualquier punto.
+
+La ventaja esque podemos modificar e ir agregando elementos conforme nos vaya pareciendo. Agregar clases, agregar otros elementos, agregar HTML, agregar estilos y todo lo que se puede modificar de un elemento HTML
+
+### prepend()
+Agrega un elemento HTML al inicio de la etiqueta (tras solo realizarla)
+
+### append()
+Agrega un elemento HTML como ultimo elemento de un contenedor
+
+### cloneNode
+Se puede aplicar con un elemento HTML y sirve para realizar una shallow y deep copy de un elemento. Necesario debido a la inmutabilidad de los elementos.
+
+### before()
+Inserta un elemento HTML antes de otro elemento HTML sobre el que se especifica el elemento
+
+### after()
+Inserta un elemento HTML despues de otro elemento HTML sobre el que se especifica el elemento
+
+## Remover elementos
+### remove()
+Sirve para remover un elemento del DOM de HTML. Lo borra completamente
