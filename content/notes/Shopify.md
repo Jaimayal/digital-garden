@@ -193,3 +193,23 @@ Debido a que debes trabajar con negocios ya establecidos. Por tanto:
 1. Solicita acceso a la tienda
 2. Realiza una copia del tema actual
 3. Trabaja en la copia, este servira como entorno de desarrollo.
+
+## Theme Editing
+Archivo importante theme.liquid. Tiene el contenido inicial de casi todos los archivos.
+
+section 
+Permite cargar todo el codigo que se encuentre dentro de una seccion del folder sections
+
+contret for layout
+Busca en la carpeta de  templates una que se adecue a la pagina que estamos visitando
+
+include
+Sirve para traer snippets que son piezas de codigo reutilizables.
+
+- layout. Contenido que se encuentra en multiples paginas
+- sections. Secciones de codigo reutilizables por el layout
+- templates. Contenido que es renderizado pagina por pagina
+- snippets. Piezas de codigo reutilizables en multiples paginas
+- assets. se encuentra el codigo CSS y JS
+- config. Se guardan las configuraciones del tema
+- locales. se encuentra toda la informacion de texto plano incluidas multiples traducciones
