@@ -187,3 +187,9 @@ Debido a que debes trabajar con negocios ya establecidos. Por tanto:
 - AB Split Test. Por pagina o por mes
 - Optimize. Gratis
 - Buyer Persona. 
+
+
+## Workflow
+1. Solicita acceso a la tienda
+2. Realiza una copia del tema actual
+3. Trabaja en la copia, este servira como entorno de desarrollo.
