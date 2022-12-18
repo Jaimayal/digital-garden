@@ -259,3 +259,21 @@ Sirve para buscar un elemento entre los padres de un elemento
 ### nextElementSibling
 ### previousElement
 ### nextElement
+
+## Intersection Observer API
+Es una API que sirve para que el codigo reaccione a los cambios cuando un contenedor o elemento intercepte con otro ocon el viewport
+
+Esta API sigue el paradigma orientado a objetos. Por tanto, debemos instanciar un nuevo IntersectionObserver
+
+```JavaScript
+const observer = new IntersectionObserver();
+observer.observe(element)
+```
+
+Mediante el metodo observe podemos especificar al elemento que tiene que observar
+
+Al constructor se le puede pasar una funcion de callback y unas opciones.
+
+Las opciones disponibles son:
+- root. Elemento con el que se debe interseptar (Puede ser null, esto significa que va a interceptar el viewport)
+- threshold. Cuanto %  del elemento debe estar dentro del root para que se active la callback function.
