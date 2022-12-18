@@ -48,36 +48,7 @@ document.querySelector('.text').textContent = 'Hola me llamo Jaime'; // Actualiz
 
 Como sabemos ahora, **los elementos de un objeto no solo son propiedades, si no que tambien pueden ser metodos**!. Por eso, tras seleccionar una etiqueta del documento podemos agregarle cosas como un escuchador de eventos para reaccionar a lo que hace el usuario.
 
-##### .addEventListener()
-Veamos un boton que al ser presionado actualiza el valor de nuestra etiqueta texto mediante el metodo .addEventListener:
 
-```JavaScript
-document.querySelector('.button').addEventListener('click', () =>
-	document.querySelector('.text').textContent = 'Presionado!';
-)
-```
-
-El primer parametro de este metodo es el **tipo de evento al que esta escuchando** y el segundo la **expresion funcional (funcion anonima) que ejecutara cuando sea detectado**. En este caso utilice una arrow function.
-###### Informacion sobre el Evento
-Es posible obtener informacion detallada sobre el evento en forma de un objeto, esto se hace poniendo un parametro dentro de la expresion funcional del eventListener:
-
-```JavaScript
-document.querySelector('.button').addEventListener('click', (event) =>
-	console.log(event);
-)
-```
-###### Eventos en el Teclado
-Una de las funcionalidades mas basicas es interactuar con el usuario mediante el teclado, en una pagina web, se puede hacer mediante un eventListener.
-
-Al tratarse del teclado, se debe declarar como un **event global**. Es decir, que ocurriran sin importar en que parte o momento de la pagina nos encontremos porque se encuentra embebido dentro del documento.
-
-Veamos un ejemplo:
-
-```JavaScript
-document.addEventListener('keydown', (event) => {
-	console.log(event);
-})
-```
 
 ### querySelectorAll()
 Tiene las mismas funciones y propiedades que querySelector solo que, en vez de seleccionar al primero, **selecciona todos los elementos con el selector especificado** y devuelve un NodeList (que funciona como un [Arrays en JavaScript](notes/Arrays%20en%20JavaScript.md)) con ellos dentro.
@@ -211,3 +182,51 @@ Esta propiedad solo es aplicable para los data attributes que se pueden definir 
 ```JavaScript
 const element = document.querySelector('.container').dataset.dataVariableMov // 3.33
 ```
+
+## Eventos
+Un evento señaliza la ocurrencia de algo en el UI, el ejemplo mas comun es una interaccion con el usuario
+
+Un EventListener nos sirve para escuchar un elemento y hacer algo con el. No cambia la ocurrencia de un evento, solo cambia la respuesta que tiene el codigo respecto a el.
+
+### addEventListener
+Veamos un boton que al ser presionado actualiza el valor de nuestra etiqueta texto mediante el metodo .addEventListener:
+
+```JavaScript
+document.querySelector('.button').addEventListener('click', () =>
+	document.querySelector('.text').textContent = 'Presionado!';
+)
+```
+
+El primer parametro de este metodo es el **tipo de evento al que esta escuchando** y el segundo la **expresion funcional (funcion anonima) que ejecutara cuando sea detectado**. En este caso utilice una arrow function.
+###### Informacion sobre el Evento
+Es posible obtener informacion detallada sobre el evento en forma de un objeto, esto se hace poniendo un parametro dentro de la expresion funcional del eventListener:
+
+```JavaScript
+document.querySelector('.button').addEventListener('click', (event) =>
+	console.log(event);
+)
+```
+#### Eventos en el Teclado
+Una de las funcionalidades mas basicas es interactuar con el usuario mediante el teclado, en una pagina web, se puede hacer mediante un eventListener.
+
+Al tratarse del teclado, se debe declarar como un **event global**. Es decir, que ocurriran sin importar en que parte o momento de la pagina nos encontremos porque se encuentra embebido dentro del documento.
+
+Veamos un ejemplo:
+
+```JavaScript
+document.addEventListener('keydown', (event) => {
+	console.log(event);
+})
+```
+### onEvent
+Existe una propiedad especial para cada uno de los eventos disponibles en un elemento de HTML. Este recibe la sintaxis especial 'onX' donde X es el nombre del evento, ejemplos:
+
+```JavaScript
+element.onClick = //...
+element.onMouseEnter = //...
+```
+
+Es una forma legacy de setear un evento, solo permite a una funcion ejecutarse por propiedad
+
+### removeEventListener
+Sirve para remover un event listener de ocurrir. Nos sirve para remover un comportamiento basado en otro evento.
