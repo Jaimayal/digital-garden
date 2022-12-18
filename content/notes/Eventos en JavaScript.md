@@ -38,3 +38,5 @@ Un eventListener usualmente actua sobre la fase de target y bubbling, es decir q
 ```JavaScript
 element.addEventListener('click', function, true) // Hara que se ejecute la funcion en este elemento por captura y no por bubbling
 ```
+
+Utilizando el mecanismo de Event Propagation podemos aprovecharnos de la delegacion de eventos. Mediante esta, podemos asignar un evento comun a un padre y que mediante el bubbling y el atributo e.target saber que fue lo que activo el evento. De esta forma, podemos hacer que con un solo eventlistener lidiemos con todos los eventos comunes que ocurran en sus hijos.

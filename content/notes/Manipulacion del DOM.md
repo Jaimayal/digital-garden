@@ -230,3 +230,32 @@ Es una forma legacy de setear un evento, solo permite a una funcion ejecutarse p
 
 ### removeEventListener
 Sirve para remover un event listener de ocurrir. Nos sirve para remover un comportamiento basado en otro evento.
+
+## DOM Traversing
+Es una tecnica que sirve para viajar en el DOM de forma dinamica basado en los elementos de una pagina web.
+
+### querySelector
+Esta funcion tambien puede ser ejecutada sobre un elemento (Nodo) para buscar dentro de sus hijos
+
+### childNodes
+Te sirve para visualizar una lista de nodos (elementos) que estan contenidos dentro de otro elemento.
+
+### children
+Cumple la misma funcion que childNodes pero esta te devuelve un HTMLCollection (mutable), es decir que todos los cambios realizados a estos elementos mantendran la lista actualizada en tiempo real.
+
+Esta solo funciona para hijos directos, no a ningun anidado
+
+### firstElementCild
+### lastElementChild
+### parentNode
+Sirve para obtener el padre inmediato del elemento
+### parentElement
+Sirve para obtener tambien el padre in mediato del elemento
+
+### closest
+Sirve para buscar un elemento entre los padres de un elemento
+
+### previousElementSibling
+### nextElementSibling
+### previousElement
+### nextElement
