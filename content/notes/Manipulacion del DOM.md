@@ -10,32 +10,6 @@ La manipulacion del [DOM](notes/DOM.md) ocurre cuando utilizamos un lenguaje de 
 Utilizando JavaScript existen muchas formas de manipularlo. Aqui algunas de ellas.
 
 
-### Estilos
-#### Inline
-Tambien podemos cambiar los estilos de cualquier elemento de forma dinamica, esto se hace accediendo a la propiedad .style de cualquier objeto del querySelector:
-
-```JavaScript
-document.querySelector('.texto').style;
-```
-
-Esto devuelve un objeto con todos los estilos del elemento al que seleccionamos, de modo que ahora, solo nos queda especificar una propiedad de CSS por cambiar:
-
-```JavaScript
-document.querySelector('.texto').style.color = '00fffff'; // Cambia la letra a color amarillo
-```
-
-#### Clases
-Otra forma (y la mas utilizada) de modificiar los estilos de una pagina web es agregar, remover y modificar las clases de un elemento, de esta forma, podemos agregar y remover un grupo de caracteristicas del elemento que busquemos. 
-
-Para esto, cada elemento del documento cuenta con un objeto especial llamado **classList** que sirve para referirse al atributo de clases de la etiqueta HTML.
-
-```JavaScript
-document.querySelector('.button').classList.add('hidden'); // Selecciona el elemento con la clase 'boton', selecciona su lista de clases y agrega la clase 'hidden'
-```
-
-En este caso, si en el archivo CSS existen propiedades para la clase 'hidden' se aplicaran al elemento de forma dinamica.
-
-
 ## Seleccionar elementos
 Hay una forma especial de seleccionar todo el documento
 ### documentElement
@@ -153,3 +127,87 @@ Inserta un elemento HTML despues de otro elemento HTML sobre el que se especific
 ## Remover elementos
 ### remove()
 Sirve para remover un elemento del DOM de HTML. Lo borra completamente
+
+## Estilos
+Para poder asignar los estilos tenemos que tener seleccionado un elemento utilizando cualquiera de los selectores disponibles.
+### Inline
+Tambien podemos cambiar los estilos de cualquier elemento de forma dinamica, esto se hace accediendo a la propiedad .style. Una vez hecho esto solo nos queda especificar una propiedad de CSS por cambiar:
+
+```JavaScript
+document.querySelector('.texto').style.color = '00fffff'; // Cambia la letra a color amarillo
+```
+
+### Clases
+Otra forma (y la mas utilizada) de modificiar los estilos de una pagina web es agregar, remover y modificar las clases de un elemento, de esta forma, podemos agregar y remover un grupo de caracteristicas del elemento que busquemos. 
+
+Para esto, cada elemento del documento cuenta con un objeto especial llamado **classList** que sirve para referirse al atributo de clases de la etiqueta HTML.
+
+```JavaScript
+document.querySelector('.button').classList.add('hidden'); // Selecciona el elemento con la clase 'boton', selecciona su lista de clases y agrega la clase 'hidden'
+```
+
+En este caso, si en el archivo CSS existen propiedades para la clase 'hidden' se aplicaran al elemento de forma dinamica.
+
+### getComputedStyle
+Es una funcion integrada que sirve para obtener los estilos computados de un elemento
+```JavaScript
+const element = document.querySelector('#btn');
+getComputedStyle(element).style;
+```
+
+### CSS Variables
+Tambien es posible cambiar las variables CSS que son definidas en un archivo es estilos.
+```CSS
+:root {
+	--color-primary: red;
+}
+```
+
+Para hacerlo, debemos acceder al documento root y cambiar esa propiedad. En JavaScript se haria utilizando la funcion setProperty.
+
+```JavaScript
+document.documentElement.style.setProperty('--color-primary', 'green');
+```
+## Atributos
+Para cambiar los atributos de una etiqueta de HTML, primero se necesita elegirla utilizando cualquiera de los selectores.
+
+### Como propiedades
+Estos se encuentran definidos como propiedades de cualquier elemento HTML, por tanto, pueden ser accedidas utilizando la sintaxis del .
+
+```JavaScript
+const element = document.querySelector('#element');
+element.id // id proeprty
+element.className // class property
+element.designer // undefined
+```
+Sin embargo, esto solo nos permite leer las propiedades que son esperadas de un elemento, por tanto, todos los atributos que no sean respectivos a un elemento no funcionaran de esta forma.
+
+Esta sintaxis nos permite sobreescribir los valores de los atributos.
+```JavaScript
+element.id = 'newId';
+```
+
+### Metodos getAttribute y setAttribute
+Existe un metodo especial de cualquier elemento HTML que nos sirve para obtener un atributo **aun cuando este no es parte estandar de los elementos definidos para esa etiqueta en particular**.
+
+```JavaScript
+element.getAttribute('designer'); // Jaime
+```
+
+Como es logico, el metodo setAttribute nos permite colocar valores y atributos a un elemento 
+
+```JavaScript
+element.setAttribute('company', 'Name');
+```
+
+### dataSet
+Esta propiedad solo es aplicable para los data attributes que se pueden definir en un documento HTML.
+```HTML
+<div class="container" data-variable-mov="3.33">
+
+</div>
+```
+
+```JavaScript
+const element = document.querySelector('.container').dataset.dataVariableMov // 3.33
+```
