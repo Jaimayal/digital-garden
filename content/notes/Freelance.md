@@ -54,3 +54,23 @@ Que vas a ofrecer para tu nicho y como vas a cobrarles.
 ### Formar tu negocio
 - Que tipo de entidad vas a ser. LLC ventajas de proteccion legales y ventajas en impuestos
 - Formarla
+-
+
+
+## Cover Letters
+El enganche para conseguir clientes. Cada niche tiene su propia cover letter. 
+
+### Mejor y General
+- Entender los problemas del cliente
+- Tienes experiencia resolviendo el problema del cliente
+- Opiniones de tus clientes
+- Eres diferente de otras personas
+- Puedes agregar mas valor por el trabajo que lo que ellos van a pagar por el
+- Posdata con un resumen breve de las cosas mas relevantes
+
+La personalizacion es lo maximo para un cliente DEBE SER LO MAXIMAMENTE PERSONALIZADA, debe ser diferente y personalizada algunas cosas que podrias usar:
+- Utiliza el primer nombre del cliente al que vas a aplicar
+- Experiencia trabajando en la misma industria
+- Los primeros dos renglones del cover lletter
+- Necesitas enviar attachments RELEVANTES  MAXIMO 2
+- Adjunta URLs de ejemplos de tu trabajo. MAXIMO 5
