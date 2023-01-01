@@ -277,3 +277,28 @@ Al constructor se le puede pasar una funcion de callback y unas opciones.
 Las opciones disponibles son:
 - root. Elemento con el que se debe interseptar (Puede ser null, esto significa que va a interceptar el viewport)
 - threshold. Cuanto %  del elemento debe estar dentro del root para que se active la callback function.
+
+
+## Eventos Interesantes
+### DOMContentLoaded
+Se trigerea por el documento cuando el HTML es completamente cargado, es decir, descargado y convertido en el dom tree.
+
+
+### Load
+Se trigerea por el window no solo cuando el HTML carga sino cuando carga trodan las imagenes, los scripts, y todos los elementos de la pagina.
+
+### Beforeunload
+Se trigerea por ewl window tambien y representa al evento que ocurre cuando el usuario esta a punto de dejar la pagina.
+
+" estas seguro que quieres dejar la pagina?"
+
+## Integrar JS Code
+Para integrar un script de JS tenemos multiples opciones. Ponerla en el head o en el body. Adicionalmente tenemos dos etiquetas especiales las cuales modifican el comportamiento que este tiene
+
+![[files/LoadingJavaScript.png]]
+
+- Async se utiliza para grandes scripts
+- Defer se utiliza casi siempre, para cargar de forma asincrona un script y ejecutarlo hasta que se termine de descargar
+- Forma normal para soportar navegadores viejos
+
+![[files/ComparacionAsyncDeferNormalJavaScript.png]]
