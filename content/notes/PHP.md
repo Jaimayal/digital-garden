@@ -174,4 +174,87 @@ array_push($array, 'Cinco', 'Seis', 'Siete');
 ```
 
 ### Keys personalizadas
-Como ya sabemos, los arrays en PHP asignan keys de forma automatica en caso de 
+Como ya sabemos, los arrays en PHP asignan keys numericas basadas en indice 0 en caso de no asignar una nosotros manualmente.
+
+Sin embargo, PHP ofrece la facilidad de crear un array asociativo unicamente cambiando la sintaxis en como se define un poco:
+
+```PHP
+$array = [
+	'key' => 'value',
+	'key' => 'value',
+	'key' => 'value',
+]
+```
+
+### Remover
+Para remover un elemento tenemos dos metodos bastante utiles array_pop y array_shift.
+```PHP
+$array = ['A'. 'B', 'C', 'D'];
+echo array_shift($array); // A
+echo array_pop($array); // D
+```
+
+La diferencia esque array_shift tiene que re-indexar todos los indices del array, por tanto, si se tienen numeros arbitrarios a la secuencia original estos seran reasignados y seguiran la secuencia original iniciando en cero.
+
+Como extra, tenemos una funcion que sirve para liberar memoria llamada unset() a esta funcion podemos mandarle un array con una llave y removera dicho valor del array al liberar su memoria
+```PHP
+unset($array[1]) // B
+```
+
+Utilizando esta funcion el array no es reindexado, con lo que las llaves se preservan y la secuencia tambien.
+
+## Operadores
+### Aritmetica
+PHP cuenta con multiples operadores aritmeticos, los principales:
+- +. Suma
+- -. Resta
+- \*. Multiplicacion
+- /. Division
+- \*\*. Potencia
+
+Un detalle importante a tener en cuenta esque el operador modulo (%) castea todo a integers, por tanto, si se trata de buscar el modulo de dos numeros flotantes se debe utilizar la funcion fmod(a, b)
+```PHP
+echo fmod(10.5, 2.5) // 1.80003
+```
+
+### Strings
+Los Strings tienen un unico operador que sirve para concatenar, tambien lo tienen en forma de apender al final de string:
+```PHP
+$h = 'Hello'
+$h = $h . ' World'; // Hello World
+$h .= '!'; // Hello World!
+```
+
+### Comparacion
+Al igual que en JavaScript existen dos operadores para hacer comparacion directa:
+- ==
+- ===
+El primero hace conversion de tipos y tiene comportamiento no deseado, usualmente, se recomienda utilizar el tercero.
+```PHP
+var_dump(3 === '3') // false
+var_dump(3 == '3') // true
+```
+
+Existe un operador bastante extraño llamado spaceship operator que retorna un valor -1, 0 o 1 en dependiendo de si un valor es mayor, menor o igual que otro
+```PHP
+var_dump(3 <=> 5); // -1
+var_dump(3 <=> 3); // 0
+var_dump(3 <=> 1); // 1
+```
+
+Null Coalescing
+Es otro operador que nos sirve para dar un valor por defecto en caso de encontrarnos con un null.
+```PHP
+$x = null;
+$y = $x ?? 'El valor era null';
+echo $y; // El valor era null
+```
+
+## Operadores Bitwise
+Son operadores que sirven para realizar operaciones a nivel de bit, binarios. Sirven para hacer aritmetica con numeros a nivel de los bits.
+
+## Operadores Array
+Existen operadores que sirven para manipular arrays.
+- +. Union. Apende los elementos del segundo array a los del primero en caso de que sus keys no se encuentren existentes en el
+- \=\=. Compara valores y llaves entre dos arrays, unicamente retornara true si todos los valores coinciden
+- \=\=\=. Compara los valores y llaves entre dos arrays pero sin realizar conversion de tipos, es decir, es mas estricto
