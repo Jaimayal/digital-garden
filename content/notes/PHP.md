@@ -141,3 +141,37 @@ $x = (int) '5';
 var_dump($x); // int(5)
 ```
 
+### Falsy Values
+En PHP tambien se cuenta con una serie de Falsy values que sirven para hacer las condicionales un poco mas faciles de aplicar si los entiendes correctamente
+```PHP
+// Falsy values
+// 0 -0
+// 0.0 -0.0
+// ''
+// '0'
+// []
+// null
+```
+
+## Array
+Es una estructura de datos basica, en PHP, parece estar soportada por una lista / mapa.
+
+```PHP
+$array = ['Uno', 'Dos', 'Tres'];
+```
+
+Como todos los lenguajes de programacion, los arrays tienen un indice iniciando por cero. Si accedes a un elemento que no existe tendras el error undefined y obtendras null como resultado.
+
+### Insertar
+Para insertar un nuevo valor basta con colocar la sintaxis de los squarebrackets sin un key, esto es debido a que, si no se especifica un key asociativo, el array le dara el siguiente que se tiene disponible en la secuencia numerica.
+```PHP
+$array[] = 'Cuatro';
+```
+
+Otra forma es utilizando la funcion array_push()
+```PHP
+array_push($array, 'Cinco', 'Seis', 'Siete');
+```
+
+### Keys personalizadas
+Como ya sabemos, los arrays en PHP asignan keys de forma automatica en caso de 
