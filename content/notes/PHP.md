@@ -258,3 +258,4 @@ Existen operadores que sirven para manipular arrays.
 - +. Union. Apende los elementos del segundo array a los del primero en caso de que sus keys no se encuentren existentes en el
 - \=\=. Compara valores y llaves entre dos arrays, unicamente retornara true si todos los valores coinciden
 - \=\=\=. Compara los valores y llaves entre dos arrays pero sin realizar conversion de tipos, es decir, es mas estricto
+
