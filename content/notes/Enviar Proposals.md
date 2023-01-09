@@ -2,7 +2,7 @@
 title: "Enviar Proposals"
 date: "2022-12-16 14:29"
 tags: 
-  - 
+  - freelance
 draft: true
 ---
 Escribir Proposals para clientes es todo un arte en el que buscas venderte y lograr un impacto en el cliente para que te contrate. Un buen framework de trabajo consiste en:

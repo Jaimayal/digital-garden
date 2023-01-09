@@ -3,6 +3,7 @@ title: "CSS"
 date: "2022-12-09 08:06"
 tags: 
   - programming
+  - css
 draft: true
 ---
 Cascade Style Sheet. Es un lenguaje que sirve para darle estilos a un lenguaje de marcado (regularmente y lo mas comun, HTML).

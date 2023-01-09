@@ -2,7 +2,7 @@
 title: "Freelance"
 date: "2022-12-12 17:43"
 tags: 
-  - 
+  - freelance
 draft: true
 ---
 

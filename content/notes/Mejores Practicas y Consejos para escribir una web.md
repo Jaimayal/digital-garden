@@ -2,7 +2,7 @@
 title: "Mejores Practicas y Consejos para escribir una web"
 date: "2022-12-10 11:17"
 tags: 
-  - 
+  - freelance
 draft: true
 ---
 ## 1. No escribas todo el HTML al inicio

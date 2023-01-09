@@ -3,6 +3,7 @@ title: "HTML"
 date: "2022-12-07 16:16"
 tags: 
   - programming
+  - html
 draft: true
 ---
 Es un lenguaje de marcado que sirve para construir sitios web. Este se encarga de definir la estructura literal para un sitio web. 

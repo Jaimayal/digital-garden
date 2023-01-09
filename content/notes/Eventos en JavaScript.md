@@ -2,7 +2,7 @@
 title: "Eventos en JavaScript"
 date: "2022-12-18 09:20"
 tags: 
-  - 
+  - javascript
 draft: true
 ---
 

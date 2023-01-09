@@ -2,7 +2,7 @@
 title: "Metodogologia para Desarrollar una Web Clon"
 date: "2022-12-11 14:29"
 tags: 
-  - 
+  - freelance
 draft: true
 ---
 Una metodologia muy buena para desarrollar una web a partir de otra ya existente es realizarla de arriba hacia abajo.
